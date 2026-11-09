@@ -1,0 +1,566 @@
+{
+  "definition": "GR+P cost > certified optimum; gap_closed is not clipped",
+  "rows": [
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "-3/140",
+        "observations": 100,
+        "optimal_hits": 8,
+        "wins_ties_losses": [
+          10,
+          86,
+          4
+        ]
+      },
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "hub_cheap"
+    },
+    {
+      "headroom": {
+        "base_graphs": 47,
+        "mean_gap_closed": "1733/24675",
+        "observations": 235,
+        "optimal_hits": 9,
+        "wins_ties_losses": [
+          32,
+          197,
+          6
+        ]
+      },
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "hub_expensive"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "-1/400",
+        "observations": 100,
+        "optimal_hits": 3,
+        "wins_ties_losses": [
+          4,
+          90,
+          6
+        ]
+      },
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 36,
+        "mean_gap_closed": "-59/720",
+        "observations": 180,
+        "optimal_hits": 13,
+        "wins_ties_losses": [
+          24,
+          141,
+          15
+        ]
+      },
+      "method": "EVO_F",
+      "split": "test_size",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 29,
+        "mean_gap_closed": "-7/75",
+        "observations": 145,
+        "optimal_hits": 14,
+        "wins_ties_losses": [
+          19,
+          115,
+          11
+        ]
+      },
+      "method": "EVO_F",
+      "split": "test_topology",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "-201/1400",
+        "observations": 100,
+        "optimal_hits": 9,
+        "wins_ties_losses": [
+          12,
+          79,
+          9
+        ]
+      },
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "hub_cheap"
+    },
+    {
+      "headroom": {
+        "base_graphs": 47,
+        "mean_gap_closed": "259/4700",
+        "observations": 235,
+        "optimal_hits": 4,
+        "wins_ties_losses": [
+          33,
+          197,
+          5
+        ]
+      },
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "hub_expensive"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "-9/400",
+        "observations": 100,
+        "optimal_hits": 3,
+        "wins_ties_losses": [
+          6,
+          82,
+          12
+        ]
+      },
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 36,
+        "mean_gap_closed": "-1217/15120",
+        "observations": 180,
+        "optimal_hits": 21,
+        "wins_ties_losses": [
+          38,
+          119,
+          23
+        ]
+      },
+      "method": "EVO_P",
+      "split": "test_size",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 29,
+        "mean_gap_closed": "-673/5075",
+        "observations": 145,
+        "optimal_hits": 17,
+        "wins_ties_losses": [
+          25,
+          109,
+          11
+        ]
+      },
+      "method": "EVO_P",
+      "split": "test_topology",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "0/1",
+        "observations": 20,
+        "optimal_hits": 0,
+        "wins_ties_losses": [
+          0,
+          20,
+          0
+        ]
+      },
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "hub_cheap"
+    },
+    {
+      "headroom": {
+        "base_graphs": 47,
+        "mean_gap_closed": "0/1",
+        "observations": 47,
+        "optimal_hits": 0,
+        "wins_ties_losses": [
+          0,
+          47,
+          0
+        ]
+      },
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "hub_expensive"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "0/1",
+        "observations": 20,
+        "optimal_hits": 0,
+        "wins_ties_losses": [
+          0,
+          20,
+          0
+        ]
+      },
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 36,
+        "mean_gap_closed": "0/1",
+        "observations": 36,
+        "optimal_hits": 0,
+        "wins_ties_losses": [
+          0,
+          36,
+          0
+        ]
+      },
+      "method": "GR_P",
+      "split": "test_size",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 29,
+        "mean_gap_closed": "0/1",
+        "observations": 29,
+        "optimal_hits": 0,
+        "wins_ties_losses": [
+          0,
+          29,
+          0
+        ]
+      },
+      "method": "GR_P",
+      "split": "test_topology",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "17/700",
+        "observations": 100,
+        "optimal_hits": 6,
+        "wins_ties_losses": [
+          8,
+          88,
+          4
+        ]
+      },
+      "method": "IND",
+      "split": "test_id",
+      "variant": "hub_cheap"
+    },
+    {
+      "headroom": {
+        "base_graphs": 47,
+        "mean_gap_closed": "1007/29610",
+        "observations": 235,
+        "optimal_hits": 2,
+        "wins_ties_losses": [
+          22,
+          207,
+          6
+        ]
+      },
+      "method": "IND",
+      "split": "test_id",
+      "variant": "hub_expensive"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "-3/200",
+        "observations": 100,
+        "optimal_hits": 2,
+        "wins_ties_losses": [
+          4,
+          88,
+          8
+        ]
+      },
+      "method": "IND",
+      "split": "test_id",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 36,
+        "mean_gap_closed": "-479/7560",
+        "observations": 180,
+        "optimal_hits": 12,
+        "wins_ties_losses": [
+          24,
+          140,
+          16
+        ]
+      },
+      "method": "IND",
+      "split": "test_size",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 29,
+        "mean_gap_closed": "1229/15225",
+        "observations": 145,
+        "optimal_hits": 12,
+        "wins_ties_losses": [
+          16,
+          125,
+          4
+        ]
+      },
+      "method": "IND",
+      "split": "test_topology",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "9/140",
+        "observations": 20,
+        "optimal_hits": 10,
+        "wins_ties_losses": [
+          11,
+          5,
+          4
+        ]
+      },
+      "method": "RD",
+      "split": "test_id",
+      "variant": "hub_cheap"
+    },
+    {
+      "headroom": {
+        "base_graphs": 47,
+        "mean_gap_closed": "-3281/23688",
+        "observations": 47,
+        "optimal_hits": 4,
+        "wins_ties_losses": [
+          18,
+          17,
+          12
+        ]
+      },
+      "method": "RD",
+      "split": "test_id",
+      "variant": "hub_expensive"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "37/240",
+        "observations": 20,
+        "optimal_hits": 3,
+        "wins_ties_losses": [
+          6,
+          12,
+          2
+        ]
+      },
+      "method": "RD",
+      "split": "test_id",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 36,
+        "mean_gap_closed": "-493/3024",
+        "observations": 36,
+        "optimal_hits": 8,
+        "wins_ties_losses": [
+          16,
+          9,
+          11
+        ]
+      },
+      "method": "RD",
+      "split": "test_size",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 29,
+        "mean_gap_closed": "-220/87",
+        "observations": 29,
+        "optimal_hits": 4,
+        "wins_ties_losses": [
+          8,
+          7,
+          14
+        ]
+      },
+      "method": "RD",
+      "split": "test_topology",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "-9/280",
+        "observations": 20,
+        "optimal_hits": 2,
+        "wins_ties_losses": [
+          3,
+          16,
+          1
+        ]
+      },
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "hub_cheap"
+    },
+    {
+      "headroom": {
+        "base_graphs": 47,
+        "mean_gap_closed": "5207/59220",
+        "observations": 47,
+        "optimal_hits": 2,
+        "wins_ties_losses": [
+          10,
+          33,
+          4
+        ]
+      },
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "hub_expensive"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "1/20",
+        "observations": 20,
+        "optimal_hits": 2,
+        "wins_ties_losses": [
+          4,
+          13,
+          3
+        ]
+      },
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 36,
+        "mean_gap_closed": "41/432",
+        "observations": 36,
+        "optimal_hits": 5,
+        "wins_ties_losses": [
+          11,
+          23,
+          2
+        ]
+      },
+      "method": "RGR_P",
+      "split": "test_size",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 29,
+        "mean_gap_closed": "23/3045",
+        "observations": 29,
+        "optimal_hits": 4,
+        "wins_ties_losses": [
+          8,
+          18,
+          3
+        ]
+      },
+      "method": "RGR_P",
+      "split": "test_topology",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "-3/700",
+        "observations": 100,
+        "optimal_hits": 23,
+        "wins_ties_losses": [
+          28,
+          57,
+          15
+        ]
+      },
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "hub_cheap"
+    },
+    {
+      "headroom": {
+        "base_graphs": 47,
+        "mean_gap_closed": "-23599/197400",
+        "observations": 235,
+        "optimal_hits": 14,
+        "wins_ties_losses": [
+          52,
+          112,
+          71
+        ]
+      },
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "hub_expensive"
+    },
+    {
+      "headroom": {
+        "base_graphs": 20,
+        "mean_gap_closed": "23/400",
+        "observations": 100,
+        "optimal_hits": 15,
+        "wins_ties_losses": [
+          28,
+          54,
+          18
+        ]
+      },
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 36,
+        "mean_gap_closed": "-13/1080",
+        "observations": 180,
+        "optimal_hits": 32,
+        "wins_ties_losses": [
+          79,
+          69,
+          32
+        ]
+      },
+      "method": "RS_PARAM",
+      "split": "test_size",
+      "variant": "random"
+    },
+    {
+      "headroom": {
+        "base_graphs": 29,
+        "mean_gap_closed": "107/870",
+        "observations": 145,
+        "optimal_hits": 23,
+        "wins_ties_losses": [
+          38,
+          93,
+          14
+        ]
+      },
+      "method": "RS_PARAM",
+      "split": "test_topology",
+      "variant": "random"
+    }
+  ],
+  "scope": "POST_HOC_EXPLORATORY"
+}

@@ -1,0 +1,141 @@
+\section{Analysis of Selected Heuristics}
+\label{sec:selected}
+\subsection{Why Do Final Solutions Converge?}
+
+Across the five frozen EVO-F winners on the same 60 primary graphs,
+construction orders differ from GR+P in 161 of 300 run--graph observations.
+Only 61 have different pre-pruning vertex sets, 44 have different final
+sets, and 23 have different final costs. Orders are compared as complete
+sequences on the original labels; membership is compared as sets.
+These are descriptive frequencies over dependent observations, not
+300 independent graph samples.
+
+The stages discard different kinds of variation. In 100 observations,
+construction order changes without changing the constructed set.
+Of the 61 different constructed sets, 17 converge to the same final set
+after deterministic pruning. Another 21 observations retain different
+final sets with equal cost. Thus, trajectory diversity exceeds
+final-solution diversity, which in turn exceeds objective diversity.
+Pruning explains one part of this convergence; selection during
+construction and equal-cost alternatives explain the rest. A different
+scoring expression can therefore produce many different choices without
+improving the measured objective.
+
+\begin{samepage}
+\subsection{Why Does Rarity's Form Matter?}
+\label{sec:rarity_form}
+
+Seven of the 15 LLM winners are the greedy seed. Within EVO-F, runs 0
+and 3 select that seed, while the other three select
+\begin{equation}
+\begin{aligned}
+f_1 &= (g+0.4r)/q,\\
+f_2 &= (g+0.55r)/q,\\
+f_4 &= g/q+0.5r/q-0.2o.
+\end{aligned}
+\label{eq:selected_forms}
+\end{equation}
+\end{samepage}
+The selected non-seed EVO-F programs therefore belong to a narrow
+additive-rarity family, with an overlap penalty in run 4. This
+characterizes the selected programs, not the full range of forms the
+model could generate.
+
+For the additive component, the bonus relative to coverage gain is
+\begin{equation}
+f(v,U)=\frac{g_v+\alpha r_v}{q_v},
+\qquad
+\frac{\alpha r_v}{g_v}
+=\frac{\alpha r_v|U|}{k_v}.
+\label{eq:rarity_scale}
+\end{equation}
+Coverage gain is normalized by the remaining demand $|U|$, whereas
+rarity averages inverse neighborhood sizes over the $k_v$ newly covered
+vertices. The relative bonus can therefore grow with $|U|$ or decrease
+with $k_v$, even at the same average rarity. During construction, both
+the uncovered set and the composition of each candidate's newly covered
+neighborhood change. Graph size alone does not determine the bonus.
+
+Multiplicative rarity has a different interpretation. Substituting the
+feature definitions into Eq.~\eqref{eq:rarity} gives
+\begin{equation}
+\frac{g_vr_v}{q_v}
+=
+\frac{\bar c}{|U|}
+\frac{1}{c_v}
+\sum_{u\in N[v]\cap U}\frac{1}{|N[u]|}.
+\label{eq:weighted_coverage}
+\end{equation}
+The leading factor is shared by all candidates at a step, so RGR+P
+ranks vertices by total inverse-neighborhood weight of newly covered
+demand divided by candidate cost. Standard greedy values each newly
+covered vertex equally; RGR+P assigns more weight to demand vertices
+with fewer possible covering neighbors. Additive rarity instead places
+an average-rarity bonus alongside normalized coverage. It is not the
+same weighted-coverage calculation.
+
+\begin{table}[!htbp]
+\centering\small
+\caption{Interventions on all five frozen EVO-F winners. Mean excess
+(\%) is relative to pruned greedy on training (30 graphs), primary and BA
+(60 graphs each). No program is refit or reselected.}
+\label{tab:ablation}
+\begin{tabular}{lrrr}
+\toprule
+Intervention & Train & Primary & BA\\
+\midrule
+\input{tables/ablation_rows}
+\end{tabular}
+\end{table}
+
+\begin{samepage}
+Table~\ref{tab:ablation} summarizes all five winners. For the three
+non-seed winners, zeroing rarity changes training excess from
+$-0.240\%$ to $+0.349\%$, primary excess from $+0.522\%$ to
+$+0.334\%$, and BA excess from $+2.396\%$ to $+0.082\%$.\par
+\end{samepage}
+
+\begin{samepage}
+The rarity term helps training fitness but its contribution does not
+transfer to these held-out averages. Runs 1 and 2 reduce exactly to
+greedy when rarity is zeroed; run 4 retains its overlap penalty.
+Omitting pruning also worsens the five-winner averages, showing the
+importance of the fixed scaffold.\par
+\end{samepage}
+
+RGR+P, by contrast, improves mean cost on BA and both external weight
+families (Tables~\ref{tab:shift} and~\ref{tab:external}).
+Together, the algebra and interventions make the functional form of
+rarity weighting a plausible explanation for transfer differences.
+They analyze the selected heuristics' behavior without establishing a
+unique cause of the discovery policies' outcomes.
+
+\subsection{Illustrative Decision Trajectories}
+
+The following saved traces are the first qualifying primary improvement
+and BA failure in lexicographic (run, instance) order. They illustrate
+how scoring changes interact with construction and pruning.
+
+\paragraph{A primary improvement.}
+For primary instance 0014, run 1 uses $f_1$ from
+Eq.~\eqref{eq:selected_forms}. At the third selection, vertices 15 and 35
+both cover seven new vertices at cost two. Greedy selects 15 by ID;
+the higher average rarity makes EVO-F select 35. EVO-F finishes at
+cost 29, the certified optimum, versus greedy's 31. Vertex 35 is
+itself pruned: its effect is on the subsequent construction trajectory,
+rather than final membership. The strict improvement survives one of
+ten saved vertex relabelings; the other nine tie greedy, showing the
+example's sensitivity to ID-based tie-breaking.
+
+\paragraph{A BA failure.}
+For BA instance 0044, run 4 uses $f_4$.
+It agrees with greedy for four selections, then chooses vertex 30
+instead of vertex 19. Their new-coverage-to-cost ratios are 1 and 2,
+respectively. The additive rarity term reverses this ranking even
+with the overlap penalty; without rarity, the two candidates retain
+greedy's ordering. Both trajectories later prune vertex 30.
+Final costs are 34 for EVO-F and 33 for greedy, while RGR+P reaches
+the certified optimum of 30. The first ranking reversal identifies a
+departure that propagates through later choices; it does not isolate
+the entire final loss to one decision. Complete traces and per-winner
+summaries remain in the repository.

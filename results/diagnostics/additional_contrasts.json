@@ -1,0 +1,247 @@
+{
+  "draws": 5000,
+  "rows": [
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        -0.698664747321053,
+        0.2198361966543523
+      ],
+      "mean": -0.1484356513234745,
+      "methods": [
+        "EVO_F",
+        "IND"
+      ]
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        -1.2590301856155186,
+        0.6041615201427889
+      ],
+      "mean": -0.30061212034824525,
+      "methods": [
+        "EVO_F",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        -1.2689288337157465,
+        0.9492593901898164
+      ],
+      "mean": -0.15217646902477075,
+      "methods": [
+        "IND",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        -1.0556138076468193,
+        1.1435647346009212
+      ],
+      "mean": 0.0044476511444388935,
+      "methods": [
+        "EVO_P",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -1.0326347625614254,
+        0.3068442530844137
+      ],
+      "mean": -0.23691061987388887,
+      "methods": [
+        "EVO_F",
+        "IND"
+      ]
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -3.3380875938772983,
+        0.3523318838703135
+      ],
+      "mean": -1.442558927008237,
+      "methods": [
+        "EVO_F",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -2.8409812324702495,
+        0.45256151641086295
+      ],
+      "mean": -1.2056483071343482,
+      "methods": [
+        "IND",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -3.2479240750278926,
+        0.34376253992498107
+      ],
+      "mean": -1.40631610917072,
+      "methods": [
+        "EVO_P",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.8156516663220291,
+        0.20223199739328773
+      ],
+      "mean": -0.20823501728884325,
+      "methods": [
+        "EVO_F",
+        "IND"
+      ]
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -1.1364275919275504,
+        0.9521039097780687
+      ],
+      "mean": -0.035919238483298366,
+      "methods": [
+        "EVO_F",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.9514756064557264,
+        1.20937109623786
+      ],
+      "mean": 0.1723157788055449,
+      "methods": [
+        "IND",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.7350133180913008,
+        1.6045869658847005
+      ],
+      "mean": 0.4184384572683397,
+      "methods": [
+        "EVO_P",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -0.35119322211200993,
+        0.23164176030493208
+      ],
+      "mean": -0.04525901912032765,
+      "methods": [
+        "EVO_F",
+        "IND"
+      ]
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -1.1580629462686047,
+        0.6590108534195711
+      ],
+      "mean": -0.23389993811430923,
+      "methods": [
+        "EVO_F",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -1.2103403873723066,
+        0.8217741774479844
+      ],
+      "mean": -0.18864091899398155,
+      "methods": [
+        "IND",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -1.130436291954684,
+        0.8805478869407062
+      ],
+      "mean": -0.10738847443190082,
+      "methods": [
+        "EVO_P",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        0.07294412487318455,
+        3.318723231477588
+      ],
+      "mean": 1.3731873038658875,
+      "methods": [
+        "EVO_F",
+        "IND"
+      ]
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        0.045419203625328246,
+        3.9476389092986874
+      ],
+      "mean": 1.786458427657664,
+      "methods": [
+        "EVO_F",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        -0.7572282464020099,
+        1.6702269091134219
+      ],
+      "mean": 0.4132711237917766,
+      "methods": [
+        "IND",
+        "RS_PARAM"
+      ]
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        0.017489631796387628,
+        3.899888056509511
+      ],
+      "mean": 1.6706085451403938,
+      "methods": [
+        "EVO_P",
+        "RS_PARAM"
+      ]
+    }
+  ],
+  "scope": "POST_HOC_EXPLORATORY_POINTWISE_NO_MULTIPLICITY_CORRECTION",
+  "seed": 4212
+}

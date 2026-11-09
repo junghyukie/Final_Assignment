@@ -1,0 +1,73 @@
+\section{Experimental Protocol}
+\subsection{Graphs, Costs, and Shifts}
+The geometric generator samples uniform positions in the unit square and
+retains the $3(n-3)$ closest pairs. This matches the edge count of the
+NetworkX Barab\'asi--Albert (BA) construction with $m=3$~\cite{networkx_ba},
+not its other structural properties. Labels are randomized and disconnected
+graphs retained. Training and validation contain 30 and 20 distinct
+geometric graphs at $n=40$; their topologies are disjoint from the test set.
+
+Costs are integers from 1 to 10. Each of the 60 primary in-distribution
+(ID) topologies at $n=40$ receives random, hub-expensive and hub-cheap
+assignments of the same cost multiset. The latter two align cost positively
+or negatively with degree. Size and topology shifts add 60 geometric
+graphs at $n=80$ and 60 BA graphs at $n=40$, both with random costs.
+The test therefore contains 300 weighted instances from 180 distinct
+topologies; the three ID cost variants are dependent.
+
+\subsection{Model and Discovery Budget}
+Gemini 3.6 Flash uses temperature 0.8, a 2,048-token response limit and
+low reasoning effort. Each condition has five independent runs of
+40 attempts with fixed settings; validation winners are frozen before testing.
+Matched attempts do not imply matched numbers of unique executable candidates.
+
+\subsection{Metrics and Uncertainty}
+For method $h$, discovery run $r$ and instance $i$, excess cost is
+\begin{equation}
+e_{hri}=100\left(\frac{C_{hri}}{C_{\GR,i}}-1\right).
+\label{eq:excess}
+\end{equation}
+I average individual ratios; negative excess favors $h$. EVO-F minus IND
+on ID/random is the prespecified primary contrast; EVO-F minus EVO-P and
+EVO-P minus IND are secondary. The original crossed bootstrap resamples
+run and graph blocks while pairing run indices across methods. Equal
+indices need not match search runs, so the sensitivity resamples method
+runs independently with paired graphs. Both percentile analyses use
+5,000 draws and seed 4212, conditional on one training corpus~\cite{efron}.
+
+CP-SAT solves Eq.~\eqref{eq:ilp} with one worker and a 20-second search
+limit. Only OPTIMAL status certifies $C_i^*$~\cite{cpsat}; feasible
+incumbents are not exact references. All 300 original instances are
+certified. Optimum gap is $100(C_{hri}/C_i^*-1)$, and an optimal hit
+requires $C_{hri}=C_i^*$. Feasibility and cost are independently checked.
+Original runtime summaries are medians of pair-level medians from a warmup
+and three uncached repeats in randomized order; fixed-baseline outcome
+counts use unique graphs.
+
+The same-session primary control gives CP-SAT50 a 50 ms end-to-end target,
+including hint construction, setup, extraction and checking; search gets
+the remaining time. GR+P, RGR+P and five EVO-F winners use the same warmup,
+randomized order and three repeats. A feasible greedy fallback is available,
+and overruns remain included.
+
+\subsection{Frozen-Program Diagnostics}
+Post-hoc feature interventions zero rarity or overlap, or omit pruning,
+without retraining or reselection. All retain the original pruned-greedy
+denominator. Ten seeded relabelings per primary graph move costs with
+vertices and recompute greedy; these are dependent perturbations, not
+additional independent graphs. Behavioral comparisons use saved construction
+sequences on original vertex labels, pre- and post-pruning membership sets,
+and final costs separately. Non-seed summaries subset the existing
+intervention records; all diagnostics remain descriptive.
+
+\input{tables/primary_table}
+\subsection{Published External Benchmark}
+Post-hoc transfer uses the published T1/T2 instances of
+Jovanovi\'{c}, Tuba and Simian~\cite{jovanovic2010}. Selection is fixed
+before evaluation: $n\in\{100,300,500\}$, edge budgets $n$ and $10n$,
+and seeds 0--3. The 48 weighted instances share 24 topologies, with random
+weights in T1 and degree-dependent weights in T2. All 20 winners and
+three handcrafted baselines run without tuning; original labels and weights
+are retained. Family means use all selected instances. External runtimes
+are descriptive first-call medians; identical programs share measurements.
+Full outcome counts and native-format inputs are available in the repository.

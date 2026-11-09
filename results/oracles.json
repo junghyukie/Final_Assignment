@@ -1,0 +1,8092 @@
+{
+  "test_id-0000-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 12,
+    "lower_bound": 12.0,
+    "selected": [
+      8,
+      13,
+      15,
+      26,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0016539
+  },
+  "test_id-0000-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 20,
+    "lower_bound": 20.0,
+    "selected": [
+      2,
+      11,
+      16,
+      20,
+      23,
+      24,
+      27,
+      32,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0048713
+  },
+  "test_id-0000-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 16,
+    "lower_bound": 16.0,
+    "selected": [
+      9,
+      15,
+      18,
+      26,
+      32,
+      35,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0360006
+  },
+  "test_id-0001-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 59,
+    "lower_bound": 59.0,
+    "selected": [
+      5,
+      6,
+      14,
+      16,
+      21,
+      23,
+      24,
+      26,
+      28
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024059000000000003
+  },
+  "test_id-0001-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      17,
+      21,
+      23,
+      24,
+      25,
+      26,
+      30,
+      37,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0043885
+  },
+  "test_id-0001-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 37,
+    "lower_bound": 37.0,
+    "selected": [
+      17,
+      20,
+      21,
+      23,
+      24,
+      26,
+      30,
+      32,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0028666
+  },
+  "test_id-0002-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      0,
+      9,
+      24,
+      25,
+      31,
+      33,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0069031000000000006
+  },
+  "test_id-0002-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      4,
+      5,
+      8,
+      11,
+      19,
+      25,
+      29,
+      36,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.002144
+  },
+  "test_id-0002-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      7,
+      11,
+      17,
+      25,
+      27,
+      28,
+      31,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018134000000000002
+  },
+  "test_id-0003-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      13,
+      14,
+      15,
+      18,
+      24,
+      27
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018816000000000002
+  },
+  "test_id-0003-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      1,
+      4,
+      5,
+      7,
+      11,
+      18,
+      20,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0156915
+  },
+  "test_id-0003-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      10,
+      15,
+      17,
+      21,
+      23,
+      28,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033896000000000004
+  },
+  "test_id-0004-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 38,
+    "lower_bound": 38.0,
+    "selected": [
+      6,
+      10,
+      14,
+      15,
+      21,
+      23,
+      25,
+      30,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.007530500000000001
+  },
+  "test_id-0004-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      1,
+      6,
+      14,
+      18,
+      27,
+      32,
+      34,
+      35,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034730000000000004
+  },
+  "test_id-0004-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 19,
+    "lower_bound": 19.0,
+    "selected": [
+      7,
+      10,
+      13,
+      19,
+      24,
+      26,
+      27,
+      29,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0025497000000000002
+  },
+  "test_id-0005-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      1,
+      2,
+      3,
+      5,
+      15,
+      35,
+      37,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015275
+  },
+  "test_id-0005-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 37,
+    "lower_bound": 37.0,
+    "selected": [
+      15,
+      16,
+      19,
+      24,
+      27,
+      29,
+      31,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0052278
+  },
+  "test_id-0005-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      1,
+      2,
+      9,
+      15,
+      16,
+      19,
+      24
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0014268
+  },
+  "test_id-0006-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      15,
+      17,
+      19,
+      21,
+      27,
+      29,
+      31,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0025875
+  },
+  "test_id-0006-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      10,
+      12,
+      13,
+      14,
+      16,
+      22,
+      25,
+      30,
+      32,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0047056
+  },
+  "test_id-0006-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      9,
+      12,
+      13,
+      15,
+      18,
+      21,
+      22,
+      28,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019397000000000001
+  },
+  "test_id-0007-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      7,
+      9,
+      10,
+      17,
+      30,
+      32,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020568
+  },
+  "test_id-0007-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      0,
+      3,
+      5,
+      14,
+      16,
+      23,
+      24,
+      26,
+      31,
+      35,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019716
+  },
+  "test_id-0007-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      2,
+      5,
+      9,
+      10,
+      15,
+      26,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0023196000000000002
+  },
+  "test_id-0008-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 18,
+    "lower_bound": 18.0,
+    "selected": [
+      7,
+      14,
+      17,
+      21,
+      23,
+      24,
+      37,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018288000000000002
+  },
+  "test_id-0008-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      0,
+      5,
+      10,
+      11,
+      13,
+      15,
+      27,
+      29,
+      32,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024298
+  },
+  "test_id-0008-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      3,
+      7,
+      9,
+      10,
+      23,
+      25,
+      27,
+      29,
+      33,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032024
+  },
+  "test_id-0009-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      7,
+      16,
+      22,
+      24,
+      26,
+      32,
+      36,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0014584
+  },
+  "test_id-0009-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      4,
+      10,
+      21,
+      23,
+      27,
+      29,
+      30,
+      31,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004371300000000001
+  },
+  "test_id-0009-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      2,
+      7,
+      9,
+      12,
+      15,
+      25,
+      27,
+      29,
+      32,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018232
+  },
+  "test_id-0010-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      3,
+      7,
+      10,
+      15,
+      16,
+      27,
+      29,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0027979000000000003
+  },
+  "test_id-0010-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      5,
+      13,
+      14,
+      22,
+      25,
+      32,
+      33,
+      34,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.010284900000000001
+  },
+  "test_id-0010-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 18,
+    "lower_bound": 18.0,
+    "selected": [
+      2,
+      6,
+      7,
+      8,
+      20,
+      21,
+      23,
+      32,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022463
+  },
+  "test_id-0011-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 50,
+    "lower_bound": 50.0,
+    "selected": [
+      2,
+      12,
+      20,
+      27,
+      31,
+      32,
+      35,
+      36,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024224000000000003
+  },
+  "test_id-0011-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      0,
+      1,
+      4,
+      12,
+      19,
+      20,
+      27,
+      30,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0037468000000000002
+  },
+  "test_id-0011-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      2,
+      11,
+      12,
+      16,
+      19,
+      27,
+      31,
+      32,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017656000000000002
+  },
+  "test_id-0012-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 42,
+    "lower_bound": 42.0,
+    "selected": [
+      0,
+      5,
+      14,
+      15,
+      26,
+      31,
+      33,
+      34,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015116
+  },
+  "test_id-0012-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      2,
+      6,
+      7,
+      13,
+      16,
+      26,
+      33,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0025465
+  },
+  "test_id-0012-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      2,
+      7,
+      13,
+      23,
+      24,
+      31,
+      33,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015157
+  },
+  "test_id-0013-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      3,
+      8,
+      11,
+      25,
+      30,
+      36,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018845
+  },
+  "test_id-0013-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      3,
+      5,
+      6,
+      17,
+      20,
+      31,
+      34,
+      35,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031643
+  },
+  "test_id-0013-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      3,
+      5,
+      6,
+      19,
+      20,
+      26,
+      35,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020050000000000003
+  },
+  "test_id-0014-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 37,
+    "lower_bound": 37.0,
+    "selected": [
+      1,
+      2,
+      18,
+      19,
+      24,
+      28,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0013684
+  },
+  "test_id-0014-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      0,
+      2,
+      8,
+      11,
+      17,
+      19,
+      22,
+      30,
+      31,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0023298000000000004
+  },
+  "test_id-0014-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      2,
+      7,
+      9,
+      11,
+      30,
+      31,
+      34,
+      37,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020974
+  },
+  "test_id-0015-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      3,
+      4,
+      20,
+      23,
+      29,
+      33,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0014413000000000002
+  },
+  "test_id-0015-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      10,
+      12,
+      14,
+      18,
+      19,
+      31,
+      35,
+      37,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034877000000000003
+  },
+  "test_id-0015-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      3,
+      4,
+      5,
+      11,
+      16,
+      23,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018304
+  },
+  "test_id-0016-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 51,
+    "lower_bound": 51.0,
+    "selected": [
+      1,
+      3,
+      4,
+      9,
+      13,
+      14,
+      18,
+      31,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032621000000000004
+  },
+  "test_id-0016-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      1,
+      3,
+      15,
+      19,
+      20,
+      21,
+      22,
+      26,
+      29,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.007500100000000001
+  },
+  "test_id-0016-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      1,
+      3,
+      9,
+      11,
+      18,
+      19,
+      20,
+      31,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0016525
+  },
+  "test_id-0017-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      6,
+      11,
+      22,
+      31,
+      34,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0023119
+  },
+  "test_id-0017-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      2,
+      7,
+      20,
+      23,
+      26,
+      27,
+      31,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.00409
+  },
+  "test_id-0017-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      0,
+      7,
+      16,
+      17,
+      18,
+      35,
+      36,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026777000000000003
+  },
+  "test_id-0018-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      4,
+      8,
+      13,
+      18,
+      19,
+      36,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017177000000000002
+  },
+  "test_id-0018-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      2,
+      7,
+      22,
+      24,
+      25,
+      33,
+      36,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0052414
+  },
+  "test_id-0018-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      4,
+      7,
+      17,
+      24,
+      27,
+      28,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019080000000000002
+  },
+  "test_id-0019-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      2,
+      12,
+      16,
+      28,
+      32,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031896000000000003
+  },
+  "test_id-0019-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      1,
+      17,
+      19,
+      25,
+      26,
+      31,
+      34,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.011363100000000001
+  },
+  "test_id-0019-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 19,
+    "lower_bound": 19.0,
+    "selected": [
+      5,
+      12,
+      16,
+      26,
+      32,
+      36,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0038559
+  },
+  "test_id-0020-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 40,
+    "lower_bound": 40.0,
+    "selected": [
+      1,
+      9,
+      10,
+      12,
+      27,
+      28,
+      29,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.001538
+  },
+  "test_id-0020-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      0,
+      5,
+      8,
+      21,
+      24,
+      27,
+      34,
+      36,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019783
+  },
+  "test_id-0020-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      1,
+      7,
+      9,
+      10,
+      18,
+      26,
+      27,
+      28
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.002419
+  },
+  "test_id-0021-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      11,
+      13,
+      14,
+      20,
+      27,
+      28,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020438
+  },
+  "test_id-0021-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 40,
+    "lower_bound": 40.0,
+    "selected": [
+      2,
+      10,
+      14,
+      19,
+      23,
+      27,
+      31,
+      33,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026267
+  },
+  "test_id-0021-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      0,
+      6,
+      9,
+      11,
+      24,
+      26,
+      28,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024727
+  },
+  "test_id-0022-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 51,
+    "lower_bound": 51.0,
+    "selected": [
+      1,
+      3,
+      5,
+      6,
+      12,
+      18,
+      19,
+      28,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017638
+  },
+  "test_id-0022-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      3,
+      8,
+      9,
+      10,
+      14,
+      15,
+      23,
+      26,
+      27,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0059242
+  },
+  "test_id-0022-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      0,
+      2,
+      3,
+      5,
+      13,
+      26,
+      29,
+      36,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019545
+  },
+  "test_id-0023-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 40,
+    "lower_bound": 40.0,
+    "selected": [
+      9,
+      18,
+      19,
+      23,
+      25,
+      29,
+      34,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0023754
+  },
+  "test_id-0023-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      2,
+      9,
+      10,
+      13,
+      17,
+      18,
+      21,
+      33,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.002497
+  },
+  "test_id-0023-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      0,
+      1,
+      2,
+      5,
+      13,
+      17,
+      18,
+      26,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022047
+  },
+  "test_id-0024-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      6,
+      8,
+      23,
+      25,
+      29,
+      32,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019254
+  },
+  "test_id-0024-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      5,
+      6,
+      10,
+      12,
+      15,
+      16,
+      17,
+      26,
+      28,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0038574000000000004
+  },
+  "test_id-0024-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      1,
+      2,
+      4,
+      6,
+      13,
+      15,
+      17,
+      25,
+      30,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004737600000000001
+  },
+  "test_id-0025-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      0,
+      2,
+      9,
+      14,
+      20,
+      23,
+      29,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0016032000000000002
+  },
+  "test_id-0025-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      15,
+      19,
+      22,
+      25,
+      27,
+      29,
+      30,
+      31,
+      33,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.002094
+  },
+  "test_id-0025-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      2,
+      3,
+      13,
+      14,
+      18,
+      19,
+      28,
+      29,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004156
+  },
+  "test_id-0026-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      6,
+      16,
+      18,
+      19,
+      23,
+      26,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029716
+  },
+  "test_id-0026-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      3,
+      5,
+      12,
+      15,
+      24,
+      25,
+      29,
+      32,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029026
+  },
+  "test_id-0026-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 16,
+    "lower_bound": 16.0,
+    "selected": [
+      4,
+      6,
+      8,
+      10,
+      18,
+      26,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017981000000000002
+  },
+  "test_id-0027-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 40,
+    "lower_bound": 40.0,
+    "selected": [
+      6,
+      18,
+      19,
+      28,
+      32,
+      34,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0016609
+  },
+  "test_id-0027-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      6,
+      12,
+      16,
+      18,
+      23,
+      28,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018282
+  },
+  "test_id-0027-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 17,
+    "lower_bound": 17.0,
+    "selected": [
+      5,
+      12,
+      16,
+      20,
+      23,
+      24,
+      28,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022374
+  },
+  "test_id-0028-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      0,
+      1,
+      19,
+      24,
+      28,
+      31,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0027192
+  },
+  "test_id-0028-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      1,
+      4,
+      7,
+      10,
+      15,
+      16,
+      29,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031828000000000004
+  },
+  "test_id-0028-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      3,
+      8,
+      12,
+      18,
+      27,
+      29,
+      33,
+      34,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019045000000000002
+  },
+  "test_id-0029-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      1,
+      9,
+      22,
+      24,
+      25,
+      31,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0014373
+  },
+  "test_id-0029-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      1,
+      10,
+      19,
+      21,
+      22,
+      25,
+      27,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.002764
+  },
+  "test_id-0029-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      1,
+      8,
+      9,
+      16,
+      17,
+      18,
+      19,
+      24,
+      26
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018113
+  },
+  "test_id-0030-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 49,
+    "lower_bound": 49.00000000000001,
+    "selected": [
+      2,
+      3,
+      16,
+      17,
+      20,
+      21,
+      24,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0021445
+  },
+  "test_id-0030-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      4,
+      7,
+      11,
+      14,
+      17,
+      21,
+      31,
+      33,
+      34,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032701
+  },
+  "test_id-0030-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      3,
+      17,
+      18,
+      19,
+      20,
+      21,
+      27,
+      29,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020247
+  },
+  "test_id-0031-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 51,
+    "lower_bound": 51.0,
+    "selected": [
+      8,
+      12,
+      13,
+      15,
+      19,
+      33,
+      35,
+      36,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0048785
+  },
+  "test_id-0031-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      5,
+      16,
+      18,
+      19,
+      21,
+      23,
+      34,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022537
+  },
+  "test_id-0031-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      8,
+      10,
+      14,
+      19,
+      21,
+      25,
+      33,
+      35,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020112000000000003
+  },
+  "test_id-0032-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 40,
+    "lower_bound": 40.0,
+    "selected": [
+      4,
+      7,
+      11,
+      18,
+      19,
+      21,
+      24,
+      28
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026413
+  },
+  "test_id-0032-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      4,
+      7,
+      10,
+      11,
+      20,
+      25,
+      32,
+      35,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0021757
+  },
+  "test_id-0032-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      4,
+      7,
+      11,
+      18,
+      19,
+      21,
+      24,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.001941
+  },
+  "test_id-0033-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      0,
+      5,
+      17,
+      20,
+      29,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024177
+  },
+  "test_id-0033-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      0,
+      7,
+      12,
+      14,
+      15,
+      19,
+      22,
+      25,
+      31
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0218221
+  },
+  "test_id-0033-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      3,
+      4,
+      5,
+      18,
+      26,
+      33,
+      34,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022788
+  },
+  "test_id-0034-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 37,
+    "lower_bound": 37.0,
+    "selected": [
+      0,
+      3,
+      11,
+      16,
+      22,
+      25,
+      29
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020509
+  },
+  "test_id-0034-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      4,
+      6,
+      7,
+      18,
+      22,
+      27,
+      35,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026245
+  },
+  "test_id-0034-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      11,
+      16,
+      17,
+      25,
+      26,
+      34,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019223
+  },
+  "test_id-0035-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 12,
+    "lower_bound": 12.0,
+    "selected": [
+      2,
+      6,
+      7,
+      12,
+      14,
+      15,
+      26
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0037533
+  },
+  "test_id-0035-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 18,
+    "lower_bound": 18.0,
+    "selected": [
+      1,
+      4,
+      8,
+      10,
+      16,
+      23,
+      34,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004914
+  },
+  "test_id-0035-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 15,
+    "lower_bound": 15.0,
+    "selected": [
+      2,
+      22,
+      23,
+      25,
+      29,
+      34,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0057469
+  },
+  "test_id-0036-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 43,
+    "lower_bound": 43.0,
+    "selected": [
+      5,
+      8,
+      9,
+      14,
+      16,
+      22,
+      34,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022498
+  },
+  "test_id-0036-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      4,
+      5,
+      12,
+      14,
+      17,
+      18,
+      22,
+      30,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033625
+  },
+  "test_id-0036-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 41,
+    "lower_bound": 41.0,
+    "selected": [
+      0,
+      8,
+      14,
+      22,
+      30,
+      34,
+      35,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019616
+  },
+  "test_id-0037-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 48,
+    "lower_bound": 48.0,
+    "selected": [
+      5,
+      6,
+      7,
+      10,
+      15,
+      18,
+      22,
+      31,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0023361000000000002
+  },
+  "test_id-0037-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      5,
+      8,
+      13,
+      20,
+      22,
+      28,
+      34,
+      36,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034083000000000004
+  },
+  "test_id-0037-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      1,
+      5,
+      7,
+      10,
+      18,
+      22,
+      27,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0016638
+  },
+  "test_id-0038-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      0,
+      9,
+      10,
+      18,
+      19,
+      20,
+      21,
+      30
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018424000000000001
+  },
+  "test_id-0038-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      3,
+      6,
+      15,
+      21,
+      30,
+      32,
+      36,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0076836000000000005
+  },
+  "test_id-0038-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      4,
+      7,
+      9,
+      10,
+      13,
+      23,
+      30,
+      31,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020233
+  },
+  "test_id-0039-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      8,
+      11,
+      12,
+      13,
+      14,
+      26,
+      28,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004154000000000001
+  },
+  "test_id-0039-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      1,
+      6,
+      10,
+      15,
+      18,
+      22,
+      31,
+      32,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034397000000000004
+  },
+  "test_id-0039-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      1,
+      6,
+      8,
+      17,
+      31,
+      32,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019852000000000003
+  },
+  "test_id-0040-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      3,
+      12,
+      15,
+      20,
+      24,
+      33,
+      35,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022142
+  },
+  "test_id-0040-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      1,
+      2,
+      5,
+      8,
+      10,
+      23,
+      26,
+      27,
+      29,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0044281
+  },
+  "test_id-0040-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      3,
+      10,
+      20,
+      21,
+      24,
+      25,
+      31,
+      35,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017276000000000001
+  },
+  "test_id-0041-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      15,
+      18,
+      19,
+      24,
+      28,
+      30,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017239000000000002
+  },
+  "test_id-0041-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 20,
+    "lower_bound": 20.0,
+    "selected": [
+      2,
+      4,
+      8,
+      10,
+      12,
+      16,
+      22,
+      31,
+      37,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018769000000000001
+  },
+  "test_id-0041-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      31,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018391000000000002
+  },
+  "test_id-0042-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 44,
+    "lower_bound": 44.0,
+    "selected": [
+      1,
+      6,
+      9,
+      15,
+      17,
+      22,
+      28,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015124000000000001
+  },
+  "test_id-0042-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      0,
+      1,
+      5,
+      6,
+      8,
+      10,
+      37,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0039651
+  },
+  "test_id-0042-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      1,
+      6,
+      17,
+      19,
+      27,
+      35,
+      36,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015888
+  },
+  "test_id-0043-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      11,
+      17,
+      19,
+      22,
+      30,
+      31,
+      35,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024708
+  },
+  "test_id-0043-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      0,
+      4,
+      11,
+      12,
+      27,
+      28,
+      30,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029062000000000003
+  },
+  "test_id-0043-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      5,
+      6,
+      7,
+      20,
+      22,
+      31,
+      33,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019217000000000001
+  },
+  "test_id-0044-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      3,
+      8,
+      16,
+      17,
+      27,
+      31,
+      33,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0020671
+  },
+  "test_id-0044-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      7,
+      11,
+      12,
+      13,
+      17,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0037278000000000003
+  },
+  "test_id-0044-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      3,
+      4,
+      7,
+      11,
+      13,
+      17,
+      20,
+      28,
+      31,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0041809
+  },
+  "test_id-0045-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      8,
+      13,
+      16,
+      20,
+      22,
+      26,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018943
+  },
+  "test_id-0045-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      0,
+      3,
+      7,
+      9,
+      13,
+      15,
+      24,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024115
+  },
+  "test_id-0045-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      0,
+      1,
+      13,
+      15,
+      23,
+      27,
+      28,
+      30,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019144000000000001
+  },
+  "test_id-0046-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 44,
+    "lower_bound": 44.0,
+    "selected": [
+      2,
+      7,
+      9,
+      17,
+      19,
+      20,
+      21,
+      28
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.00206
+  },
+  "test_id-0046-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      2,
+      19,
+      20,
+      21,
+      27,
+      28,
+      31,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0028865
+  },
+  "test_id-0046-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      2,
+      17,
+      19,
+      20,
+      21,
+      27,
+      28,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017517000000000001
+  },
+  "test_id-0047-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 43,
+    "lower_bound": 43.0,
+    "selected": [
+      3,
+      4,
+      15,
+      20,
+      23,
+      24,
+      28,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017775000000000002
+  },
+  "test_id-0047-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      0,
+      13,
+      20,
+      24,
+      27,
+      29,
+      30,
+      35,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0038494000000000002
+  },
+  "test_id-0047-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      0,
+      1,
+      6,
+      11,
+      12,
+      17,
+      27,
+      29,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0023338
+  },
+  "test_id-0048-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      0,
+      6,
+      10,
+      16,
+      17,
+      23,
+      33,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0025277000000000003
+  },
+  "test_id-0048-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      2,
+      7,
+      10,
+      17,
+      20,
+      21,
+      22,
+      30,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0075804
+  },
+  "test_id-0048-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      0,
+      5,
+      9,
+      15,
+      17,
+      32,
+      36,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0021028
+  },
+  "test_id-0049-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      5,
+      6,
+      9,
+      10,
+      12,
+      17,
+      28,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0021934000000000003
+  },
+  "test_id-0049-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      0,
+      1,
+      3,
+      4,
+      13,
+      16,
+      17,
+      20,
+      36,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033359
+  },
+  "test_id-0049-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      1,
+      2,
+      10,
+      12,
+      18,
+      21,
+      24,
+      26,
+      28
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0021672
+  },
+  "test_id-0050-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      6,
+      11,
+      29,
+      30,
+      31,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004165
+  },
+  "test_id-0050-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      2,
+      6,
+      12,
+      16,
+      21,
+      30,
+      32,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0055966
+  },
+  "test_id-0050-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      6,
+      11,
+      29,
+      30,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015304000000000001
+  },
+  "test_id-0051-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      2,
+      6,
+      11,
+      14,
+      18,
+      22,
+      24,
+      26
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0025089
+  },
+  "test_id-0051-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      3,
+      5,
+      6,
+      15,
+      16,
+      17,
+      31,
+      32,
+      33,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.008877300000000001
+  },
+  "test_id-0051-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 20,
+    "lower_bound": 20.0,
+    "selected": [
+      13,
+      18,
+      20,
+      23,
+      28,
+      31,
+      33,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0021495
+  },
+  "test_id-0052-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      0,
+      1,
+      14,
+      24,
+      28,
+      32,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018166
+  },
+  "test_id-0052-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      1,
+      4,
+      5,
+      8,
+      10,
+      13,
+      17,
+      21,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.006099800000000001
+  },
+  "test_id-0052-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 18,
+    "lower_bound": 18.0,
+    "selected": [
+      0,
+      1,
+      4,
+      5,
+      14,
+      24,
+      33,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0016584000000000002
+  },
+  "test_id-0053-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      4,
+      6,
+      7,
+      12,
+      13,
+      23,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017227000000000002
+  },
+  "test_id-0053-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      3,
+      5,
+      6,
+      11,
+      22,
+      24,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0049845
+  },
+  "test_id-0053-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 19,
+    "lower_bound": 19.0,
+    "selected": [
+      0,
+      6,
+      10,
+      21,
+      22,
+      24,
+      25,
+      30
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018088000000000002
+  },
+  "test_id-0054-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 44,
+    "lower_bound": 44.0,
+    "selected": [
+      11,
+      12,
+      13,
+      14,
+      20,
+      27,
+      29,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018256000000000001
+  },
+  "test_id-0054-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      16,
+      18,
+      20,
+      32,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0027038
+  },
+  "test_id-0054-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      0,
+      7,
+      11,
+      14,
+      18,
+      20,
+      29,
+      33,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018922000000000001
+  },
+  "test_id-0055-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      3,
+      5,
+      12,
+      27,
+      32,
+      34,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015647
+  },
+  "test_id-0055-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      7,
+      9,
+      18,
+      22,
+      23,
+      28,
+      30,
+      31,
+      34,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.005267900000000001
+  },
+  "test_id-0055-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      0,
+      3,
+      5,
+      12,
+      21,
+      34,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024498000000000002
+  },
+  "test_id-0056-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 45,
+    "lower_bound": 45.0,
+    "selected": [
+      5,
+      6,
+      8,
+      19,
+      21,
+      22,
+      23,
+      27,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018465
+  },
+  "test_id-0056-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      1,
+      3,
+      4,
+      10,
+      21,
+      22,
+      23,
+      29,
+      34,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029417000000000002
+  },
+  "test_id-0056-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      6,
+      19,
+      20,
+      21,
+      22,
+      23,
+      27,
+      31,
+      33,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017794000000000002
+  },
+  "test_id-0057-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      3,
+      15,
+      22,
+      29,
+      30,
+      31,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015992
+  },
+  "test_id-0057-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      5,
+      13,
+      18,
+      23,
+      25,
+      26,
+      32,
+      35,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0021827
+  },
+  "test_id-0057-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      1,
+      7,
+      8,
+      10,
+      11,
+      18,
+      20,
+      21,
+      28,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0015307
+  },
+  "test_id-0058-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      4,
+      8,
+      12,
+      31,
+      33,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0022444
+  },
+  "test_id-0058-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 37,
+    "lower_bound": 37.0,
+    "selected": [
+      9,
+      12,
+      18,
+      24,
+      26,
+      31,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0027798000000000002
+  },
+  "test_id-0058-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      12,
+      21,
+      25,
+      33,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024651
+  },
+  "test_id-0059-hub_cheap": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      5,
+      6,
+      8,
+      14,
+      15,
+      18,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0018880000000000001
+  },
+  "test_id-0059-hub_expensive": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      0,
+      4,
+      12,
+      16,
+      17,
+      20,
+      26,
+      33,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0095826
+  },
+  "test_id-0059-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      5,
+      6,
+      10,
+      18,
+      20,
+      21,
+      28,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032993000000000002
+  },
+  "test_size-0000-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 71,
+    "lower_bound": 71.0,
+    "selected": [
+      2,
+      3,
+      10,
+      16,
+      20,
+      23,
+      27,
+      37,
+      42,
+      45,
+      55,
+      56,
+      61,
+      71,
+      74,
+      76,
+      77,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0041062
+  },
+  "test_size-0001-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 46,
+    "lower_bound": 46.0,
+    "selected": [
+      2,
+      14,
+      20,
+      24,
+      27,
+      30,
+      31,
+      35,
+      39,
+      43,
+      47,
+      53,
+      61,
+      63,
+      70,
+      74
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004569
+  },
+  "test_size-0002-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 45,
+    "lower_bound": 45.0,
+    "selected": [
+      0,
+      10,
+      20,
+      21,
+      36,
+      38,
+      42,
+      49,
+      55,
+      58,
+      61,
+      62,
+      67,
+      68,
+      77,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032494000000000004
+  },
+  "test_size-0003-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 55,
+    "lower_bound": 55.0,
+    "selected": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      16,
+      17,
+      28,
+      34,
+      35,
+      37,
+      43,
+      46,
+      50,
+      51,
+      53
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0199843
+  },
+  "test_size-0004-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 46,
+    "lower_bound": 46.0,
+    "selected": [
+      1,
+      9,
+      17,
+      19,
+      21,
+      28,
+      34,
+      47,
+      49,
+      56,
+      59,
+      68,
+      71,
+      72,
+      75,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034734
+  },
+  "test_size-0005-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 40,
+    "lower_bound": 40.0,
+    "selected": [
+      1,
+      2,
+      5,
+      10,
+      11,
+      16,
+      20,
+      23,
+      28,
+      31,
+      35,
+      42,
+      47,
+      51,
+      69,
+      76,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.003089
+  },
+  "test_size-0006-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 49,
+    "lower_bound": 49.0,
+    "selected": [
+      1,
+      4,
+      10,
+      14,
+      17,
+      18,
+      31,
+      36,
+      41,
+      44,
+      45,
+      46,
+      51,
+      57,
+      61,
+      63,
+      69,
+      72,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0049226
+  },
+  "test_size-0007-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 54,
+    "lower_bound": 54.0,
+    "selected": [
+      12,
+      15,
+      19,
+      21,
+      23,
+      29,
+      38,
+      40,
+      43,
+      45,
+      51,
+      56,
+      66,
+      68
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.014751400000000001
+  },
+  "test_size-0008-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 41,
+    "lower_bound": 41.0,
+    "selected": [
+      2,
+      4,
+      6,
+      9,
+      13,
+      21,
+      26,
+      28,
+      30,
+      32,
+      33,
+      38,
+      58,
+      60,
+      61,
+      62,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033789000000000002
+  },
+  "test_size-0009-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 48,
+    "lower_bound": 48.0,
+    "selected": [
+      0,
+      1,
+      8,
+      9,
+      10,
+      16,
+      18,
+      22,
+      27,
+      35,
+      37,
+      38,
+      47,
+      57,
+      59,
+      61,
+      65,
+      67,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.00321
+  },
+  "test_size-0010-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 56,
+    "lower_bound": 56.0,
+    "selected": [
+      3,
+      10,
+      11,
+      12,
+      24,
+      34,
+      35,
+      36,
+      47,
+      50,
+      55,
+      57,
+      60,
+      62,
+      71,
+      72,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0097429
+  },
+  "test_size-0011-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 41,
+    "lower_bound": 41.0,
+    "selected": [
+      7,
+      8,
+      14,
+      19,
+      22,
+      28,
+      52,
+      56,
+      57,
+      58,
+      65,
+      67,
+      70,
+      71,
+      72,
+      75,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0036563000000000003
+  },
+  "test_size-0012-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      14,
+      24,
+      28,
+      33,
+      56,
+      60,
+      62,
+      63,
+      64,
+      65,
+      67
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026885000000000004
+  },
+  "test_size-0013-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 44,
+    "lower_bound": 44.0,
+    "selected": [
+      1,
+      6,
+      14,
+      18,
+      22,
+      25,
+      28,
+      34,
+      38,
+      39,
+      52,
+      54,
+      59,
+      65,
+      68,
+      70,
+      72,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034260000000000002
+  },
+  "test_size-0014-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      0,
+      1,
+      6,
+      12,
+      13,
+      19,
+      21,
+      22,
+      25,
+      28,
+      41,
+      46,
+      49,
+      50,
+      62,
+      68,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032649000000000003
+  },
+  "test_size-0015-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 61,
+    "lower_bound": 61.0,
+    "selected": [
+      0,
+      6,
+      9,
+      15,
+      21,
+      23,
+      29,
+      38,
+      39,
+      41,
+      62,
+      63,
+      66,
+      72,
+      73
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0058436
+  },
+  "test_size-0016-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 53,
+    "lower_bound": 53.0,
+    "selected": [
+      2,
+      3,
+      19,
+      20,
+      36,
+      37,
+      39,
+      40,
+      43,
+      56,
+      59,
+      62,
+      65,
+      73,
+      75,
+      76,
+      77,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032225
+  },
+  "test_size-0017-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 38,
+    "lower_bound": 38.0,
+    "selected": [
+      10,
+      18,
+      22,
+      35,
+      37,
+      44,
+      47,
+      51,
+      52,
+      54,
+      59,
+      66,
+      69,
+      74,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032726
+  },
+  "test_size-0018-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 57,
+    "lower_bound": 57.0,
+    "selected": [
+      13,
+      14,
+      15,
+      21,
+      23,
+      25,
+      28,
+      39,
+      45,
+      52,
+      56,
+      63,
+      65,
+      68,
+      69,
+      76,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0053095
+  },
+  "test_size-0019-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 40,
+    "lower_bound": 40.0,
+    "selected": [
+      0,
+      2,
+      7,
+      20,
+      22,
+      23,
+      34,
+      48,
+      49,
+      52,
+      54,
+      59,
+      60,
+      62,
+      74,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0036130000000000003
+  },
+  "test_size-0020-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 41,
+    "lower_bound": 41.0,
+    "selected": [
+      0,
+      10,
+      13,
+      15,
+      16,
+      23,
+      31,
+      36,
+      39,
+      47,
+      61,
+      71,
+      75,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032381000000000003
+  },
+  "test_size-0021-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      2,
+      4,
+      11,
+      14,
+      16,
+      26,
+      32,
+      35,
+      36,
+      38,
+      44,
+      45,
+      52,
+      64,
+      71,
+      75,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029777000000000002
+  },
+  "test_size-0022-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 43,
+    "lower_bound": 43.0,
+    "selected": [
+      1,
+      9,
+      11,
+      13,
+      15,
+      23,
+      26,
+      27,
+      33,
+      34,
+      43,
+      44,
+      60,
+      71,
+      76,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034607
+  },
+  "test_size-0023-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      2,
+      4,
+      5,
+      10,
+      13,
+      14,
+      21,
+      26,
+      31,
+      36,
+      39,
+      55,
+      64,
+      66,
+      73,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0069668
+  },
+  "test_size-0024-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      1,
+      2,
+      13,
+      20,
+      24,
+      28,
+      30,
+      36,
+      38,
+      42,
+      52,
+      58,
+      62,
+      64,
+      69,
+      72,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033236000000000003
+  },
+  "test_size-0025-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 63,
+    "lower_bound": 63.0,
+    "selected": [
+      14,
+      15,
+      18,
+      19,
+      21,
+      30,
+      31,
+      34,
+      36,
+      43,
+      45,
+      47,
+      52,
+      53,
+      61,
+      65,
+      66,
+      72
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032326000000000004
+  },
+  "test_size-0026-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 48,
+    "lower_bound": 48.0,
+    "selected": [
+      2,
+      8,
+      10,
+      18,
+      19,
+      20,
+      25,
+      35,
+      38,
+      47,
+      59,
+      60,
+      62,
+      64,
+      67,
+      69
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031803
+  },
+  "test_size-0027-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 37,
+    "lower_bound": 37.0,
+    "selected": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      15,
+      20,
+      23,
+      33,
+      35,
+      45,
+      56,
+      69,
+      72,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033493000000000004
+  },
+  "test_size-0028-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 57,
+    "lower_bound": 57.0,
+    "selected": [
+      9,
+      17,
+      27,
+      30,
+      32,
+      35,
+      39,
+      45,
+      49,
+      55,
+      56,
+      57,
+      61,
+      65,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0040474000000000005
+  },
+  "test_size-0029-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 53,
+    "lower_bound": 53.0,
+    "selected": [
+      1,
+      6,
+      12,
+      18,
+      20,
+      21,
+      23,
+      28,
+      32,
+      33,
+      40,
+      41,
+      56,
+      57,
+      64,
+      66
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033608
+  },
+  "test_size-0030-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 51,
+    "lower_bound": 51.0,
+    "selected": [
+      1,
+      13,
+      20,
+      24,
+      25,
+      26,
+      28,
+      29,
+      35,
+      37,
+      42,
+      45,
+      48,
+      50,
+      61,
+      67,
+      69,
+      71,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0039444
+  },
+  "test_size-0031-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 38,
+    "lower_bound": 38.0,
+    "selected": [
+      5,
+      6,
+      9,
+      11,
+      14,
+      17,
+      20,
+      30,
+      33,
+      34,
+      35,
+      41,
+      54,
+      57,
+      60,
+      63,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0044541
+  },
+  "test_size-0032-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      1,
+      7,
+      25,
+      28,
+      38,
+      39,
+      47,
+      48,
+      54,
+      55,
+      56,
+      65,
+      69,
+      78,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0050498
+  },
+  "test_size-0033-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      1,
+      5,
+      19,
+      20,
+      35,
+      38,
+      39,
+      42,
+      47,
+      48,
+      53,
+      60,
+      64,
+      70
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0030798
+  },
+  "test_size-0034-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 48,
+    "lower_bound": 48.0,
+    "selected": [
+      4,
+      6,
+      10,
+      29,
+      31,
+      33,
+      36,
+      38,
+      44,
+      48,
+      54,
+      64,
+      66,
+      70,
+      71,
+      75,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031587000000000004
+  },
+  "test_size-0035-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 50,
+    "lower_bound": 50.0,
+    "selected": [
+      14,
+      15,
+      16,
+      23,
+      24,
+      28,
+      36,
+      38,
+      42,
+      54,
+      55,
+      56,
+      62,
+      63,
+      69,
+      72,
+      75
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0047006
+  },
+  "test_size-0036-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 52,
+    "lower_bound": 52.0,
+    "selected": [
+      1,
+      21,
+      22,
+      23,
+      26,
+      37,
+      44,
+      50,
+      51,
+      56,
+      57,
+      58,
+      59,
+      62,
+      66,
+      72,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0048200000000000005
+  },
+  "test_size-0037-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 61,
+    "lower_bound": 61.0,
+    "selected": [
+      6,
+      9,
+      15,
+      18,
+      20,
+      21,
+      22,
+      25,
+      34,
+      40,
+      41,
+      45,
+      51,
+      52,
+      56,
+      67,
+      73,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.003114
+  },
+  "test_size-0038-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 42,
+    "lower_bound": 42.0,
+    "selected": [
+      1,
+      2,
+      9,
+      10,
+      17,
+      21,
+      24,
+      25,
+      33,
+      43,
+      51,
+      54,
+      57,
+      73,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031659
+  },
+  "test_size-0039-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 41,
+    "lower_bound": 41.0,
+    "selected": [
+      5,
+      12,
+      13,
+      14,
+      18,
+      20,
+      26,
+      31,
+      34,
+      38,
+      59,
+      60,
+      61,
+      63,
+      64,
+      71,
+      73,
+      78,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0035703
+  },
+  "test_size-0040-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 54,
+    "lower_bound": 54.0,
+    "selected": [
+      3,
+      4,
+      14,
+      21,
+      24,
+      37,
+      38,
+      45,
+      51,
+      56,
+      63,
+      66,
+      68,
+      76,
+      77,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0054156000000000004
+  },
+  "test_size-0041-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 60,
+    "lower_bound": 60.0,
+    "selected": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      17,
+      18,
+      22,
+      31,
+      41,
+      45,
+      48,
+      49,
+      51,
+      56,
+      60,
+      68,
+      69,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0030119
+  },
+  "test_size-0042-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 49,
+    "lower_bound": 49.0,
+    "selected": [
+      4,
+      12,
+      14,
+      16,
+      25,
+      26,
+      27,
+      33,
+      34,
+      35,
+      36,
+      39,
+      47,
+      51,
+      55,
+      58,
+      62,
+      69,
+      71
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.009023600000000001
+  },
+  "test_size-0043-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 50,
+    "lower_bound": 50.0,
+    "selected": [
+      6,
+      12,
+      16,
+      23,
+      25,
+      36,
+      40,
+      41,
+      46,
+      58,
+      63,
+      64,
+      65,
+      70,
+      71,
+      77,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034139
+  },
+  "test_size-0044-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 39,
+    "lower_bound": 39.0,
+    "selected": [
+      3,
+      9,
+      10,
+      15,
+      30,
+      33,
+      38,
+      43,
+      50,
+      55,
+      59,
+      64,
+      67,
+      70,
+      72,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0035142000000000003
+  },
+  "test_size-0045-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 42,
+    "lower_bound": 42.0,
+    "selected": [
+      1,
+      5,
+      6,
+      7,
+      16,
+      19,
+      21,
+      22,
+      29,
+      30,
+      37,
+      40,
+      60,
+      72,
+      73,
+      76,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0035081
+  },
+  "test_size-0046-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 46,
+    "lower_bound": 46.0,
+    "selected": [
+      14,
+      17,
+      20,
+      29,
+      31,
+      36,
+      45,
+      47,
+      52,
+      58,
+      65,
+      66,
+      70,
+      71
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0030547
+  },
+  "test_size-0047-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 45,
+    "lower_bound": 45.0,
+    "selected": [
+      5,
+      6,
+      16,
+      17,
+      24,
+      29,
+      33,
+      34,
+      40,
+      53,
+      55,
+      68,
+      69,
+      72,
+      78,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031554
+  },
+  "test_size-0048-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 46,
+    "lower_bound": 46.0,
+    "selected": [
+      3,
+      8,
+      17,
+      19,
+      20,
+      36,
+      37,
+      41,
+      47,
+      51,
+      55,
+      59,
+      67,
+      69,
+      76,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0045111000000000005
+  },
+  "test_size-0049-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 73,
+    "lower_bound": 73.0,
+    "selected": [
+      4,
+      5,
+      8,
+      11,
+      17,
+      18,
+      19,
+      29,
+      32,
+      41,
+      44,
+      51,
+      58,
+      60,
+      64,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0035635000000000003
+  },
+  "test_size-0050-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 35,
+    "lower_bound": 35.0,
+    "selected": [
+      21,
+      25,
+      26,
+      33,
+      36,
+      41,
+      45,
+      49,
+      58,
+      61,
+      64,
+      65,
+      66,
+      71,
+      75,
+      78
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0030233
+  },
+  "test_size-0051-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 60,
+    "lower_bound": 60.0,
+    "selected": [
+      0,
+      1,
+      2,
+      8,
+      16,
+      17,
+      22,
+      27,
+      28,
+      33,
+      35,
+      47,
+      50,
+      51,
+      52,
+      60
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0075945000000000006
+  },
+  "test_size-0052-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 48,
+    "lower_bound": 48.0,
+    "selected": [
+      2,
+      6,
+      9,
+      20,
+      21,
+      22,
+      30,
+      42,
+      48,
+      53,
+      58,
+      62,
+      66,
+      70,
+      75
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029835
+  },
+  "test_size-0053-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 52,
+    "lower_bound": 52.0,
+    "selected": [
+      6,
+      8,
+      25,
+      26,
+      27,
+      32,
+      33,
+      39,
+      41,
+      49,
+      51,
+      54,
+      61,
+      62,
+      64,
+      70,
+      72,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0040114
+  },
+  "test_size-0054-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 58,
+    "lower_bound": 58.0,
+    "selected": [
+      4,
+      5,
+      14,
+      17,
+      20,
+      21,
+      22,
+      23,
+      27,
+      35,
+      39,
+      46,
+      53,
+      64,
+      66,
+      67,
+      70,
+      71,
+      76
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0036378
+  },
+  "test_size-0055-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 36,
+    "lower_bound": 36.0,
+    "selected": [
+      0,
+      3,
+      8,
+      14,
+      20,
+      24,
+      32,
+      47,
+      48,
+      55,
+      67,
+      72,
+      74,
+      75
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0043597
+  },
+  "test_size-0056-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 48,
+    "lower_bound": 48.0,
+    "selected": [
+      1,
+      11,
+      12,
+      14,
+      24,
+      28,
+      31,
+      32,
+      34,
+      41,
+      43,
+      49,
+      56,
+      57,
+      73
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.007821100000000001
+  },
+  "test_size-0057-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 52,
+    "lower_bound": 52.0,
+    "selected": [
+      1,
+      5,
+      7,
+      11,
+      13,
+      17,
+      18,
+      20,
+      24,
+      25,
+      31,
+      38,
+      40,
+      43,
+      74,
+      75,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0042803
+  },
+  "test_size-0058-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 46,
+    "lower_bound": 46.0,
+    "selected": [
+      6,
+      7,
+      16,
+      17,
+      21,
+      22,
+      27,
+      30,
+      31,
+      37,
+      46,
+      47,
+      50,
+      58,
+      65,
+      67,
+      73,
+      75,
+      77
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.003258
+  },
+  "test_size-0059-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 42,
+    "lower_bound": 42.0,
+    "selected": [
+      0,
+      7,
+      8,
+      18,
+      21,
+      35,
+      41,
+      42,
+      47,
+      49,
+      55,
+      57,
+      62,
+      78,
+      79
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029575
+  },
+  "test_topology-0000-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      1,
+      10,
+      20,
+      23,
+      30,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026133000000000003
+  },
+  "test_topology-0001-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 19,
+    "lower_bound": 19.0,
+    "selected": [
+      4,
+      8,
+      12,
+      27,
+      32,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026216
+  },
+  "test_topology-0002-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      2,
+      3,
+      6,
+      8,
+      10,
+      30,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0028807000000000004
+  },
+  "test_topology-0003-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      4,
+      6,
+      7,
+      12,
+      14,
+      17,
+      18,
+      20,
+      30,
+      31
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026827
+  },
+  "test_topology-0004-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      4,
+      9,
+      11,
+      16,
+      26,
+      27,
+      29,
+      30,
+      33,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0044223000000000005
+  },
+  "test_topology-0005-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 31,
+    "lower_bound": 31.0,
+    "selected": [
+      5,
+      18,
+      19,
+      24,
+      27,
+      34,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031661000000000003
+  },
+  "test_topology-0006-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      1,
+      2,
+      4,
+      5,
+      18,
+      19,
+      28,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0037034000000000004
+  },
+  "test_topology-0007-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      0,
+      1,
+      2,
+      5,
+      8,
+      25,
+      26,
+      33,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0042589
+  },
+  "test_topology-0008-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      2,
+      5,
+      6,
+      7,
+      14,
+      15,
+      17,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0141562
+  },
+  "test_topology-0009-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 19,
+    "lower_bound": 19.0,
+    "selected": [
+      0,
+      2,
+      9,
+      10,
+      15,
+      20,
+      32,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0058327000000000006
+  },
+  "test_topology-0010-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      4,
+      7,
+      11,
+      13,
+      25,
+      26,
+      28,
+      30,
+      36,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.003307
+  },
+  "test_topology-0011-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      1,
+      4,
+      5,
+      6,
+      10,
+      14,
+      25,
+      27,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004303100000000001
+  },
+  "test_topology-0012-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      3,
+      9,
+      11,
+      14,
+      20,
+      24,
+      26,
+      30
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0033159
+  },
+  "test_topology-0013-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      1,
+      7,
+      8,
+      14,
+      21,
+      29,
+      34,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0052395
+  },
+  "test_topology-0014-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      18,
+      19,
+      22,
+      23,
+      32,
+      35,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029719
+  },
+  "test_topology-0015-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      7,
+      8,
+      9,
+      14,
+      32,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0034338000000000003
+  },
+  "test_topology-0016-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      4,
+      11,
+      13,
+      14,
+      17,
+      21,
+      31,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0063461
+  },
+  "test_topology-0017-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      10,
+      13,
+      16,
+      24,
+      31,
+      32,
+      34,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0019065000000000002
+  },
+  "test_topology-0018-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      9,
+      16,
+      17,
+      21,
+      29,
+      31,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0057447
+  },
+  "test_topology-0019-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      2,
+      9,
+      16,
+      21,
+      22,
+      25,
+      29,
+      33,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0027648
+  },
+  "test_topology-0020-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      0,
+      1,
+      12,
+      16,
+      21,
+      26,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.004435000000000001
+  },
+  "test_topology-0021-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      0,
+      5,
+      26,
+      32,
+      35,
+      36,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0102941
+  },
+  "test_topology-0022-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      5,
+      15,
+      16,
+      19,
+      23,
+      25,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0051527000000000005
+  },
+  "test_topology-0023-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      1,
+      3,
+      10,
+      16,
+      18,
+      20,
+      30,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0041547
+  },
+  "test_topology-0024-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 34,
+    "lower_bound": 34.0,
+    "selected": [
+      4,
+      7,
+      11,
+      14,
+      17,
+      20,
+      21,
+      27,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.007643400000000001
+  },
+  "test_topology-0025-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      3,
+      5,
+      6,
+      9,
+      13,
+      20,
+      24,
+      33,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0040950000000000005
+  },
+  "test_topology-0026-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      6,
+      8,
+      14,
+      19,
+      27,
+      30,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.003274
+  },
+  "test_topology-0027-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 25,
+    "lower_bound": 25.0,
+    "selected": [
+      5,
+      6,
+      10,
+      13,
+      17,
+      18,
+      23
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024562
+  },
+  "test_topology-0028-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 18,
+    "lower_bound": 18.0,
+    "selected": [
+      0,
+      2,
+      9,
+      12,
+      13,
+      14,
+      18,
+      20,
+      22,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0029433000000000003
+  },
+  "test_topology-0029-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      0,
+      7,
+      10,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0030051
+  },
+  "test_topology-0030-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 32,
+    "lower_bound": 32.0,
+    "selected": [
+      0,
+      2,
+      5,
+      6,
+      19,
+      21,
+      22,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.005201600000000001
+  },
+  "test_topology-0031-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      1,
+      4,
+      10,
+      13,
+      17,
+      23,
+      26,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0017783
+  },
+  "test_topology-0032-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 19,
+    "lower_bound": 19.0,
+    "selected": [
+      9,
+      25,
+      26,
+      35,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024471000000000002
+  },
+  "test_topology-0033-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      1,
+      2,
+      6,
+      8,
+      15,
+      21,
+      31,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0037956
+  },
+  "test_topology-0034-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      2,
+      5,
+      7,
+      9,
+      30,
+      33,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0079812
+  },
+  "test_topology-0035-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      11,
+      12,
+      25,
+      32,
+      35,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024920000000000003
+  },
+  "test_topology-0036-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 33,
+    "lower_bound": 33.0,
+    "selected": [
+      0,
+      1,
+      8,
+      9,
+      10,
+      19,
+      31,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0054578000000000005
+  },
+  "test_topology-0037-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      10,
+      15,
+      17,
+      22,
+      23,
+      26,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0039493
+  },
+  "test_topology-0038-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 20,
+    "lower_bound": 20.0,
+    "selected": [
+      1,
+      3,
+      13,
+      24,
+      25,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0057794000000000005
+  },
+  "test_topology-0039-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      3,
+      8,
+      14,
+      17,
+      18,
+      21,
+      24,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0048182
+  },
+  "test_topology-0040-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 24,
+    "lower_bound": 24.0,
+    "selected": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      18,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026314000000000003
+  },
+  "test_topology-0041-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      4,
+      6,
+      11,
+      13,
+      20,
+      24,
+      32,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0058761
+  },
+  "test_topology-0042-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      5,
+      21,
+      24,
+      26,
+      28,
+      29,
+      32
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0031203000000000003
+  },
+  "test_topology-0043-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 18,
+    "lower_bound": 18.0,
+    "selected": [
+      1,
+      2,
+      5,
+      29,
+      33,
+      36,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0027019
+  },
+  "test_topology-0044-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      4,
+      10,
+      11,
+      19,
+      21,
+      26,
+      28,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0049093
+  },
+  "test_topology-0045-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      1,
+      7,
+      8,
+      17,
+      18,
+      21,
+      26,
+      31,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0106195
+  },
+  "test_topology-0046-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 30,
+    "lower_bound": 30.0,
+    "selected": [
+      8,
+      9,
+      10,
+      17,
+      18,
+      21,
+      24,
+      28,
+      35
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0032083000000000003
+  },
+  "test_topology-0047-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 23,
+    "lower_bound": 23.0,
+    "selected": [
+      0,
+      11,
+      15,
+      22,
+      31,
+      32,
+      34,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0035998000000000002
+  },
+  "test_topology-0048-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 19,
+    "lower_bound": 19.0,
+    "selected": [
+      8,
+      9,
+      11,
+      13,
+      16,
+      29,
+      31,
+      32,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0023764000000000003
+  },
+  "test_topology-0049-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 29,
+    "lower_bound": 29.0,
+    "selected": [
+      6,
+      13,
+      14,
+      27,
+      31,
+      33,
+      35,
+      36
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0048123
+  },
+  "test_topology-0050-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      0,
+      8,
+      9,
+      13,
+      21,
+      22,
+      32,
+      33,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0036686
+  },
+  "test_topology-0051-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      0,
+      5,
+      8,
+      16,
+      22,
+      23,
+      30,
+      34
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.005527600000000001
+  },
+  "test_topology-0052-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 28,
+    "lower_bound": 28.0,
+    "selected": [
+      13,
+      21,
+      24,
+      26,
+      29,
+      34,
+      35,
+      37
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0039611
+  },
+  "test_topology-0053-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 27,
+    "lower_bound": 27.0,
+    "selected": [
+      0,
+      2,
+      4,
+      6,
+      26,
+      30,
+      33,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0040820000000000006
+  },
+  "test_topology-0054-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 17,
+    "lower_bound": 17.0,
+    "selected": [
+      6,
+      8,
+      12,
+      20,
+      22,
+      23,
+      24,
+      29,
+      30
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0026834000000000003
+  },
+  "test_topology-0055-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      12,
+      13,
+      14,
+      15,
+      37,
+      38,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0065182
+  },
+  "test_topology-0056-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 18,
+    "lower_bound": 18.0,
+    "selected": [
+      3,
+      4,
+      6,
+      14,
+      16,
+      19,
+      30,
+      36,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0060273
+  },
+  "test_topology-0057-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 22,
+    "lower_bound": 22.0,
+    "selected": [
+      4,
+      9,
+      19,
+      22,
+      28,
+      29,
+      34,
+      37,
+      39
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0043744000000000005
+  },
+  "test_topology-0058-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 21,
+    "lower_bound": 21.0,
+    "selected": [
+      0,
+      1,
+      4,
+      8,
+      21,
+      23,
+      26,
+      33
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0024817000000000003
+  },
+  "test_topology-0059-random": {
+    "certified_optimal": true,
+    "incumbent_cost": 26,
+    "lower_bound": 26.0,
+    "selected": [
+      11,
+      13,
+      18,
+      26,
+      29,
+      35,
+      37,
+      38
+    ],
+    "solver_metadata": {
+      "backend": "OR_TOOLS_CP_SAT",
+      "hint": "GR+P",
+      "ortools_version": "9.15.6755",
+      "random_seed": 0,
+      "time_limit_s": 20.0,
+      "workers": 1
+    },
+    "status": "OPTIMAL",
+    "wall_time_s": 0.0078732
+  }
+}

@@ -1,0 +1,39 @@
+Problem: Minimum Weighted Dominating Set on a simple undirected graph.
+Each vertex has positive integer cost. Select vertices with minimum total
+cost so that every vertex is selected or adjacent to a selected vertex.
+This is an offline problem: the whole graph and all costs are known.
+Connectivity or independence of the selected set is NOT required.
+
+The fixed constructor repeatedly scores every unselected vertex v whose
+closed neighborhood covers at least one currently uncovered vertex.
+A vertex already covered may still be selected. The greatest score wins.
+Ties prefer lower original cost, then lower vertex ID. Each chosen vertex
+covers itself and its neighbors. Construction ends when everything is
+covered. The host then removes redundant selected vertices in descending
+cost order, with ascending ID for ties. You cannot modify this procedure.
+
+Available scalar features for each candidate v:
+- gain = newly covered vertex count / currently uncovered vertex count;
+- cost = vertex cost / mean vertex cost of this instance;
+- rarity = mean of 1 / closed-neighborhood-size(u), over the newly covered
+  vertices u. The denominator counts all possible covering vertices of u;
+- overlap = 1 - newly covered count / closed-neighborhood-size(v);
+- remaining = currently uncovered vertex count / total vertex count.
+
+Only these five feature names are allowed. Features are exact rationals.
+The greedy reference is div(gain, cost). Lower final total cost is better.
+Search quality is the mean final-cost ratio to the same pruned greedy
+reference over fixed training instances. No test information is available.
+
+Allowed expressions: constants, feature names, parentheses, unary minus,
+addition, subtraction, multiplication, and calls to div(a,b), min(a,b),
+max(a,b), abs(a). No other operators, functions, syntax, variables or IDs.
+Constants use ordinary decimal notation, at most 3 decimal places, and
+absolute value at most 5. Negative values use unary minus.
+
+Protected division: div(a,b) = a/b when abs(b) >= 0.000001; otherwise use
+positive 0.000001 for a nonnegative denominator, and negative 0.000001 for
+a negative denominator. Any intermediate magnitude above 1000000 is invalid.
+Numerators and denominators may not exceed 2048 bits.
+Maximum expression length: 512 characters; logical AST nodes: 64; depth: 8.
+Avoid unnecessary complexity. Scores may be negative; ranking is what matters.

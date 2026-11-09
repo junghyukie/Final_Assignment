@@ -1,0 +1,139 @@
+\section{COVER-EVO Method}
+
+\subsection{Fixed Construction and Pruning}
+
+COVER-EVO uses a fixed greedy construction procedure in
+which only the vertex-scoring function is evolved. Starting
+with an empty dominating set $D=\varnothing$ and uncovered
+vertices $U=V$, the algorithm repeatedly selects the
+unselected vertex $v$ with the highest score $f(v,U)$
+among those satisfying $|N[v]\cap U|>0$. The selected
+vertex is added to $D$, and its closed neighborhood is
+removed from $U$. Ties are resolved by lower vertex cost,
+then lower vertex ID. Previously covered vertices remain
+eligible if they can cover additional uncovered vertices.
+
+Once all vertices are covered, a deterministic pruning
+pass examines selected vertices in descending cost order,
+breaking ties by ascending ID. A vertex is removed only
+if the remaining set still dominates the graph. This
+construction and pruning procedure is shared by all
+scoring-based methods.
+
+Feasibility and objective values are independently
+verified against the original graph. Operational failures
+receive a penalty equal to the cost of selecting all
+vertices and remain included in evaluation statistics.
+
+\subsection{Scoring Features and DSL}
+
+For a candidate vertex $v$, define its newly covered
+vertices as $A_v=N[v]\cap U$, coverage gain
+$k_v=|A_v|$, and mean vertex cost
+$\bar c=n^{-1}\sum_{v\in V}c_v$.
+The scoring language exposes five features:
+\begin{align}
+g_v &= \frac{k_v}{|U|},
+&q_v &= \frac{c_v}{\bar c}, \notag\\
+r_v &= \frac{1}{k_v}\sum_{u\in A_v}
+       \frac{1}{|N[u]|},
+&o_v &= 1-\frac{k_v}{|N[v]|},
+\label{eq:features}\\
+t &= \frac{|U|}{n}. &&
+\notag
+\end{align}
+
+Here, $g_v$ measures normalized coverage gain, $q_v$
+normalized selection cost, and $r_v$ the average rarity
+of newly covered vertices. The overlap feature $o_v$
+measures the fraction of the candidate's neighborhood
+already covered, while $t$ represents the remaining
+uncovered fraction. Rarity is computed using original
+neighborhood sizes rather than dynamically updated
+degrees.
+
+\begin{samepage}
+Programs are scalar expressions over these features and bounded constants,
+using arithmetic, protected division, minimum, maximum and absolute value.
+Control flow, assignments, imports and external calls are forbidden.
+The repository specifies expression-size limits and numerical safeguards.\par
+\end{samepage}
+
+The initial greedy seed is
+$f_0(v,U)=g_v/q_v$, which induces the same ranking
+as $k_v/c_v$. I additionally consider a handcrafted
+rarity-weighted rule:
+\begin{equation}
+f_{\mathrm{RGR}}(v,U)
+    =\frac{g_vr_v}{q_v}.
+\label{eq:rarity}
+\end{equation}
+
+GR+P denotes standard weighted greedy with pruning,
+while RGR+P uses Eq.~\eqref{eq:rarity} with the same
+construction and pruning procedure. RGR+P is a rarity-weighted coverage
+priority; Section~\ref{sec:rarity_form} derives its equivalence to an
+inverse-neighborhood-weighted demand sum per unit cost. Candidate
+priorities are evaluated using exact rational arithmetic.
+Reverse-delete provides an additional baseline by
+starting from all vertices and applying the pruning
+procedure directly.
+
+\subsection{LLM-Guided Discovery}
+
+Each search run begins with the greedy seed and evaluates candidate
+programs on the training graphs using mean cost ratio to GR+P.
+An archive maintains the four best candidates, ranked
+by training fitness, AST size, and program hash.
+Every proposal attempt counts toward the budget without replacement.
+
+\textbf{IND} generates candidates independently,
+without incorporating previous programs or evaluation
+results into the generation prompt. It nevertheless
+uses the same evaluator, archive, and final selection
+procedure as the evolutionary conditions.
+
+\textbf{EVO-P} conditions new proposals on up to two
+sampled archive parents, providing their expressions
+and rationales without explicit numerical performance
+feedback.
+
+\textbf{EVO-F} follows the same parent-conditioned
+procedure but additionally provides numerical training
+summaries and descriptors of poorly performing cases.
+Both evolutionary conditions begin with eight fresh
+proposals and subsequently include one fresh proposal
+after every four parent-conditioned attempts.
+
+EVO-P still uses training fitness for archive selection. EVO-F versus
+EVO-P therefore compares a prompt-feedback policy with a parent-only
+policy, both using fitness-based selection. It adds numerical summaries
+and case descriptors, while subsequent archives and parent exposure can
+diverge. The contrast concerns complete proposal policies.
+EVO-F versus IND compares the combined parent-conditioned and
+feedback-guided policy with independent generation.
+
+\subsection{Controls and Winner Selection}
+
+To assess whether simple parameter variation can
+produce competitive heuristics, I include RS-PARAM,
+a random search over the scoring family
+\begin{equation}
+f_{a,b,d}(v,U)=
+\frac{g_v}{q_v}
+(1+ar_v+bo_v+dr_vt).
+\label{eq:rs}
+\end{equation}
+
+Coefficients $a,b,d$ are independently sampled from
+$\{-2.000,-1.999,\ldots,2.000\}$. RS-PARAM uses
+the same proposal-attempt budget, training evaluator,
+greedy seed, and validation procedure, without LLM
+calls. Its parameterized search space is not identical
+to the full expression language.
+
+Following discovery, the three highest-ranked training
+candidates from each run are evaluated on the validation
+graphs. One winner is selected per run and frozen before
+held-out testing. Validation results are never supplied
+to the proposal model.

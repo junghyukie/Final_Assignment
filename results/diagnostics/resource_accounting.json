@@ -1,0 +1,42 @@
+[
+  {
+    "full_evaluator_wall_time_s": null,
+    "input_tokens": 234835,
+    "method": "EVO_F",
+    "output_tokens": 51029,
+    "recorded_solver_calls": 3660,
+    "recorded_training_solver_ns": 105206120400,
+    "scope": "sum of stored training solve times, including seed; excludes reference setup, parsing, loop overhead, API waits",
+    "total_tokens": 285864
+  },
+  {
+    "full_evaluator_wall_time_s": null,
+    "input_tokens": 167318,
+    "method": "EVO_P",
+    "output_tokens": 26003,
+    "recorded_solver_calls": 4260,
+    "recorded_training_solver_ns": 145854179600,
+    "scope": "sum of stored training solve times, including seed; excludes reference setup, parsing, loop overhead, API waits",
+    "total_tokens": 193321
+  },
+  {
+    "full_evaluator_wall_time_s": null,
+    "input_tokens": 146309,
+    "method": "IND",
+    "output_tokens": 13940,
+    "recorded_solver_calls": 1920,
+    "recorded_training_solver_ns": 58224568700,
+    "scope": "sum of stored training solve times, including seed; excludes reference setup, parsing, loop overhead, API waits",
+    "total_tokens": 160249
+  },
+  {
+    "full_evaluator_wall_time_s": null,
+    "input_tokens": 0,
+    "method": "RS_PARAM",
+    "output_tokens": 0,
+    "recorded_solver_calls": 6150,
+    "recorded_training_solver_ns": 323633661500,
+    "scope": "sum of stored training solve times, including seed; excludes reference setup, parsing, loop overhead, API waits",
+    "total_tokens": 0
+  }
+]

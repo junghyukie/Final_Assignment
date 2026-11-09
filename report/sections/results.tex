@@ -1,0 +1,120 @@
+\section{Results}
+\suppressfloats[t]
+
+\subsection{Primary Held-Out Performance}
+
+
+EVO-F has the lowest mean excess among LLM strategies, but no discovered
+method outperforms GR+P on average (Table~\ref{tab:primary}).
+The primary EVO-F--IND contrast is $-0.148$ percentage points
+(original run-index-paired 95\% CI: $[-0.699,0.220]$).
+The secondary EVO-F--EVO-P contrast is $-0.305$ points
+($[-1.004,0.174]$); EVO-P--IND is $+0.157$
+($[-0.659,1.026]$). These intervals establish neither a reliable advantage
+nor equivalence.
+
+\begin{samepage}
+Independent method-run resampling gives intervals of $[-0.890,0.512]$
+for EVO-F--IND and $[-1.049,0.314]$ for EVO-F--EVO-P
+(Figure~\ref{fig:transfer}), leaving the interpretation unchanged. Greedy is already optimal on 40 of 60 graphs.
+On the remaining 20, EVO-F closes no mean headroom ($-0.25\%$ of the
+available gap). Limited headroom therefore constrains, but does not fully
+explain, the lack of improvement.\par
+\end{samepage}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/primary_bootstrap_sensitivity.pdf}
+\caption{Primary and secondary contrasts under the original run-index-paired
+bootstrap and the independent-run sensitivity. Both use paired graph indices,
+five runs per strategy and 5,000 draws. Negative values favor the first
+method; all intervals contain zero.}
+\label{fig:transfer}
+\end{figure}
+
+\subsection{Synthetic Distribution Shifts}
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\caption{Mean excess cost (\%) on synthetic shifts, each with 60 graphs.
+Hub-cost variants share the primary topologies and cost multisets.
+Size80 changes graph size; BA changes topology. Primary ID/random values
+are in Table~\ref{tab:primary}. Negative values favor the method.}
+\label{tab:shift}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Method & Hub-exp. & Hub-cheap & Size80 & BA\\
+\midrule
+\input{tables/shift_focus_rows}
+\end{tabular*}
+\end{table}
+
+Controlled cost--degree alignment changes performance
+(Table~\ref{tab:shift}). All LLM strategies improve on greedy on average with
+hub-expensive costs, yet the handcrafted RGR+P rule improves more.
+Because topology and the cost multiset are fixed, this comparison concerns
+cost allocation rather than cost scale.
+
+On size and topology shifts, the LLM strategies lose to greedy on average.
+RGR+P improves in both, while RS-PARAM improves only on BA. A useful
+priority exists within the scaffold but is not consistently recovered by
+evolution. Section~\ref{sec:rarity_form} analyzes its rarity weighting.
+
+\subsection{Published T1/T2 Transfer}
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\caption{External transfer: mean excess (\%) and median first-call runtime
+(seconds, T1/T2). Each family has 24 weighted instances on shared topologies;
+search methods use all five frozen winners. Timing describes the reference
+interpreter. Full outcome counts and medians remain in the repository.}
+\label{tab:external}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrr@{}}
+\toprule
+Method & T1 excess & T2 excess & \shortstack{Time\\T1/T2 (s)}\\
+\midrule
+\input{tables/external_focus_rows}
+\end{tabular*}
+\end{table}
+
+Frozen programs transfer without benchmark-specific tuning.
+EVO-F has higher mean excess than IND and EVO-P in both weight families,
+while RGR+P has the lowest (Table~\ref{tab:external}).
+IND and EVO-P improve slightly on greedy under degree-dependent T2
+weights; EVO-F does not. External family averages therefore show no
+descriptive feedback advantage. Size/density rankings are mixed.
+
+\begin{samepage}
+RGR+P's gains are uneven: its wins/ties/losses against greedy are
+11/11/2 on T1 and 7/15/2 on T2.\par
+\end{samepage}
+
+\begin{samepage}
+All external solutions pass independent feasibility checks. CP-SAT certifies
+only five T2 instances, all at $n=100$, and no T1 instance within its search
+limit; exact-gap statistics on those five cases are not representative
+of either full family.\par
+\end{samepage}
+
+\subsection{Classical Solver at 50 ms}
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\caption{Same-session primary-graph control under a 50 ms end-to-end target.
+Fixed methods have 180 measured calls and EVO-F 900. Late counts calls
+exceeding the target; gaps and hits use certified optima.}
+\label{tab:control}
+\begin{tabular}{lrrrr}
+\toprule
+Method & Gap (\%) & Hits (\%) & Median ms & Late\\
+\midrule
+\input{tables/control_rows}
+\end{tabular}
+\end{table}
+
+CP-SAT50 reaches every primary optimum in every repeat, with median
+latency 7.39 ms versus 14.94 ms for EVO-F and no deadline overrun
+(Table~\ref{tab:control}). On these original $n=40$ graphs, it offers both
+better solution quality and lower median latency for the evaluated reference
+implementation. This comparison concerns neither every possible optimized
+learned heuristic nor the external benchmark's longer certification attempts.

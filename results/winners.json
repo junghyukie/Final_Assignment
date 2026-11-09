@@ -1,0 +1,222 @@
+[
+  {
+    "method": "EVO_F",
+    "run_id": 0,
+    "ast_depth": 2,
+    "ast_nodes": 3,
+    "canonical_expression": "div(gain,cost)",
+    "expression": "div(gain, cost)",
+    "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+    "provenance": "handwritten_seed",
+    "rationale": "Registered greedy seed."
+  },
+  {
+    "method": "EVO_F",
+    "run_id": 1,
+    "ast_depth": 4,
+    "ast_nodes": 7,
+    "canonical_expression": "div((gain+(0.4*rarity)),cost)",
+    "expression": "div(gain + 0.4 * rarity, cost)",
+    "program_hash": "b9259acc52dd39902cd07208a69f539baff185adf4dcdec334ccd8b5363fb408",
+    "provenance": "llm",
+    "rationale": "Incorporates rarity directly into the benefit-to-cost ratio, avoiding scale mismatches caused by subtracting non-ratio penalty terms."
+  },
+  {
+    "method": "EVO_F",
+    "run_id": 2,
+    "ast_depth": 4,
+    "ast_nodes": 7,
+    "canonical_expression": "div((gain+(0.55*rarity)),cost)",
+    "expression": "div(gain + 0.55 * rarity, cost)",
+    "program_hash": "0f60438124cddd196ff47ed691eca81302bae11d81ba5e264cb6f4e3847674c8",
+    "provenance": "llm",
+    "rationale": "Increases the weighting of vertex rarity to 0.55 relative to raw coverage gain, encouraging stronger prioritization of hard-to-cover vertices."
+  },
+  {
+    "method": "EVO_F",
+    "run_id": 3,
+    "ast_depth": 2,
+    "ast_nodes": 3,
+    "canonical_expression": "div(gain,cost)",
+    "expression": "div(gain, cost)",
+    "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+    "provenance": "handwritten_seed",
+    "rationale": "Registered greedy seed."
+  },
+  {
+    "method": "EVO_F",
+    "run_id": 4,
+    "ast_depth": 5,
+    "ast_nodes": 13,
+    "canonical_expression": "((div(gain,cost)+(0.5*div(rarity,cost)))-(0.2*overlap))",
+    "expression": "div(gain, cost) + 0.5 * div(rarity, cost) - 0.2 * overlap",
+    "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+    "provenance": "llm",
+    "rationale": "Extends the greedy baseline gain/cost by prioritizing vertices that cover hard-to-cover (high rarity) vertices while discouraging high overlap with already covered neighbors."
+  },
+  {
+    "method": "EVO_P",
+    "run_id": 0,
+    "ast_depth": 5,
+    "ast_nodes": 11,
+    "canonical_expression": "(div((gain+(0.4*rarity)),cost)-(0.2*overlap))",
+    "expression": "div(gain + 0.4 * rarity, cost) - 0.2 * overlap",
+    "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+    "provenance": "llm",
+    "rationale": "Combines gain and rarity directly in the numerator to share the cost denominator cleanly, while retaining a mild overlap penalty to reduce coverage redundancy before host pruning."
+  },
+  {
+    "method": "EVO_P",
+    "run_id": 1,
+    "ast_depth": 5,
+    "ast_nodes": 11,
+    "canonical_expression": "(div((gain+(0.5*rarity)),cost)-(0.2*overlap))",
+    "expression": "div(gain + 0.5 * rarity, cost) - 0.2 * overlap",
+    "program_hash": "50443185a6ceb5a08bdaecf550352410536ecd45a9415cb9d29a7a0948ebd6d3",
+    "provenance": "llm",
+    "rationale": "Directly rewards coverage efficiency and rare vertex coverage in the primary density term while subtracting a penalty for selecting vertices with high redundant neighborhood overlap."
+  },
+  {
+    "method": "EVO_P",
+    "run_id": 2,
+    "ast_depth": 2,
+    "ast_nodes": 3,
+    "canonical_expression": "div(gain,cost)",
+    "expression": "div(gain, cost)",
+    "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+    "provenance": "handwritten_seed",
+    "rationale": "Registered greedy seed."
+  },
+  {
+    "method": "EVO_P",
+    "run_id": 3,
+    "ast_depth": 2,
+    "ast_nodes": 3,
+    "canonical_expression": "div(gain,cost)",
+    "expression": "div(gain, cost)",
+    "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+    "provenance": "handwritten_seed",
+    "rationale": "Registered greedy seed."
+  },
+  {
+    "method": "EVO_P",
+    "run_id": 4,
+    "ast_depth": 5,
+    "ast_nodes": 11,
+    "canonical_expression": "(div((gain+(0.4*rarity)),cost)-(0.2*overlap))",
+    "expression": "div(gain + 0.4 * rarity, cost) - 0.2 * overlap",
+    "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+    "provenance": "llm",
+    "rationale": "Combines gain and rarity directly in the numerator to share the cost denominator cleanly, while retaining a mild overlap penalty to reduce coverage redundancy before host pruning."
+  },
+  {
+    "method": "IND",
+    "run_id": 0,
+    "ast_depth": 2,
+    "ast_nodes": 3,
+    "canonical_expression": "div(gain,cost)",
+    "expression": "div(gain, cost)",
+    "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+    "provenance": "handwritten_seed",
+    "rationale": "Registered greedy seed."
+  },
+  {
+    "method": "IND",
+    "run_id": 1,
+    "ast_depth": 2,
+    "ast_nodes": 3,
+    "canonical_expression": "div(gain,cost)",
+    "expression": "div(gain, cost)",
+    "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+    "provenance": "handwritten_seed",
+    "rationale": "Registered greedy seed."
+  },
+  {
+    "method": "IND",
+    "run_id": 2,
+    "ast_depth": 5,
+    "ast_nodes": 13,
+    "canonical_expression": "((div(gain,cost)+(0.35*div(rarity,cost)))-(0.2*overlap))",
+    "expression": "div(gain, cost) + 0.35 * div(rarity, cost) - 0.2 * overlap",
+    "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+    "provenance": "llm",
+    "rationale": "Extends the greedy baseline by adding a weighted rarity component to prioritize hard-to-cover vertices while penalizing high neighborhood overlap with already covered nodes."
+  },
+  {
+    "method": "IND",
+    "run_id": 3,
+    "ast_depth": 2,
+    "ast_nodes": 3,
+    "canonical_expression": "div(gain,cost)",
+    "expression": "div(gain, cost)",
+    "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+    "provenance": "handwritten_seed",
+    "rationale": "Registered greedy seed."
+  },
+  {
+    "method": "IND",
+    "run_id": 4,
+    "ast_depth": 5,
+    "ast_nodes": 13,
+    "canonical_expression": "((div(gain,cost)+(0.35*div(rarity,cost)))-(0.2*overlap))",
+    "expression": "div(gain, cost) + 0.35 * div(rarity, cost) - 0.2 * overlap",
+    "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+    "provenance": "llm",
+    "rationale": "Extends the greedy baseline by adding a weighted rarity component to prioritize hard-to-cover vertices while penalizing high neighborhood overlap with already covered nodes."
+  },
+  {
+    "method": "RS_PARAM",
+    "run_id": 0,
+    "ast_depth": 7,
+    "ast_nodes": 21,
+    "canonical_expression": "(div(gain,cost)*(((1+((-0.915)*rarity))+(0.931*overlap))+(((-0.055)*rarity)*remaining)))",
+    "expression": "div(gain,cost)*(1+(-0.915)*rarity+0.931*overlap+(-0.055)*rarity*remaining)",
+    "program_hash": "afdd4c71732abf57ef8ff9556811b14067280a1e9fe3b9e269ad84df79e4f089",
+    "provenance": "parameter_search",
+    "rationale": "RS-PARAM fixture coefficients a=-915, b=931, d=-55."
+  },
+  {
+    "method": "RS_PARAM",
+    "run_id": 1,
+    "ast_depth": 7,
+    "ast_nodes": 20,
+    "canonical_expression": "(div(gain,cost)*(((1+((-1.568)*rarity))+(1.981*overlap))+((0.792*rarity)*remaining)))",
+    "expression": "div(gain,cost)*(1+(-1.568)*rarity+1.981*overlap+0.792*rarity*remaining)",
+    "program_hash": "6a41d2edd6624a978ff65d44b88905be2727795457a913ae3a67a9e92fe5416b",
+    "provenance": "parameter_search",
+    "rationale": "RS-PARAM fixture coefficients a=-1568, b=1981, d=792."
+  },
+  {
+    "method": "RS_PARAM",
+    "run_id": 2,
+    "ast_depth": 6,
+    "ast_nodes": 20,
+    "canonical_expression": "(div(gain,cost)*(((1+(0.275*rarity))+(0.361*overlap))+(((-1.513)*rarity)*remaining)))",
+    "expression": "div(gain,cost)*(1+0.275*rarity+0.361*overlap+(-1.513)*rarity*remaining)",
+    "program_hash": "ae8e2e93173cb97536d86d5cfa50611045bdf164fbb63a02ba42dc5b665f1827",
+    "provenance": "parameter_search",
+    "rationale": "RS-PARAM fixture coefficients a=275, b=361, d=-1513."
+  },
+  {
+    "method": "RS_PARAM",
+    "run_id": 3,
+    "ast_depth": 7,
+    "ast_nodes": 21,
+    "canonical_expression": "(div(gain,cost)*(((1+((-0.953)*rarity))+(0.65*overlap))+(((-1.137)*rarity)*remaining)))",
+    "expression": "div(gain,cost)*(1+(-0.953)*rarity+0.65*overlap+(-1.137)*rarity*remaining)",
+    "program_hash": "87ebb8ac116c716cee4e4cd2247bd7cce315fef52b0a7fbf477d36a04849794f",
+    "provenance": "parameter_search",
+    "rationale": "RS-PARAM fixture coefficients a=-953, b=650, d=-1137."
+  },
+  {
+    "method": "RS_PARAM",
+    "run_id": 4,
+    "ast_depth": 7,
+    "ast_nodes": 20,
+    "canonical_expression": "(div(gain,cost)*(((1+((-1.248)*rarity))+(1.522*overlap))+((0.049*rarity)*remaining)))",
+    "expression": "div(gain,cost)*(1+(-1.248)*rarity+1.522*overlap+0.049*rarity*remaining)",
+    "program_hash": "1c325c4216d7ed5d58d880988d5be553959a0c0311911907ef8c12d76b412064",
+    "provenance": "parameter_search",
+    "rationale": "RS-PARAM fixture coefficients a=-1248, b=1522, d=49."
+  }
+]

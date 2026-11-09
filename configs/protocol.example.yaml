@@ -1,0 +1,105 @@
+protocol_version: "coverevo-v1"
+seed_namespace: "coverevo-v1"
+mode: "OFFLINE"
+allow_live: false
+
+problem:
+  objective: "minimum_weighted_dominating_set"
+  undirected: true
+  self_coverage: true
+  positive_integer_costs: true
+  require_connected_solution: false
+
+data:
+  primary_family: "fixed_edge_geometric"
+  n_train: 40
+  n_test_id: 40
+  n_test_size: 80
+  attachment_m: 3
+  edge_budget_formula: "m * (n - m)"
+  cost_min: 1
+  cost_max: 10
+  pilot_graphs: 12
+  train_graphs: 30
+  validation_graphs: 20
+  test_id_graphs: 60
+  test_size_graphs: 60
+  test_topology_graphs: 60
+  id_cost_variants: [random, hub_expensive, hub_cheap]
+  keep_disconnected: true
+  relabel_vertices: true
+
+solver:
+  arithmetic: "fraction_reference"
+  greedy_reference_score: "exact_gain_over_original_cost"
+  prune: true
+  pruning_order: "cost_desc_then_id_asc"
+  score_tie_break: "cost_asc_then_id_asc"
+  failure_operational_cost: "all_vertices_unpruned"
+
+dsl:
+  features: [gain, cost, rarity, overlap, remaining]
+  functions: [div, min, max, abs]
+  max_expression_chars: 512
+  max_logical_nodes: 64
+  max_depth: 8
+  constant_abs_max: 5
+  constant_decimal_places: 3
+  division_epsilon: "0.000001"
+  intermediate_abs_max: "1000000"
+  rational_bit_limit: 2048
+  max_response_bytes: 16384
+
+search:
+  methods: [IND, EVO_P, EVO_F, RS_PARAM]
+  runs: 5
+  slots_per_run: 40
+  archive_size: 4
+  initial_fresh_slots: 8
+  mutation_fresh_period: 5
+  validation_shortlist: 3
+  all_validation_failed: "FALLBACK_TO_REGISTERED_SEED"
+  include_greedy_seed: true
+  manual_repair: false
+  count_invalid_and_duplicates: true
+  auto_post_retries: 0
+
+model:
+  id: "google/gemini-3.6-flash"
+  canonical_slug_verified: null
+  provider_slug_verified: null
+  capabilities_snapshot: null
+  temperature: 0.8
+  max_tokens: 2048
+  reasoning_effort: "low"
+  response_format: "json_object"
+  stream: false
+  allow_model_fallbacks: false
+  allow_provider_fallbacks: false
+  require_parameters: true
+
+budget:
+  initial_verified_allowance_usd: null
+  local_cap_usd: null
+  planning_cap_fraction: "0.80"
+  pilot_max_usd: "0.50"
+  pilot_max_allowance_fraction: "0.05"
+  pilot_max_requests: 12
+  concurrent_requests: 1
+  unknown_cost_action: "STOP_AND_RECONCILE"
+
+oracle:
+  time_limit_s: 20.0
+  workers: 1
+  brute_force_max_n: 14
+  require_independent_solution_check: true
+
+analysis:
+  primary_split: "test_id"
+  primary_variant: "random"
+  primary_contrast: [EVO_F, IND]
+  bootstrap_draws: 5000
+  bootstrap: "paired_crossed_run_and_base_graph"
+  runtime_repeats: 3
+  mechanism_run_id: 0
+  test_requires_selection_manifest: true

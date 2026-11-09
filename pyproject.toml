@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coverevo"
+version = "0.1.0"
+description = "Controlled LLM-guided heuristic discovery for MWDS"
+readme = "readme.md"
+requires-python = ">=3.11"
+dependencies = [
+  "networkx>=3.6,<4",
+  "numpy>=2,<3",
+  "ortools>=9.12,<10",
+  "PyYAML>=6,<7",
+  "requests>=2.32,<3",
+  "urllib3>=2.8,<3",
+  "matplotlib>=3.9,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+coverevo = "coverevo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers"
+pythonpath = ["src"]
+markers = [
+  "live: requires explicit approval and may access a paid remote provider",
+]

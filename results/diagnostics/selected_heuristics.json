@@ -1,0 +1,494 @@
+{
+  "scope": "descriptive analysis of saved frozen programs; no new experiments",
+  "reproduction_command": "python scripts/analyze_selected.py",
+  "nonseed_runs": [
+    1,
+    2,
+    4
+  ],
+  "behavioral_totals": {
+    "observations": 300,
+    "construction_order_different": 161,
+    "pre_pruning_set_different": 61,
+    "final_set_different": 44,
+    "final_cost_different": 23,
+    "pre_different_final_same": 17,
+    "final_different_cost_equal": 21
+  },
+  "per_winner_behavior": [
+    {
+      "run_id": 0,
+      "expression": "div(gain, cost)",
+      "is_seed": true,
+      "observations": 60,
+      "construction_order_different": 0,
+      "pre_pruning_set_different": 0,
+      "final_set_different": 0,
+      "final_cost_different": 0,
+      "pre_different_final_same": 0,
+      "final_different_cost_equal": 0
+    },
+    {
+      "run_id": 1,
+      "expression": "div(gain + 0.4 * rarity, cost)",
+      "is_seed": false,
+      "observations": 60,
+      "construction_order_different": 51,
+      "pre_pruning_set_different": 13,
+      "final_set_different": 10,
+      "final_cost_different": 4,
+      "pre_different_final_same": 3,
+      "final_different_cost_equal": 6
+    },
+    {
+      "run_id": 2,
+      "expression": "div(gain + 0.55 * rarity, cost)",
+      "is_seed": false,
+      "observations": 60,
+      "construction_order_different": 55,
+      "pre_pruning_set_different": 15,
+      "final_set_different": 10,
+      "final_cost_different": 4,
+      "pre_different_final_same": 5,
+      "final_different_cost_equal": 6
+    },
+    {
+      "run_id": 3,
+      "expression": "div(gain, cost)",
+      "is_seed": true,
+      "observations": 60,
+      "construction_order_different": 0,
+      "pre_pruning_set_different": 0,
+      "final_set_different": 0,
+      "final_cost_different": 0,
+      "pre_different_final_same": 0,
+      "final_different_cost_equal": 0
+    },
+    {
+      "run_id": 4,
+      "expression": "div(gain, cost) + 0.5 * div(rarity, cost) - 0.2 * overlap",
+      "is_seed": false,
+      "observations": 60,
+      "construction_order_different": 55,
+      "pre_pruning_set_different": 33,
+      "final_set_different": 24,
+      "final_cost_different": 15,
+      "pre_different_final_same": 9,
+      "final_different_cost_equal": 9
+    }
+  ],
+  "rarity_ablations": [
+    {
+      "group": "nonseed",
+      "runs": [
+        1,
+        2,
+        4
+      ],
+      "split": "train",
+      "intervention": "original",
+      "observations": 90,
+      "mean_excess_percent_exact": "-1226735641/5118540336",
+      "mean_excess_percent": -0.239665131164847
+    },
+    {
+      "group": "nonseed",
+      "runs": [
+        1,
+        2,
+        4
+      ],
+      "split": "train",
+      "intervention": "rarity_zero",
+      "observations": 90,
+      "mean_excess_percent_exact": "8929415371/25592701680",
+      "mean_excess_percent": 0.34890475740504157
+    },
+    {
+      "group": "nonseed",
+      "runs": [
+        1,
+        2,
+        4
+      ],
+      "split": "test_id",
+      "intervention": "original",
+      "observations": 180,
+      "mean_excess_percent_exact": "13206752295481/25308622691352",
+      "mean_excess_percent": 0.5218281712340581
+    },
+    {
+      "group": "nonseed",
+      "runs": [
+        1,
+        2,
+        4
+      ],
+      "split": "test_id",
+      "intervention": "rarity_zero",
+      "observations": 180,
+      "mean_excess_percent_exact": "268515176933/804725681760",
+      "mean_excess_percent": 0.3336729310610985
+    },
+    {
+      "group": "nonseed",
+      "runs": [
+        1,
+        2,
+        4
+      ],
+      "split": "test_topology",
+      "intervention": "original",
+      "observations": 180,
+      "mean_excess_percent_exact": "1744763331859/728085140640",
+      "mean_excess_percent": 2.3963726691706984
+    },
+    {
+      "group": "nonseed",
+      "runs": [
+        1,
+        2,
+        4
+      ],
+      "split": "test_topology",
+      "intervention": "rarity_zero",
+      "observations": 180,
+      "mean_excess_percent_exact": "50536795/616648032",
+      "mean_excess_percent": 0.08195403597752826
+    },
+    {
+      "group": "all_five",
+      "runs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "train",
+      "intervention": "original",
+      "observations": 150,
+      "mean_excess_percent_exact": "-1226735641/8530900560",
+      "mean_excess_percent": -0.1437990786989082
+    },
+    {
+      "group": "all_five",
+      "runs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "train",
+      "intervention": "rarity_zero",
+      "observations": 150,
+      "mean_excess_percent_exact": "8929415371/42654502800",
+      "mean_excess_percent": 0.20934285444302494
+    },
+    {
+      "group": "all_five",
+      "runs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "test_id",
+      "intervention": "original",
+      "observations": 300,
+      "mean_excess_percent_exact": "13206752295481/42181037818920",
+      "mean_excess_percent": 0.3130969027404349
+    },
+    {
+      "group": "all_five",
+      "runs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "test_id",
+      "intervention": "rarity_zero",
+      "observations": 300,
+      "mean_excess_percent_exact": "268515176933/1341209469600",
+      "mean_excess_percent": 0.20020375863665912
+    },
+    {
+      "group": "all_five",
+      "runs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "test_topology",
+      "intervention": "original",
+      "observations": 300,
+      "mean_excess_percent_exact": "1744763331859/1213475234400",
+      "mean_excess_percent": 1.4378236015024188
+    },
+    {
+      "group": "all_five",
+      "runs": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "test_topology",
+      "intervention": "rarity_zero",
+      "observations": 300,
+      "mean_excess_percent_exact": "10107359/205549344",
+      "mean_excess_percent": 0.04917242158651696
+    }
+  ],
+  "per_winner_rarity_ablations": [
+    {
+      "run_id": 1,
+      "split": "train",
+      "original": -0.2564102564102564,
+      "rarity_zero": 0.0
+    },
+    {
+      "run_id": 1,
+      "split": "test_id",
+      "original": 0.23493195642806322,
+      "rarity_zero": 0.0
+    },
+    {
+      "run_id": 1,
+      "split": "test_topology",
+      "original": 0.7996464904023222,
+      "rarity_zero": 0.0
+    },
+    {
+      "run_id": 2,
+      "split": "train",
+      "original": -0.2564102564102564,
+      "rarity_zero": 0.0
+    },
+    {
+      "run_id": 2,
+      "split": "test_id",
+      "original": 0.23493195642806322,
+      "rarity_zero": 0.0
+    },
+    {
+      "run_id": 2,
+      "split": "test_topology",
+      "original": 3.2469236045058807,
+      "rarity_zero": 0.0
+    },
+    {
+      "run_id": 4,
+      "split": "train",
+      "original": -0.20617488067402817,
+      "rarity_zero": 1.0467142722151248
+    },
+    {
+      "run_id": 4,
+      "split": "test_id",
+      "original": 1.0956206008460478,
+      "rarity_zero": 1.0010187931832957
+    },
+    {
+      "run_id": 4,
+      "split": "test_topology",
+      "original": 3.1425479126038915,
+      "rarity_zero": 0.24586210793258478
+    }
+  ],
+  "illustrative_traces": [
+    {
+      "label": "primary_win",
+      "instance_id": "test_id-0014-random",
+      "run_id": 1,
+      "first_different_step_one_based": 3,
+      "chosen_evo_greedy": [
+        35,
+        15
+      ],
+      "candidate_features": [
+        {
+          "cost": "80/237",
+          "gain": "1/4",
+          "overlap": "2/9",
+          "rarity": "641/4410",
+          "remaining": "7/10"
+        },
+        {
+          "cost": "80/237",
+          "gain": "1/4",
+          "overlap": "1/8",
+          "rarity": "433/3528",
+          "remaining": "7/10"
+        }
+      ],
+      "candidate_scores": [
+        "1073531/1176000",
+        "104201/117600"
+      ],
+      "greedy_priorities": [
+        "7/2",
+        "7/2"
+      ],
+      "evo_without_rarity_scores": [
+        "237/320",
+        "237/320"
+      ],
+      "final_costs": {
+        "EVO_F": 29,
+        "GR_P": 31,
+        "RGR_P": 29
+      },
+      "optimum": 29
+    },
+    {
+      "label": "ba_loss_rarity_win",
+      "instance_id": "test_topology-0044-random",
+      "run_id": 4,
+      "first_different_step_one_based": 5,
+      "chosen_evo_greedy": [
+        30,
+        19
+      ],
+      "candidate_features": [
+        {
+          "cost": "40/217",
+          "gain": "1/19",
+          "overlap": "3/4",
+          "rarity": "1/4",
+          "remaining": "19/40"
+        },
+        {
+          "cost": "80/217",
+          "gain": "4/19",
+          "overlap": "3/7",
+          "rarity": "187/1120",
+          "remaining": "19/40"
+        }
+      ],
+      "candidate_scores": [
+        "4947/6080",
+        "2423481/3404800"
+      ],
+      "greedy_priorities": [
+        "1",
+        "2"
+      ],
+      "evo_without_rarity_scores": [
+        "103/760",
+        "1291/2660"
+      ],
+      "final_costs": {
+        "EVO_F": 34,
+        "GR_P": 33,
+        "RGR_P": 30
+      },
+      "optimum": 30
+    }
+  ],
+  "saved_trace_candidate_checks": 1608,
+  "rarity_weighted_identity_checks": 1608,
+  "primary_example_relabeling": {
+    "tie": 9,
+    "win": 1
+  },
+  "external_rarity_wins_ties_losses": [
+    {
+      "family": "T1",
+      "wins": 11,
+      "ties": 11,
+      "losses": 2
+    },
+    {
+      "family": "T2",
+      "wins": 7,
+      "ties": 15,
+      "losses": 2
+    }
+  ],
+  "unchanged_bootstrap": {
+    "seed": 4212,
+    "draws": 5000,
+    "runs_per_method": 5,
+    "primary_graphs": 60,
+    "conditional_on": "fixed training corpus",
+    "contrasts": [
+      {
+        "methods": [
+          "EVO_F",
+          "IND"
+        ],
+        "hypothesis_scope": "PRIMARY",
+        "mean_percentage_points": -0.1484356513234745,
+        "per_run_means": [
+          0.0,
+          0.23493195642806322,
+          -0.9188994287317102,
+          0.0,
+          -0.058210784313725485
+        ],
+        "archived_run_index_paired_interval_95": [
+          -0.698664747321053,
+          0.2198361966543523
+        ],
+        "independent_run_paired_graph_interval_95": [
+          -0.8904489307348157,
+          0.5122778154640966
+        ]
+      },
+      {
+        "methods": [
+          "EVO_F",
+          "EVO_P"
+        ],
+        "hypothesis_scope": "SECONDARY",
+        "mean_percentage_points": -0.3050597714926841,
+        "per_run_means": [
+          -0.9975813851597733,
+          -0.8606886444179848,
+          0.23493195642806322,
+          0.0,
+          0.09803921568627452
+        ],
+        "archived_run_index_paired_interval_95": [
+          -1.0042529057214369,
+          0.17398775798548663
+        ],
+        "independent_run_paired_graph_interval_95": [
+          -1.049115235951595,
+          0.3141396037978429
+        ]
+      },
+      {
+        "methods": [
+          "EVO_P",
+          "IND"
+        ],
+        "hypothesis_scope": "SECONDARY",
+        "mean_percentage_points": 0.15662412016920957,
+        "per_run_means": [
+          0.9975813851597733,
+          1.0956206008460478,
+          -1.1538313851597732,
+          0.0,
+          -0.15625
+        ],
+        "archived_run_index_paired_interval_95": [
+          -0.6592492894997112,
+          1.0256278066847577
+        ],
+        "independent_run_paired_graph_interval_95": [
+          -0.5639738045094841,
+          0.9637859393082802
+        ]
+      }
+    ]
+  }
+}

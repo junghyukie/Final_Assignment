@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "attempts": 200,
+      "billed_usd": "0.080585250",
+      "method": "IND",
+      "statuses": {
+        "DUPLICATE": 90,
+        "INVALID_AST": 49,
+        "INVALID_JSON": 1,
+        "INVALID_SCHEMA": 1,
+        "VALID": 59
+      }
+    },
+    {
+      "attempts": 200,
+      "billed_usd": "0.111499875",
+      "method": "EVO_P",
+      "statuses": {
+        "DUPLICATE": 41,
+        "INVALID_AST": 21,
+        "INVALID_SCHEMA": 1,
+        "VALID": 137
+      }
+    },
+    {
+      "attempts": 200,
+      "billed_usd": "0.183373125",
+      "method": "EVO_F",
+      "statuses": {
+        "DUPLICATE": 60,
+        "INVALID_AST": 22,
+        "INVALID_JSON": 1,
+        "VALID": 117
+      }
+    },
+    {
+      "attempts": 200,
+      "billed_usd": "0",
+      "method": "RS_PARAM",
+      "statuses": {
+        "VALID": 200
+      }
+    }
+  ],
+  "scope": "DESCRIPTIVE_FROM_SEALED_DISCOVERY"
+}

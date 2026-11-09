@@ -1,0 +1,1914 @@
+{
+  "descriptive_contrasts": [
+    {
+      "contrast": "EVO_F-IND",
+      "family": "T1",
+      "mean_difference_pp": 0.2167298484439359
+    },
+    {
+      "contrast": "EVO_F-EVO_P",
+      "family": "T1",
+      "mean_difference_pp": 0.19703115392157353
+    },
+    {
+      "contrast": "EVO_P-IND",
+      "family": "T1",
+      "mean_difference_pp": 0.019698694522362364
+    },
+    {
+      "contrast": "EVO_F-IND",
+      "family": "T2",
+      "mean_difference_pp": 0.24694063083255824
+    },
+    {
+      "contrast": "EVO_F-EVO_P",
+      "family": "T2",
+      "mean_difference_pp": 0.19110422125790139
+    },
+    {
+      "contrast": "EVO_P-IND",
+      "family": "T2",
+      "mean_difference_pp": 0.05583640957465684
+    }
+  ],
+  "families": {
+    "T1": {
+      "EVO_F": {
+        "certified_hit_percent": null,
+        "certified_mean_gap_percent": null,
+        "certified_median_gap_percent": null,
+        "certified_pairs": 0,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 0.3981593999094339,
+        "mean_runtime_ms": 8767.349705833334,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 3841.84435,
+        "pairs": 120,
+        "wins_ties_losses": [
+          24,
+          59,
+          37
+        ]
+      },
+      "EVO_P": {
+        "certified_hit_percent": null,
+        "certified_mean_gap_percent": null,
+        "certified_median_gap_percent": null,
+        "certified_pairs": 0,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 0.20112824598786036,
+        "mean_runtime_ms": 9062.951665833334,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 4104.372,
+        "pairs": 120,
+        "wins_ties_losses": [
+          27,
+          66,
+          27
+        ]
+      },
+      "GR+P": {
+        "certified_hit_percent": null,
+        "certified_mean_gap_percent": null,
+        "certified_median_gap_percent": null,
+        "certified_pairs": 0,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 0.0,
+        "mean_runtime_ms": 3367.5678708333335,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 991.6983,
+        "pairs": 24,
+        "wins_ties_losses": [
+          0,
+          24,
+          0
+        ]
+      },
+      "IND": {
+        "certified_hit_percent": null,
+        "certified_mean_gap_percent": null,
+        "certified_median_gap_percent": null,
+        "certified_pairs": 0,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 0.181429551465498,
+        "mean_runtime_ms": 8273.448599166666,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 4011.4919,
+        "pairs": 120,
+        "wins_ties_losses": [
+          20,
+          86,
+          14
+        ]
+      },
+      "RGR+P": {
+        "certified_hit_percent": null,
+        "certified_mean_gap_percent": null,
+        "certified_median_gap_percent": null,
+        "certified_pairs": 0,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": -1.2615144211254579,
+        "mean_runtime_ms": 6524.7516125,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 3755.73105,
+        "pairs": 24,
+        "wins_ties_losses": [
+          11,
+          11,
+          2
+        ]
+      },
+      "RS_PARAM": {
+        "certified_hit_percent": null,
+        "certified_mean_gap_percent": null,
+        "certified_median_gap_percent": null,
+        "certified_pairs": 0,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 1.5974013322815208,
+        "mean_runtime_ms": 19473.2591425,
+        "median_excess_percent": 1.390148080991236,
+        "median_runtime_ms": 8376.87075,
+        "pairs": 120,
+        "wins_ties_losses": [
+          20,
+          17,
+          83
+        ]
+      },
+      "Reverse-delete": {
+        "certified_hit_percent": null,
+        "certified_mean_gap_percent": null,
+        "certified_median_gap_percent": null,
+        "certified_pairs": 0,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 6.546266279456092,
+        "mean_runtime_ms": 31.4645125,
+        "median_excess_percent": 3.4158066485640575,
+        "median_runtime_ms": 12.58585,
+        "pairs": 24,
+        "wins_ties_losses": [
+          5,
+          0,
+          19
+        ]
+      }
+    },
+    "T2": {
+      "EVO_F": {
+        "certified_hit_percent": 60.0,
+        "certified_mean_gap_percent": 1.655598538577262,
+        "certified_median_gap_percent": 0.0,
+        "certified_pairs": 25,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 0.16309115097259785,
+        "mean_runtime_ms": 3865.439025,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 2628.18265,
+        "pairs": 120,
+        "wins_ties_losses": [
+          26,
+          72,
+          22
+        ]
+      },
+      "EVO_P": {
+        "certified_hit_percent": 60.0,
+        "certified_mean_gap_percent": 1.655598538577262,
+        "certified_median_gap_percent": 0.0,
+        "certified_pairs": 25,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": -0.028013070285303542,
+        "mean_runtime_ms": 4035.8334091666666,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 2954.1741,
+        "pairs": 120,
+        "wins_ties_losses": [
+          36,
+          68,
+          16
+        ]
+      },
+      "GR+P": {
+        "certified_hit_percent": 60.0,
+        "certified_mean_gap_percent": 1.9960240704921557,
+        "certified_median_gap_percent": 0.0,
+        "certified_pairs": 5,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 0.0,
+        "mean_runtime_ms": 1341.0057,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 1039.31195,
+        "pairs": 24,
+        "wins_ties_losses": [
+          0,
+          24,
+          0
+        ]
+      },
+      "IND": {
+        "certified_hit_percent": 60.0,
+        "certified_mean_gap_percent": 1.7690737158822265,
+        "certified_median_gap_percent": 0.0,
+        "certified_pairs": 25,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": -0.08384947985996039,
+        "mean_runtime_ms": 3801.7957925,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 2881.4135,
+        "pairs": 120,
+        "wins_ties_losses": [
+          24,
+          88,
+          8
+        ]
+      },
+      "RGR+P": {
+        "certified_hit_percent": 60.0,
+        "certified_mean_gap_percent": 1.4286481839673328,
+        "certified_median_gap_percent": 0.0,
+        "certified_pairs": 5,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": -0.5790739247292844,
+        "mean_runtime_ms": 2735.575625,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 1767.5414,
+        "pairs": 24,
+        "wins_ties_losses": [
+          7,
+          15,
+          2
+        ]
+      },
+      "RS_PARAM": {
+        "certified_hit_percent": 36.0,
+        "certified_mean_gap_percent": 3.4913213496322295,
+        "certified_median_gap_percent": 2.6515151515151514,
+        "certified_pairs": 25,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 0.8038070553674952,
+        "mean_runtime_ms": 8834.280440833334,
+        "median_excess_percent": 0.0,
+        "median_runtime_ms": 5256.7535,
+        "pairs": 120,
+        "wins_ties_losses": [
+          34,
+          42,
+          44
+        ]
+      },
+      "Reverse-delete": {
+        "certified_hit_percent": 40.0,
+        "certified_mean_gap_percent": 6.74163480812565,
+        "certified_median_gap_percent": 4.25531914893617,
+        "certified_pairs": 5,
+        "failures": 0,
+        "feasibility_percent": 100.0,
+        "mean_excess_percent": 1.822638761019506,
+        "mean_runtime_ms": 15.075745833333334,
+        "median_excess_percent": 0.6396471685325696,
+        "median_runtime_ms": 8.4193,
+        "pairs": 24,
+        "wins_ties_losses": [
+          8,
+          2,
+          14
+        ]
+      }
+    }
+  },
+  "measured_calls": 1206,
+  "oracles": {
+    "T1": {
+      "median_end_to_end_ms": 20631.94415,
+      "status_counts": {
+        "FEASIBLE": 24
+      },
+      "total_search_s": 480.0251311
+    },
+    "T2": {
+      "median_end_to_end_ms": 20500.61415,
+      "status_counts": {
+        "FEASIBLE": 19,
+        "OPTIMAL": 5
+      },
+      "total_search_s": 393.4511797
+    }
+  },
+  "original_artifacts_unchanged": true,
+  "quality_rows": 1104,
+  "runtime_definition": "first measured uncached call per distinct program/instance, mapped to all frozen memberships; earlier extra calls preserved but excluded from runtime summary",
+  "strata": [
+    {
+      "density": "sparse",
+      "family": "T1",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.6067311844152474,
+          "mean_runtime_ms": 807.77775,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 758.02685,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            8,
+            9
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.40893726846690903,
+          "mean_runtime_ms": 804.445735,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 738.0341,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            10,
+            6
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 145.32705,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 135.19765,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.14779942729083664,
+          "mean_runtime_ms": 823.61396,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 515.679,
+          "pairs": 20,
+          "wins_ties_losses": [
+            2,
+            16,
+            2
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 497.694125,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 475.2959,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 3.828254116358539,
+          "mean_runtime_ms": 2320.543895,
+          "median_excess_percent": 3.780807356286187,
+          "median_runtime_ms": 2128.76845,
+          "pairs": 20,
+          "wins_ties_losses": [
+            1,
+            2,
+            17
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.9682739983722941,
+          "mean_runtime_ms": 2.009325,
+          "median_excess_percent": 0.4347306177905945,
+          "median_runtime_ms": 1.23755,
+          "pairs": 4,
+          "wins_ties_losses": [
+            2,
+            0,
+            2
+          ]
+        }
+      },
+      "n": 100
+    },
+    {
+      "density": "dense",
+      "family": "T1",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.797204641350211,
+          "mean_runtime_ms": 292.24265,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 281.23965,
+          "pairs": 20,
+          "wins_ties_losses": [
+            2,
+            18,
+            0
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -1.0625,
+          "mean_runtime_ms": 308.39077,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 305.55375,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            17,
+            0
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 117.0942,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 121.9403,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.7083333333333334,
+          "mean_runtime_ms": 273.38502,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 164.6662,
+          "pairs": 20,
+          "wins_ties_losses": [
+            2,
+            18,
+            0
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -4.915942418791781,
+          "mean_runtime_ms": 281.493575,
+          "median_excess_percent": -4.652601969057665,
+          "median_runtime_ms": 166.7189,
+          "pairs": 4,
+          "wins_ties_losses": [
+            3,
+            1,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -3.69889107424031,
+          "mean_runtime_ms": 788.22566,
+          "median_excess_percent": -3.5555555555555554,
+          "median_runtime_ms": 677.12125,
+          "pairs": 20,
+          "wins_ties_losses": [
+            11,
+            9,
+            0
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 7.7404527459781125,
+          "mean_runtime_ms": 13.115425,
+          "median_excess_percent": 4.565400843881856,
+          "median_runtime_ms": 13.09245,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            0,
+            3
+          ]
+        }
+      },
+      "n": 100
+    },
+    {
+      "density": "sparse",
+      "family": "T1",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.37761652476514357,
+          "mean_runtime_ms": 9121.621655,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 8197.02965,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            8,
+            8
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.09603428593015809,
+          "mean_runtime_ms": 10398.555065,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 12080.1683,
+          "pairs": 20,
+          "wins_ties_losses": [
+            6,
+            10,
+            4
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 2487.361625,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2416.79555,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.08691962396273194,
+          "mean_runtime_ms": 9069.705435,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 7224.3737,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            14,
+            2
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.08888888888888889,
+          "mean_runtime_ms": 5871.75805,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 5962.5262,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            3,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 2.694763589579177,
+          "mean_runtime_ms": 23198.272965,
+          "median_excess_percent": 2.2321779330747344,
+          "median_runtime_ms": 23857.46985,
+          "pairs": 20,
+          "wins_ties_losses": [
+            0,
+            2,
+            18
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.5301220004482983,
+          "mean_runtime_ms": 5.672,
+          "median_excess_percent": 1.700373059174475,
+          "median_runtime_ms": 5.3008,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            0,
+            3
+          ]
+        }
+      },
+      "n": 300
+    },
+    {
+      "density": "dense",
+      "family": "T1",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.25320648022365655,
+          "mean_runtime_ms": 2862.59934,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2625.259,
+          "pairs": 20,
+          "wins_ties_losses": [
+            6,
+            8,
+            6
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.6839518444583567,
+          "mean_runtime_ms": 3251.10332,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 3846.9367,
+          "pairs": 20,
+          "wins_ties_losses": [
+            5,
+            8,
+            7
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 831.777475,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 802.26415,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.20255659026268613,
+          "mean_runtime_ms": 3199.438775,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2625.259,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            12,
+            4
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -2.076598487565785,
+          "mean_runtime_ms": 2163.577725,
+          "median_excess_percent": -2.572840273998635,
+          "median_runtime_ms": 2125.3471,
+          "pairs": 4,
+          "wins_ties_losses": [
+            4,
+            0,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.8603556825403448,
+          "mean_runtime_ms": 6935.234755,
+          "median_excess_percent": 0.5779783030028443,
+          "median_runtime_ms": 7204.03095,
+          "pairs": 20,
+          "wins_ties_losses": [
+            5,
+            4,
+            11
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 12.942252022619035,
+          "mean_runtime_ms": 50.8064,
+          "median_excess_percent": 13.065436435297416,
+          "median_runtime_ms": 44.3591,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            0,
+            4
+          ]
+        }
+      },
+      "n": 300
+    },
+    {
+      "density": "sparse",
+      "family": "T1",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.5291634309768696,
+          "mean_runtime_ms": 30857.89463,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 26392.5184,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            8,
+            8
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.0706911583041876,
+          "mean_runtime_ms": 31978.270915,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 31279.8786,
+          "pairs": 20,
+          "wins_ties_losses": [
+            6,
+            10,
+            4
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 13388.414,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 13534.74565,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.1369726958244573,
+          "mean_runtime_ms": 28183.20499,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 23643.8668,
+          "pairs": 20,
+          "wins_ties_losses": [
+            6,
+            12,
+            2
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.3065335435277632,
+          "mean_runtime_ms": 24149.40745,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 25170.0222,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            3,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 2.530622667777221,
+          "mean_runtime_ms": 65431.155,
+          "median_excess_percent": 1.9790257104194857,
+          "median_runtime_ms": 69105.71395,
+          "pairs": 20,
+          "wins_ties_losses": [
+            2,
+            0,
+            18
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.1352371118540145,
+          "mean_runtime_ms": 13.974825,
+          "median_excess_percent": 1.4055011998324658,
+          "median_runtime_ms": 11.20635,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            0,
+            3
+          ]
+        }
+      },
+      "n": 500
+    },
+    {
+      "density": "dense",
+      "family": "T1",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.4194434204258972,
+          "mean_runtime_ms": 8661.96221,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 7995.99015,
+          "pairs": 20,
+          "wins_ties_losses": [
+            5,
+            9,
+            6
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.343105807236242,
+          "mean_runtime_ms": 7636.94419,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 7935.8523,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            11,
+            6
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 3235.432875,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2841.36555,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.6704469443599879,
+          "mean_runtime_ms": 8091.343415,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 6530.8238,
+          "pairs": 20,
+          "wins_ties_losses": [
+            2,
+            14,
+            4
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.18112318797852928,
+          "mean_runtime_ms": 6184.57875,
+          "median_excess_percent": -0.10753369733133646,
+          "median_runtime_ms": 5697.0589,
+          "pairs": 4,
+          "wins_ties_losses": [
+            2,
+            0,
+            2
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 3.369303011674153,
+          "mean_runtime_ms": 18166.12258,
+          "median_excess_percent": 2.8233741476647847,
+          "median_runtime_ms": 18532.523,
+          "pairs": 20,
+          "wins_ties_losses": [
+            1,
+            0,
+            19
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 14.961259797464798,
+          "mean_runtime_ms": 103.2091,
+          "median_excess_percent": 15.93650560891561,
+          "median_runtime_ms": 95.41705,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            0,
+            4
+          ]
+        }
+      },
+      "n": 500
+    },
+    {
+      "density": "sparse",
+      "family": "T2",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": 100.0,
+          "certified_mean_gap_percent": 0.0,
+          "certified_median_gap_percent": 0.0,
+          "certified_pairs": 5,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.11086744639376218,
+          "mean_runtime_ms": 725.248175,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 752.98785,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            14,
+            2
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": 100.0,
+          "certified_mean_gap_percent": 0.0,
+          "certified_median_gap_percent": 0.0,
+          "certified_pairs": 5,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.5364619883040935,
+          "mean_runtime_ms": 854.41564,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 939.5556,
+          "pairs": 20,
+          "wins_ties_losses": [
+            8,
+            12,
+            0
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": 100.0,
+          "certified_mean_gap_percent": 0.0,
+          "certified_median_gap_percent": 0.0,
+          "certified_pairs": 1,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 158.066475,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 147.244,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": 100.0,
+          "certified_mean_gap_percent": 0.0,
+          "certified_median_gap_percent": 0.0,
+          "certified_pairs": 5,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.4109746588693957,
+          "mean_runtime_ms": 687.54689,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 428.8482,
+          "pairs": 20,
+          "wins_ties_losses": [
+            6,
+            14,
+            0
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": 100.0,
+          "certified_mean_gap_percent": 0.0,
+          "certified_median_gap_percent": 0.0,
+          "certified_pairs": 1,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 466.10415,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 464.72095,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": 40.0,
+          "certified_mean_gap_percent": 0.5769230769230769,
+          "certified_median_gap_percent": 0.9615384615384616,
+          "certified_pairs": 5,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.9814692357674815,
+          "mean_runtime_ms": 1854.19753,
+          "median_excess_percent": 0.9615384615384616,
+          "median_runtime_ms": 1827.80235,
+          "pairs": 20,
+          "wins_ties_losses": [
+            1,
+            7,
+            12
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": 100.0,
+          "certified_mean_gap_percent": 0.0,
+          "certified_median_gap_percent": 0.0,
+          "certified_pairs": 1,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.1107050032488629,
+          "mean_runtime_ms": 1.646125,
+          "median_excess_percent": 0.9868421052631579,
+          "median_runtime_ms": 1.74965,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            1,
+            2
+          ]
+        }
+      },
+      "n": 100
+    },
+    {
+      "density": "dense",
+      "family": "T2",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": 50.0,
+          "certified_mean_gap_percent": 2.0694981732215774,
+          "certified_median_gap_percent": 1.3257575757575757,
+          "certified_pairs": 20,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.3964757709251101,
+          "mean_runtime_ms": 530.369175,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 427.32455,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            17,
+            0
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": 50.0,
+          "certified_mean_gap_percent": 2.0694981732215774,
+          "certified_median_gap_percent": 1.3257575757575757,
+          "certified_pairs": 20,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.3964757709251101,
+          "mean_runtime_ms": 576.56818,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 467.2874,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            17,
+            0
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": 50.0,
+          "certified_mean_gap_percent": 2.4950300881151946,
+          "certified_median_gap_percent": 1.3257575757575757,
+          "certified_pairs": 4,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 124.985975,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 106.171,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": 50.0,
+          "certified_mean_gap_percent": 2.2113421448527832,
+          "certified_median_gap_percent": 1.3257575757575757,
+          "certified_pairs": 20,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.2643171806167401,
+          "mean_runtime_ms": 599.641965,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 396.8111,
+          "pairs": 20,
+          "wins_ties_losses": [
+            2,
+            18,
+            0
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": 50.0,
+          "certified_mean_gap_percent": 1.785810229959166,
+          "certified_median_gap_percent": 1.3257575757575757,
+          "certified_pairs": 4,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.6607929515418502,
+          "mean_runtime_ms": 230.74315,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 230.8564,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            3,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": 35.0,
+          "certified_mean_gap_percent": 4.219920917809517,
+          "certified_median_gap_percent": 2.6515151515151514,
+          "certified_pairs": 20,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.724890829694323,
+          "mean_runtime_ms": 1142.09184,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 1100.73205,
+          "pairs": 20,
+          "wins_ties_losses": [
+            0,
+            17,
+            3
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": 25.0,
+          "certified_mean_gap_percent": 8.427043510157063,
+          "certified_median_gap_percent": 5.184428133420051,
+          "certified_pairs": 4,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 6.00159823452144,
+          "mean_runtime_ms": 14.834,
+          "median_excess_percent": 1.7652556438228137,
+          "median_runtime_ms": 13.2059,
+          "pairs": 4,
+          "wins_ties_losses": [
+            2,
+            0,
+            2
+          ]
+        }
+      },
+      "n": 100
+    },
+    {
+      "density": "sparse",
+      "family": "T2",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.3847946965896535,
+          "mean_runtime_ms": 9237.9488,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 7830.37795,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            9,
+            7
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.1408574232198995,
+          "mean_runtime_ms": 10170.575045,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 8580.4607,
+          "pairs": 20,
+          "wins_ties_losses": [
+            6,
+            11,
+            3
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 3083.975625,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2853.53985,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.05320095835484811,
+          "mean_runtime_ms": 9796.48794,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 7154.1453,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            14,
+            2
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 6855.096,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 6143.90345,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.554654987489135,
+          "mean_runtime_ms": 23529.020775,
+          "median_excess_percent": 1.1797281884267083,
+          "median_runtime_ms": 24141.19365,
+          "pairs": 20,
+          "wins_ties_losses": [
+            5,
+            3,
+            12
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.568765100582297,
+          "mean_runtime_ms": 5.38005,
+          "median_excess_percent": 1.3002598599572448,
+          "median_runtime_ms": 5.2462,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "n": 300
+    },
+    {
+      "density": "dense",
+      "family": "T2",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.1015070621134941,
+          "mean_runtime_ms": 3257.87398,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2881.4135,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            10,
+            7
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.273256296364816,
+          "mean_runtime_ms": 2469.36854,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 1675.5926,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            8,
+            9
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 1014.235725,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 968.86635,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.5337693508189848,
+          "mean_runtime_ms": 2968.08552,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2278.50305,
+          "pairs": 20,
+          "wins_ties_losses": [
+            2,
+            14,
+            4
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.5771592116403608,
+          "mean_runtime_ms": 2849.543675,
+          "median_excess_percent": -1.1567680533197775,
+          "median_runtime_ms": 3121.357,
+          "pairs": 4,
+          "wins_ties_losses": [
+            3,
+            0,
+            1
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0686705493928748,
+          "mean_runtime_ms": 7568.920085,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 6850.5427,
+          "pairs": 20,
+          "wins_ties_losses": [
+            5,
+            12,
+            3
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.7957947681015546,
+          "mean_runtime_ms": 37.765675,
+          "median_excess_percent": -1.6602051605483314,
+          "median_runtime_ms": 42.1347,
+          "pairs": 4,
+          "wins_ties_losses": [
+            3,
+            0,
+            1
+          ]
+        }
+      },
+      "n": 300
+    },
+    {
+      "density": "sparse",
+      "family": "T2",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.38879052929517394,
+          "mean_runtime_ms": 5569.48724,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 5971.1144,
+          "pairs": 20,
+          "wins_ties_losses": [
+            3,
+            11,
+            6
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.15805450826242975,
+          "mean_runtime_ms": 6010.29737,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 7286.4193,
+          "pairs": 20,
+          "wins_ties_losses": [
+            7,
+            11,
+            2
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 2635.084375,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2637.98525,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.05342852667631509,
+          "mean_runtime_ms": 5543.41856,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 3734.3429,
+          "pairs": 20,
+          "wins_ties_losses": [
+            4,
+            14,
+            2
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 4270.539925,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 4272.94305,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 1.0514286527537902,
+          "mean_runtime_ms": 11907.48562,
+          "median_excess_percent": 1.042820167673459,
+          "median_runtime_ms": 12007.9129,
+          "pairs": 20,
+          "wins_ties_losses": [
+            5,
+            2,
+            13
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.4836259817814939,
+          "mean_runtime_ms": 3.63395,
+          "median_excess_percent": 0.6396471685325696,
+          "median_runtime_ms": 3.57185,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            0,
+            3
+          ]
+        }
+      },
+      "n": 500
+    },
+    {
+      "density": "dense",
+      "family": "T2",
+      "methods": {
+        "EVO_F": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.6109370576313863,
+          "mean_runtime_ms": 3871.70678,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 2433.5063,
+          "pairs": 20,
+          "wins_ties_losses": [
+            9,
+            11,
+            0
+          ]
+        },
+        "EVO_P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.20948502736510438,
+          "mean_runtime_ms": 4133.77568,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 3105.1752,
+          "pairs": 20,
+          "wins_ties_losses": [
+            9,
+            9,
+            2
+          ]
+        },
+        "GR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 0.0,
+          "mean_runtime_ms": 1029.686025,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 1039.31195,
+          "pairs": 4,
+          "wins_ties_losses": [
+            0,
+            4,
+            0
+          ]
+        },
+        "IND": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -0.25494490546144805,
+          "mean_runtime_ms": 3215.59388,
+          "median_excess_percent": 0.0,
+          "median_runtime_ms": 3241.9931,
+          "pairs": 20,
+          "wins_ties_losses": [
+            6,
+            14,
+            0
+          ]
+        },
+        "RGR+P": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -2.2364913851934958,
+          "mean_runtime_ms": 1741.42685,
+          "median_excess_percent": -1.8739364680682182,
+          "median_runtime_ms": 1765.88875,
+          "pairs": 4,
+          "wins_ties_losses": [
+            3,
+            0,
+            1
+          ]
+        },
+        "RS_PARAM": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": -1.5582719228926332,
+          "mean_runtime_ms": 7003.966795,
+          "median_excess_percent": -1.5184381778741864,
+          "median_runtime_ms": 4787.1337,
+          "pairs": 20,
+          "wins_ties_losses": [
+            18,
+            1,
+            1
+          ]
+        },
+        "Reverse-delete": {
+          "certified_hit_percent": null,
+          "certified_mean_gap_percent": null,
+          "certified_median_gap_percent": null,
+          "certified_pairs": 0,
+          "failures": 0,
+          "feasibility_percent": 100.0,
+          "mean_excess_percent": 3.5669330140844977,
+          "mean_runtime_ms": 27.194675,
+          "median_excess_percent": 4.181776546402597,
+          "median_runtime_ms": 25.3828,
+          "pairs": 4,
+          "wins_ties_losses": [
+            1,
+            0,
+            3
+          ]
+        }
+      },
+      "n": 500
+    }
+  ],
+  "study": "POST_HOC_EXTERNAL_GENERALIZATION",
+  "summary_definition": "all five frozen winners per method; baselines once per instance; failures use operational cost; certified statistics use only OPTIMAL instances",
+  "warmup_calls": 207
+}

@@ -1,0 +1,11 @@
+The following parent programs were retained by the search procedure.
+They are listed in a fixed hash order, not a performance ranking.
+No numerical evaluation feedback is provided in this condition.
+
+PARENTS_JSON:
+{{parents_expression_and_rationale_json}}
+
+Propose one new scoring expression by modifying or combining the parent
+ideas. Prefer a meaningful change rather than cosmetic reformatting.
+The evaluator, features and output contract remain unchanged.
+Return only the required JSON object.

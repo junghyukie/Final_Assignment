@@ -1,0 +1,8 @@
+networkx==3.7
+numpy==2.5.4
+ortools==9.15.6755
+PyYAML==6.0.3
+requests==2.34.2
+urllib3==2.8.0
+matplotlib==3.11.2
+pytest==9.1.1

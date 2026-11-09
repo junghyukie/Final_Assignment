@@ -1,0 +1,61 @@
+{
+  "contrasts": [
+    {
+      "archived_run_index_paired_interval_95": [
+        -0.698664747321053,
+        0.2198361966543523
+      ],
+      "hypothesis_scope": "PRIMARY",
+      "independent_run_paired_graph_interval_95": [
+        -0.8904489307348157,
+        0.5122778154640966
+      ],
+      "mean_percentage_points": -0.1484356513234745,
+      "methods": [
+        "EVO_F",
+        "IND"
+      ]
+    },
+    {
+      "archived_run_index_paired_interval_95": [
+        -1.0042529057214369,
+        0.17398775798548663
+      ],
+      "hypothesis_scope": "SECONDARY",
+      "independent_run_paired_graph_interval_95": [
+        -1.049115235951595,
+        0.3141396037978429
+      ],
+      "mean_percentage_points": -0.3050597714926841,
+      "methods": [
+        "EVO_F",
+        "EVO_P"
+      ]
+    },
+    {
+      "archived_run_index_paired_interval_95": [
+        -0.6592492894997112,
+        1.0256278066847577
+      ],
+      "hypothesis_scope": "SECONDARY",
+      "independent_run_paired_graph_interval_95": [
+        -0.5639738045094841,
+        0.9637859393082802
+      ],
+      "mean_percentage_points": 0.15662412016920957,
+      "methods": [
+        "EVO_P",
+        "IND"
+      ]
+    }
+  ],
+  "draws": 5000,
+  "numpy_version": "2.5.4",
+  "original_results_changed": false,
+  "primary_graphs": 60,
+  "resampling": "resample five run indices independently for each method and the same 60 graph indices for both methods; percentile intervals; fixed training corpus",
+  "run_pairing_evidence": "run_search derives seeds from method and run_id; equal run labels do not establish matched random blocks",
+  "runs_per_method": 5,
+  "scope": "POST_HOC_RUN_PAIRING_SENSITIVITY",
+  "seed": 4212
+}

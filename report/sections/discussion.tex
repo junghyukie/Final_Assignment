@@ -1,0 +1,54 @@
+\section{Discussion and Limitations}
+
+The proposal-policy comparisons do not establish a reliable held-out
+improvement from parent conditioning or the additional prompt feedback.
+EVO-P already uses fitness to select its archive; EVO-F adds numerical
+summaries and case descriptors, after which parent histories can diverge.
+The study therefore compares complete search policies, rather than
+isolating the causal effect of numerical values in otherwise matched
+prompts.
+
+The frozen-program evidence is more specific about behavior than
+discovery. Scoring changes often vanish before the objective is
+measured; when they survive, rarity's functional form changes how
+coverage is valued. This connects transfer to the representation,
+but leaves archive conditioning and the training corpus as competing
+explanations for which programs a policy selects.
+
+The scope is limited by five runs per strategy, one shared training
+corpus and a restricted DSL. Matched proposal attempts yield unequal
+numbers of unique executable candidates. External evaluation covers
+24 topologies under two weight regimes, with few certified optima;
+T1/T2 change both cost magnitudes and their relationship to degree.
+These constraints limit attribution and generalization. The
+reference-implementation timings also leave open what optimized learned
+heuristics and stronger large-scale classical controls would achieve.
+
+\section{Conclusion}
+
+The evaluated evolutionary policies do not establish a held-out advantage
+over independent generation or a clear incremental benefit from the
+prompt-feedback policy. Scoring diversity often produces trajectory
+diversity without changing the final solution or cost. The form of
+rarity weighting helps explain differences in frozen-program transfer,
+while CP-SAT remains the stronger control on the original small graphs.
+Broader representations and varied training corpora are needed to test
+whether these search policies yield more useful deployed heuristics.
+
+\section{Reproducibility}
+
+Source code, configurations, selected heuristics and numerical results
+are available in the accompanying repository. The README gives commands
+for reproducing tables and analyses from saved observations without LLM
+calls; \nolinkurl{scripts/analyze_selected.py} derives the winner-level
+mechanism summaries. The original environment is Python 3.12.7 on
+Windows 11, NetworkX 3.7, OR-Tools 9.15.6755, NumPy 2.5.4 and Matplotlib
+3.11.2.
+
+\subsection*{Generative AI disclosure}
+Generative AI tools assisted literature search, LaTeX formatting and figures,
+drafting and polishing text, mathematical calculations and derivations,
+code editing, debugging, and experiment execution. Discussions with these
+tools helped refine ideas, methodology and hypotheses. The heuristic-generation
+model and its experimental role are documented separately. The author
+reviewed the AI-assisted work and takes responsibility for the final manuscript.

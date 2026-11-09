@@ -1,0 +1,66 @@
+[
+  {
+    "record": "recovery/request-00000068.json",
+    "data": {
+      "aborted_before_http": true,
+      "api_generation_attempt_counted": false,
+      "backup": "E:\\20261\\DSA4212\\COVER_EVO_Plan\\results\\raw\\live\\recovery_backups\\main_20261025_327f8858b14c",
+      "basis": "durable branch is RESERVED; original code must commit POST_STARTED branch state before HTTP; no response or additional request events; usage delta zero",
+      "branch": "EVO_P:2",
+      "core_source_hash": "b223b13087e29390eb3ec21da3bfbea33985c87acf946129b6c8a694ac598b4c",
+      "request_id": "request-00000068",
+      "restored_state": {
+        "actual_cost": "0.0004035",
+        "context_hash": "eeb5459b1fe5430dca4d3b3053c3e4839530da12a43737c3c881716b58af8db0",
+        "estimate": "0.0082631250",
+        "phase": "CHECKPOINTED",
+        "request_id": "request-00000052",
+        "response_id": "gen-1792912120-1CXr6sVE1ypyWZmJIDwY",
+        "slot": 4
+      },
+      "slot": 5,
+      "state_before": {
+        "context_hash": "eeb5459b1fe5430dca4d3b3053c3e4839530da12a43737c3c881716b58af8db0",
+        "estimate": "0.0082631250",
+        "phase": "RESERVED",
+        "request_id": "request-00000068",
+        "slot": 5
+      },
+      "state_path": "requests\\EVO_P\\run-002\\request_state.json",
+      "status": "REPAIRED_PREPOST_ABORT",
+      "timestamp_utc": "2026-10-25T07:27:56.124183+00:00",
+      "transaction_hash": "e7aba6b42e79ba1484180f52887facc06351bc3eed5eebb0fcd737ceae3b1ae6",
+      "usage_evidence": {
+        "attempts": 89,
+        "attribution_note": "Key-level usage is supporting evidence, not proof of per-request billing.",
+        "billed_usd": "0.027233250",
+        "cap_usd": "5.00",
+        "key_identity_verified": true,
+        "key_limit_remaining_usd": "14.97276675",
+        "key_usage_current_usd": "0.02723325",
+        "key_usage_initial_usd": "0",
+        "network_mode": "KEY_GET_ONLY",
+        "pending": [
+          {
+            "branch": "requests\\EVO_P\\run-002\\request_state.json",
+            "file_phase": "RESERVED",
+            "ledger_phase": "POST_STARTED",
+            "request_id": "request-00000068",
+            "response_persisted": false,
+            "slot": 5
+          }
+        ],
+        "pending_request_id": "request-00000068",
+        "unattributed_usage_delta_usd": "0E-9"
+      }
+    }
+  },
+  {
+    "record": "recovery/write_retry_overlay.json",
+    "data": {
+      "core_source_hash": "b223b13087e29390eb3ec21da3bfbea33985c87acf946129b6c8a694ac598b4c",
+      "scope": "retry local PermissionError only; no HTTP retry or algorithm/config/prompt change",
+      "timestamp_utc": "2026-10-25T07:34:04.021836+00:00"
+    }
+  }
+]

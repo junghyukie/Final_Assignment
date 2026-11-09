@@ -1,0 +1,77 @@
+\section{Introduction}
+
+FunSearch~\cite{funsearch}, Evolution of Heuristics (EoH)~\cite{eoh},
+and ReEvo~\cite{reevo} combine language-model program generation with
+performance-guided search. Their success raises a narrower question:
+do parent conditioning and numerical performance feedback improve the
+final heuristics beyond independent generation? Improvements during
+search can reflect adaptation to the training instances rather than
+better decisions on unseen problems.
+
+I study this question on the minimum weighted dominating set (MWDS)
+problem, where weighted greedy provides an interpretable reference and
+exact optimization certifies quality on small graphs. COVER-EVO holds
+construction, pruning and feasibility checking fixed while the LLM
+proposes vertex-scoring expressions. Independent generation (IND),
+parent-only evolution (EVO-P), and evolution with numerical prompt
+feedback (EVO-F) are compared with parameter search and handcrafted
+controls. Each branch develops its own archive and parent history,
+so the comparisons concern complete proposal policies.
+
+The evaluation addresses three questions.
+\textbf{RQ1:} Do the evolutionary proposal policies improve held-out quality
+over independent generation?
+\textbf{RQ2:} How do the frozen heuristics transfer across graph distributions,
+and what do feature interventions reveal about their behavior?
+\textbf{RQ3:} How do solution quality and execution efficiency compare with
+non-LLM controls?
+The contribution is a controlled comparison of proposal policies,
+an evaluation of frozen-program transfer, and an analysis of how
+scoring changes survive construction and pruning. Synthetic shifts
+separate cost allocation from topology, while a published MWDS
+benchmark tests external transfer.
+
+\section{Background and MWDS}
+
+\subsection{Weighted Domination as Set Cover}
+
+Let $G=(V,E)$ be an undirected graph with $n=|V|$ vertices
+and positive integer costs $c_v$. The closed neighborhood is
+$N[v]=\{v\}\cup\{u:(u,v)\in E\}$.
+MWDS seeks a subset $D\subseteq V$ minimizing
+$C(D)=\sum_{v\in D}c_v$ such that
+$\bigcup_{v\in D}N[v]=V$.
+An equivalent integer formulation is
+\begin{align}
+\min_{\boldsymbol{x}}\quad
+    &\sum_{v\in V}c_vx_v, \label{eq:ilp}\\
+\text{s.t.}\quad
+    &\sum_{v\in N[u]}x_v\geq 1,
+    &&\forall u\in V, \notag\\
+    &x_v\in\{0,1\},
+    &&\forall v\in V. \notag
+\end{align}
+
+Each closed neighborhood is a set with selection cost $c_v$, making MWDS
+an instance of weighted set cover. Given uncovered vertices $U$, standard
+weighted greedy selects a vertex maximizing $|N[v]\cap U|/c_v$.
+It achieves an approximation ratio of $H_d\leq 1+\ln d$ for
+$d=\max_{v\in V}|N[v]|$~\cite{chvatal}. Removing redundant selected
+vertices while preserving coverage retains this guarantee. Arbitrary
+learned scoring functions have no such guarantee.
+
+\subsection{Related Work and Design Rationale}
+
+AlphaEvolve and LLaMEA~\cite{alphaevolve,llamea} allow more flexible
+algorithmic generation. Restricting COVER-EVO to scoring expressions
+keeps construction and feasibility fixed across proposal strategies,
+but excludes changes to the broader solver. This is a design trade-off
+within heuristic generation~\cite{burke}.
+Classical methods such as FastMWDS~\cite{fastmwds} combine reductions
+and local search for large-scale weighted domination; the objective is
+total cost rather than cardinality~\cite{weighted}.
+Reported generalization failures for LLM-evolved bin-packing
+heuristics~\cite{sim2025} motivate testing frozen programs beyond their
+training distribution. A handcrafted rarity-weighted coverage priority,
+RGR+P, provides an interpretable control within the same scaffold.
+Section~\ref{sec:rarity_form} develops its mathematical interpretation.

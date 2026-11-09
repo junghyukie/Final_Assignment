@@ -1,0 +1,75 @@
+% !TeX program = xelatex
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[top=19mm,bottom=20mm,left=18mm,right=18mm,columnsep=6mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx,microtype}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{etoolbox}
+\usepackage{balance}
+\apptocmd{\thebibliography}{\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}}{}{}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.5em}
+\setlength{\textfloatsep}{11pt plus 2pt minus 2pt}
+\setlength{\floatsep}{9pt plus 2pt minus 2pt}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\dbltopfraction}{0.78}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\brokenpenalty=10000
+\newcommand{\GR}{\mathrm{GR{+}P}}
+\newcommand{\RGR}{\mathrm{RGR{+}P}}
+\input{metadata}
+\hypersetup{
+    pdfauthor={Nguyen Minh Tung},
+    pdftitle={Evaluating Feedback in LLM-Guided Heuristic Evolution for Minimum Weighted Dominating Set}
+}
+\title{
+    Evaluating Feedback in LLM-Guided Heuristic Evolution\\
+    \large for Minimum Weighted Dominating Set
+}
+\author{\normalsize{\bf Group Composition:}\\
+\normalsize \AuthorNames, \StudentIDs\\[4pt]
+\normalsize{\bf Github Repository:} \expandafter\url\expandafter{\RepositoryURL}}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-2em}
+
+\begin{abstract}
+Large language models can discover optimization heuristics through iterative
+program generation and evaluation. Whether parent conditioning and numerical
+performance feedback improve the resulting heuristics beyond simpler
+generation strategies remains unclear, particularly when gains during search
+may not generalize. This paper investigates that question on the minimum
+weighted dominating set problem using COVER-EVO, a controlled study in which
+the language model proposes vertex-scoring expressions within a fixed
+construction and pruning scaffold. Independent generation, parent-conditioned
+evolution, and evolution with numerical feedback are compared with parameter
+search, handcrafted priorities, and classical optimization. Evaluation combines
+controlled synthetic graph distributions with transfer of frozen heuristics
+to a published benchmark. Under the tested conditions, neither the combined
+evolutionary strategy nor the incremental prompt-feedback policy establishes
+a consistent held-out advantage. Handcrafted priorities remain competitive across the tested distributions,
+while exact optimization is the stronger control on the original small graphs. These findings support
+evaluating LLM-guided heuristic evolution through the quality and
+generalization of frozen programs rather than improvements observed during search.
+\end{abstract}
+\input{sections/introduction}
+\input{sections/method}
+\input{sections/protocol}
+\input{sections/results}
+\input{sections/mechanism}
+\input{sections/discussion}
+\begingroup\raggedright\urlstyle{same}
+\interlinepenalty=10000
+\balance
+\bibliographystyle{unsrt}
+\bibliography{references}
+\endgroup
+\end{document}

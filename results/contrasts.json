@@ -1,0 +1,70 @@
+{
+  "conditional_on": "fixed training corpus",
+  "contrasts": [
+    {
+      "base_graphs": 60,
+      "interval_95": [
+        -0.698664747321053,
+        0.2198361966543523
+      ],
+      "mean_percentage_points": -0.1484356513234745,
+      "methods": [
+        "EVO_F",
+        "IND"
+      ],
+      "per_run_means": [
+        0.0,
+        0.23493195642806322,
+        -0.9188994287317102,
+        0.0,
+        -0.058210784313725485
+      ],
+      "runs": 5,
+      "scope": "PRIMARY"
+    },
+    {
+      "base_graphs": 60,
+      "interval_95": [
+        -1.0042529057214369,
+        0.17398775798548663
+      ],
+      "mean_percentage_points": -0.3050597714926841,
+      "methods": [
+        "EVO_F",
+        "EVO_P"
+      ],
+      "per_run_means": [
+        -0.9975813851597733,
+        -0.8606886444179848,
+        0.23493195642806322,
+        0.0,
+        0.09803921568627452
+      ],
+      "runs": 5,
+      "scope": "SECONDARY"
+    },
+    {
+      "base_graphs": 60,
+      "interval_95": [
+        -0.6592492894997112,
+        1.0256278066847577
+      ],
+      "mean_percentage_points": 0.15662412016920957,
+      "methods": [
+        "EVO_P",
+        "IND"
+      ],
+      "per_run_means": [
+        0.9975813851597733,
+        1.0956206008460478,
+        -1.1538313851597732,
+        0.0,
+        -0.15625
+      ],
+      "runs": 5,
+      "scope": "SECONDARY"
+    }
+  ],
+  "lower_is_better": true,
+  "unit": "percentage points of excess cost vs GR+P"
+}

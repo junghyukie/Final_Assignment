@@ -1,0 +1,388 @@
+{
+  "caveat": "parent exposure is not proof of copying; independent recurrence cannot identify training-data priors or model intent",
+  "counts": {
+    "EVO_F": 4,
+    "EVO_P": 14,
+    "IND": 17
+  },
+  "fixed_templates_contain_literal_coefficient": false,
+  "novel_valid_occurrences": [
+    {
+      "mean_training_ratio": "170699555303/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "580a3402ac9fa9edf5b50a50c3793cc616d8eb2cb077c3ead5be63c731126eba",
+        "6b2e983d8f64093c9a68d1a29f8100548b3198bb9dbe800410b91ac1e75ab404"
+      ],
+      "program_hash": "f181d83bb295f1803fd34f8310fe98aa3965905b74fcdb3727e206b86030839a",
+      "run": "EVO_F:0",
+      "slot": 21
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "EVO_F:2",
+      "slot": 2
+    },
+    {
+      "mean_training_ratio": "69903476999/69511041600",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "a0095e02348f5aad922d3adcd53ecae2e4d19db3c203dd5cc4254be591b0ff7b",
+      "run": "EVO_F:3",
+      "slot": 18
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "EVO_F:4",
+      "slot": 8
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "bfdc352e3a6481662cbe7374c6cd1a4a3cbb33b5aef9fa8389f2bb172b486c08",
+        "fdef5aaf0eb4974cfc39edb5e9bc26189d3ce3c922ae243baa0ec588b6be29f5"
+      ],
+      "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+      "run": "EVO_P:0",
+      "slot": 9
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "EVO_P:1",
+      "slot": 6
+    },
+    {
+      "mean_training_ratio": "860147504131/853090056000",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "0603785cda890d000b88fd1ce7fc175df328c219e22cba40fe61a9ac2324b5dc",
+        "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7"
+      ],
+      "program_hash": "ab73e3d1d619cd898a5aa55997b1c4435307e88a352b0049ae365ca365320ace",
+      "run": "EVO_P:1",
+      "slot": 9
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "0603785cda890d000b88fd1ce7fc175df328c219e22cba40fe61a9ac2324b5dc",
+        "b49fc3089f5f4995c5f14e07ff9422f7b2ab87bacdf748c96c0ef5ffd9683b45"
+      ],
+      "program_hash": "50443185a6ceb5a08bdaecf550352410536ecd45a9415cb9d29a7a0948ebd6d3",
+      "run": "EVO_P:1",
+      "slot": 12
+    },
+    {
+      "mean_training_ratio": "69903476999/69511041600",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "8653bb54f13af40620d7952182d10080f806b92d827c6c0455c09a10d9186149",
+        "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7"
+      ],
+      "program_hash": "f58c121a2877efb7966002f40face59ed1ce7f44504ead186477da939c9876fa",
+      "run": "EVO_P:2",
+      "slot": 9
+    },
+    {
+      "mean_training_ratio": "69903476999/69511041600",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "72ca1f9663b8e2dcc49f0965c7dcde6504a84bb9138b9b2a33dc748bf93db15a",
+        "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7"
+      ],
+      "program_hash": "a0095e02348f5aad922d3adcd53ecae2e4d19db3c203dd5cc4254be591b0ff7b",
+      "run": "EVO_P:3",
+      "slot": 26
+    },
+    {
+      "mean_training_ratio": "69903476999/69511041600",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "60d6a76521fbe698c53e3c9580effaa483e0d9d4bc40610d4c8c398ab0b789aa",
+        "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7"
+      ],
+      "program_hash": "f58c121a2877efb7966002f40face59ed1ce7f44504ead186477da939c9876fa",
+      "run": "EVO_P:3",
+      "slot": 36
+    },
+    {
+      "mean_training_ratio": "170699555303/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "cc95cff6724814cbfbf872352e576c6bc3d0f57a4ddc897e75cee7142907ccff",
+        "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7"
+      ],
+      "program_hash": "2a288d483f7871f026e7f6ad6ec0b4d4f2e29df7bb3c5044fb3b0ac9c4efaf5d",
+      "run": "EVO_P:3",
+      "slot": 40
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "EVO_P:4",
+      "slot": 3
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": true,
+      "parent_hashes": [
+        "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "fdef5aaf0eb4974cfc39edb5e9bc26189d3ce3c922ae243baa0ec588b6be29f5"
+      ],
+      "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+      "run": "EVO_P:4",
+      "slot": 10
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": true,
+      "parent_hashes": [
+        "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "4d5146c7fd79a23d93a988faf35d58ea82d77a92e0e9710d5989975dcfcf720f"
+      ],
+      "program_hash": "69f3384f689ec342a5672b8867d97ff662fe53f1701ff853d2e9d6cb42521421",
+      "run": "EVO_P:4",
+      "slot": 25
+    },
+    {
+      "mean_training_ratio": "69903476999/69511041600",
+      "parent_exposed": true,
+      "parent_hashes": [
+        "18987a6fef917c37576c551e2c2678e4b2f2e3215449f136706a4cd12105a2ed",
+        "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633"
+      ],
+      "program_hash": "f58c121a2877efb7966002f40face59ed1ce7f44504ead186477da939c9876fa",
+      "run": "EVO_P:4",
+      "slot": 29
+    },
+    {
+      "mean_training_ratio": "1880511659629/1876798123200",
+      "parent_exposed": false,
+      "parent_hashes": [
+        "18987a6fef917c37576c551e2c2678e4b2f2e3215449f136706a4cd12105a2ed",
+        "4d5146c7fd79a23d93a988faf35d58ea82d77a92e0e9710d5989975dcfcf720f"
+      ],
+      "program_hash": "52c00ecd68a36ad9d6b7a2a615ca5a80b57a6a7d56c93e5698c5b9f87df0c6e6",
+      "run": "EVO_P:4",
+      "slot": 34
+    },
+    {
+      "mean_training_ratio": "170699555303/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "25a70e6ff19aa8d912368c5d7111e77423097016d8004632b3c6732ea07b6646",
+      "run": "EVO_P:4",
+      "slot": 38
+    },
+    {
+      "mean_training_ratio": "69903476999/69511041600",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "a0095e02348f5aad922d3adcd53ecae2e4d19db3c203dd5cc4254be591b0ff7b",
+      "run": "IND:0",
+      "slot": 2
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "IND:0",
+      "slot": 26
+    },
+    {
+      "mean_training_ratio": "860147504131/853090056000",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "14403d625bcf474a62b3423e4b96f49509343e9d16720402e71b3e4e5462716f",
+      "run": "IND:1",
+      "slot": 14
+    },
+    {
+      "mean_training_ratio": "862584904291/853090056000",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "6fef54b2b407c1956f5366b3fd77db00351633f94bb5ba9380151511c66be6fc",
+      "run": "IND:1",
+      "slot": 30
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "IND:1",
+      "slot": 36
+    },
+    {
+      "mean_training_ratio": "862584904291/853090056000",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "6fef54b2b407c1956f5366b3fd77db00351633f94bb5ba9380151511c66be6fc",
+      "run": "IND:2",
+      "slot": 18
+    },
+    {
+      "mean_training_ratio": "170834966423/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+      "run": "IND:2",
+      "slot": 28
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "IND:2",
+      "slot": 38
+    },
+    {
+      "mean_training_ratio": "170834966423/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+      "run": "IND:3",
+      "slot": 20
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "IND:3",
+      "slot": 25
+    },
+    {
+      "mean_training_ratio": "69903476999/69511041600",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "4267de8490f59f618a8ff0f1c26c944f43decdacb2cabc87c185e289572e13f6",
+      "run": "IND:3",
+      "slot": 31
+    },
+    {
+      "mean_training_ratio": "862584904291/853090056000",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "6fef54b2b407c1956f5366b3fd77db00351633f94bb5ba9380151511c66be6fc",
+      "run": "IND:3",
+      "slot": 39
+    },
+    {
+      "mean_training_ratio": "170834966423/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+      "run": "IND:4",
+      "slot": 1
+    },
+    {
+      "mean_training_ratio": "170834966423/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "4ce941f421d151cabc7d2e387c8494f2fa866cee5d4c9f7ff2a4e38beb4841cb",
+      "run": "IND:4",
+      "slot": 24
+    },
+    {
+      "mean_training_ratio": "862584904291/853090056000",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "486d31b78af3ca40eeebd9af8378e63552f1f3a4d5c940045ce0a8fcf96d7c1c",
+      "run": "IND:4",
+      "slot": 29
+    },
+    {
+      "mean_training_ratio": "170266239719/170618011200",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "run": "IND:4",
+      "slot": 32
+    },
+    {
+      "mean_training_ratio": "862584904291/853090056000",
+      "parent_exposed": false,
+      "parent_hashes": [],
+      "program_hash": "6fef54b2b407c1956f5366b3fd77db00351633f94bb5ba9380151511c66be6fc",
+      "run": "IND:4",
+      "slot": 35
+    }
+  ],
+  "recognition": "top-level additive -0.2 * overlap; excludes penalties additionally scaled by cost or remaining; not full algebraic equivalence",
+  "scope": "POST_HOC_LITERAL_TERM_PROVENANCE",
+  "selected_occurrences": [
+    {
+      "expression": "div(gain, cost) + 0.5 * div(rarity, cost) - 0.2 * overlap",
+      "first_slot": 8,
+      "parent_exposed": false,
+      "parents": [],
+      "run": "EVO_F:4",
+      "winner_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633"
+    },
+    {
+      "expression": "div(gain + 0.4 * rarity, cost) - 0.2 * overlap",
+      "first_slot": 9,
+      "parent_exposed": false,
+      "parents": [
+        "bfdc352e3a6481662cbe7374c6cd1a4a3cbb33b5aef9fa8389f2bb172b486c08",
+        "fdef5aaf0eb4974cfc39edb5e9bc26189d3ce3c922ae243baa0ec588b6be29f5"
+      ],
+      "run": "EVO_P:0",
+      "winner_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0"
+    },
+    {
+      "expression": "div(gain + 0.5 * rarity, cost) - 0.2 * overlap",
+      "first_slot": 12,
+      "parent_exposed": false,
+      "parents": [
+        "0603785cda890d000b88fd1ce7fc175df328c219e22cba40fe61a9ac2324b5dc",
+        "b49fc3089f5f4995c5f14e07ff9422f7b2ab87bacdf748c96c0ef5ffd9683b45"
+      ],
+      "run": "EVO_P:1",
+      "winner_hash": "50443185a6ceb5a08bdaecf550352410536ecd45a9415cb9d29a7a0948ebd6d3"
+    },
+    {
+      "expression": "div(gain + 0.4 * rarity, cost) - 0.2 * overlap",
+      "first_slot": 10,
+      "parent_exposed": true,
+      "parents": [
+        "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "fdef5aaf0eb4974cfc39edb5e9bc26189d3ce3c922ae243baa0ec588b6be29f5"
+      ],
+      "run": "EVO_P:4",
+      "winner_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0"
+    },
+    {
+      "expression": "div(gain, cost) + 0.35 * div(rarity, cost) - 0.2 * overlap",
+      "first_slot": 28,
+      "parent_exposed": false,
+      "parents": [],
+      "run": "IND:2",
+      "winner_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448"
+    },
+    {
+      "expression": "div(gain, cost) + 0.35 * div(rarity, cost) - 0.2 * overlap",
+      "first_slot": 1,
+      "parent_exposed": false,
+      "parents": [],
+      "run": "IND:4",
+      "winner_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448"
+    }
+  ]
+}

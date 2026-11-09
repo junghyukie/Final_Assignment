@@ -1,0 +1,108 @@
+\begin{thebibliography}{10}
+
+\bibitem{funsearch}
+Bernardino Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov, Matej
+  Balog, M.~Pawan Kumar, Emilien Dupont, Francisco J.~R. Ruiz, Jordan~S.
+  Ellenberg, Pengming Wang, Omar Fawzi, Pushmeet Kohli, and Alhussein Fawzi.
+\newblock Mathematical discoveries from program search with large language
+  models.
+\newblock {\em Nature}, 625:468--475, 2024.
+\newblock \url{https://doi.org/10.1038/s41586-023-06924-6}.
+
+\bibitem{eoh}
+Fei Liu, Xialiang Tong, Mingxuan Yuan, Xi~Lin, Fu~Luo, Zhenkun Wang, Zhichao
+  Lu, and Qingfu Zhang.
+\newblock Evolution of heuristics: Towards efficient automatic algorithm design
+  using large language model.
+\newblock In {\em Proceedings of the 41st International Conference on Machine
+  Learning}, volume 235 of {\em Proceedings of Machine Learning Research},
+  pages 32201--32223, 2024.
+\newblock \url{https://proceedings.mlr.press/v235/liu24bs.html}.
+
+\bibitem{reevo}
+Haoran Ye, Jiarui Wang, Zhiguang Cao, Federico Berto, Chuanbo Hua, Haeyeon Kim,
+  Jinkyoo Park, and Guojie Song.
+\newblock {ReEvo}: Large language models as hyper-heuristics with reflective
+  evolution.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~37, pages 43571--43608, 2024.
+\newblock \url{https://doi.org/10.52202/079017-1381}.
+
+\bibitem{chvatal}
+Va{\v{s}}ek Chv{\'a}tal.
+\newblock A greedy heuristic for the set-covering problem.
+\newblock {\em Mathematics of Operations Research}, 4(3):233--235, 1979.
+\newblock \url{https://doi.org/10.1287/moor.4.3.233}.
+
+\bibitem{alphaevolve}
+Alexander Novikov, Ngân Vũ, Marvin Eisenberger, et~al.
+\newblock {AlphaEvolve}: A coding agent for scientific and algorithmic
+  discovery.
+\newblock arXiv:2506.13131v1, 2025.
+\newblock \url{https://arxiv.org/abs/2506.13131v1}.
+
+\bibitem{llamea}
+Niki van Stein and Thomas B{\"a}ck.
+\newblock {LLaMEA}: A large language model evolutionary algorithm for
+  automatically generating metaheuristics.
+\newblock arXiv:2405.20132v4, 2025.
+\newblock \url{https://arxiv.org/abs/2405.20132v4}.
+
+\bibitem{burke}
+Edmund~K. Burke, Michel Gendreau, Matthew Hyde, Graham Kendall, Gabriela Ochoa,
+  Ender {\"O}zcan, and Rong Qu.
+\newblock Hyper-heuristics: a survey of the state of the art.
+\newblock {\em Journal of the Operational Research Society}, 64(12):1695--1724,
+  2013.
+\newblock \url{https://doi.org/10.1057/jors.2013.71}.
+
+\bibitem{fastmwds}
+Yiyuan Wang, Shaowei Cai, Jiejiang Chen, and Minghao Yin.
+\newblock A fast local search algorithm for minimum weight dominating set
+  problem on massive graphs.
+\newblock In {\em Proceedings of IJCAI}, pages 1514--1522, 2018.
+\newblock \url{https://doi.org/10.24963/ijcai.2018/210}.
+
+\bibitem{weighted}
+Lukas Dijkstra, Andrei Gagarin, and Vadim Zverovich.
+\newblock Weighted domination models and randomized heuristics.
+\newblock {\em Utilitas Mathematica}, 123:61--86, 2025.
+\newblock \url{https://doi.org/10.61091/um123-05}.
+
+\bibitem{sim2025}
+Kevin Sim, Quentin Renau, and Emma Hart.
+\newblock Beyond the hype: Benchmarking {LLM}-evolved heuristics for bin
+  packing.
+\newblock In {\em Applications of Evolutionary Computation}, volume 15613 of
+  {\em Lecture Notes in Computer Science}, pages 386--402. Springer, 2025.
+\newblock \url{https://doi.org/10.1007/978-3-031-90065-5_24}.
+
+\bibitem{networkx_ba}
+{NetworkX Developers}.
+\newblock \texttt{barabasi\_albert\_graph}: {API} documentation.
+\newblock
+  \url{https://networkx.org/documentation/stable/reference/generated/networkx.generators.random_graphs.barabasi_albert_graph.html}.
+\newblock Accessed 5 November 2026. Experiment uses NetworkX 3.7.
+
+\bibitem{efron}
+Bradley Efron and Robert~J. Tibshirani.
+\newblock {\em An Introduction to the Bootstrap}.
+\newblock Chapman and Hall, 1993.
+\newblock \url{https://doi.org/10.1007/978-1-4899-4541-9}.
+
+\bibitem{cpsat}
+{Google OR-Tools}.
+\newblock {CP-SAT} solver.
+\newblock \url{https://developers.google.com/optimization/cp/cp_solver}.
+\newblock Accessed 5 November 2026. Experiment uses OR-Tools 9.15.6755.
+
+\bibitem{jovanovic2010}
+Raka Jovanovi{\'c}, Milan Tuba, and Dana Simian.
+\newblock Ant colony optimization applied to minimum weight dominating set
+  problem.
+\newblock In {\em Proceedings of the 12th WSEAS International Conference on
+  Automatic Control, Modelling and Simulation}, pages 322--326, 2010.
+\newblock Original T1/T2 instances:
+  \url{https://mail.ipb.ac.rs/~rakaj/home/BenchmarkMWDSP.htm}.
+
+\end{thebibliography}

@@ -1,0 +1,320 @@
+{
+  "rows": [
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        0.0,
+        1.2107237421960144
+      ],
+      "mean": 0.4615325540639093,
+      "method": "IND"
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -1.228019731152211,
+        0.05104382814715796
+      ],
+      "mean": -0.37820550011262116,
+      "method": "IND"
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.1043781137006592,
+        0.9647290755110516
+      ],
+      "mean": 0.30162952114846336,
+      "method": "IND"
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -0.13045174397973838,
+        0.7839801927552293
+      ],
+      "mean": 0.21281605056083946,
+      "method": "IND"
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        -0.3007835790137155,
+        0.5328968170877205
+      ],
+      "mean": 0.06463629763653138,
+      "method": "IND"
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        0.10314209321614005,
+        1.4258540233408483
+      ],
+      "mean": 0.6181566742331189,
+      "method": "EVO_P"
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -1.649576356036658,
+        0.06597499989677952
+      ],
+      "mean": -0.5788733021489929,
+      "method": "EVO_P"
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.10961969866347912,
+        1.4623036060380392
+      ],
+      "mean": 0.5477521996112582,
+      "method": "EVO_P"
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -0.22214550560782048,
+        1.0203945812362134
+      ],
+      "mean": 0.29406849512292016,
+      "method": "EVO_P"
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        0.0,
+        3.4834170157123756
+      ],
+      "mean": 1.3219737189851486,
+      "method": "EVO_P"
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        -0.04902177051370597,
+        0.8822090745637411
+      ],
+      "mean": 0.31309690274043483,
+      "method": "EVO_F"
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -1.7307115600698872,
+        0.07908187107427028
+      ],
+      "mean": -0.61511611998651,
+      "method": "EVO_F"
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.6389395810100752,
+        0.802979513179004
+      ],
+      "mean": 0.09339450385962013,
+      "method": "EVO_F"
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -0.22513685698836494,
+        0.7096980093696488
+      ],
+      "mean": 0.16755703144051176,
+      "method": "EVO_F"
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        0.07021517851576614,
+        3.5002534599693425
+      ],
+      "mean": 1.437823601502419,
+      "method": "EVO_F"
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        -0.18984291398228118,
+        1.5919575792419327
+      ],
+      "mean": 0.6137090230886801,
+      "method": "RS_PARAM"
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -0.8250053045189595,
+        2.6141404219110016
+      ],
+      "mean": 0.827442807021727,
+      "method": "RS_PARAM"
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.8401916285204329,
+        1.180802503655763
+      ],
+      "mean": 0.1293137423429185,
+      "method": "RS_PARAM"
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -0.49744741373157686,
+        1.3509983404491686
+      ],
+      "mean": 0.401456969554821,
+      "method": "RS_PARAM"
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        -1.7312615941474947,
+        0.8657581820010132
+      ],
+      "mean": -0.3486348261552453,
+      "method": "RS_PARAM"
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "method": "GR_P"
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "method": "GR_P"
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "method": "GR_P"
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "method": "GR_P"
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "method": "GR_P"
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        -0.2786861849943726,
+        1.303624240074188
+      ],
+      "mean": 0.4824526647008355,
+      "method": "RGR_P"
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -2.363289372527131,
+        0.2098125719315304
+      ],
+      "mean": -1.0171603814343568,
+      "method": "RGR_P"
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.8019563191438193,
+        0.9306156806156806
+      ],
+      "mean": 0.08762475949975948,
+      "method": "RGR_P"
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        -1.169431030623942,
+        0.18804554410382082
+      ],
+      "mean": -0.47159124051229223,
+      "method": "RGR_P"
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        -1.2478151140857967,
+        0.32055166891182496
+      ],
+      "mean": -0.48328183912861333,
+      "method": "RGR_P"
+    },
+    {
+      "condition": "ID/random",
+      "interval_95": [
+        0.8993557143970164,
+        4.0128202214107755
+      ],
+      "mean": 2.367203143748576,
+      "method": "RD"
+    },
+    {
+      "condition": "Hub-expensive",
+      "interval_95": [
+        -1.6029241884809498,
+        3.1688941009750926
+      ],
+      "mean": 0.7224987039305123,
+      "method": "RD"
+    },
+    {
+      "condition": "Hub-cheap",
+      "interval_95": [
+        -0.47565632870669783,
+        3.7086535741205093
+      ],
+      "mean": 1.5473154197095853,
+      "method": "RD"
+    },
+    {
+      "condition": "Size80",
+      "interval_95": [
+        0.12307380013463758,
+        2.3022952853631953
+      ],
+      "mean": 1.1502942740504916,
+      "method": "RD"
+    },
+    {
+      "condition": "BA",
+      "interval_95": [
+        8.463338640234857,
+        17.73478959464804
+      ],
+      "mean": 13.047685481296943,
+      "method": "RD"
+    }
+  ],
+  "scope": "POST_HOC_POINTWISE_95_NO_MULTIPLICITY_CORRECTION"
+}

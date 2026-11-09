@@ -1,0 +1,16 @@
+% Declare the wide primary table early enough for placement above its Results discussion.
+\begin{table*}[t]
+\centering\small
+\caption{Primary test on 60 random-cost geometric graphs ($n=40$).
+Excess is relative to GR+P. Search-method counts cover $5\times60=300$
+run--graph pairs; fixed baselines use 60 unique graphs. Runtime includes
+pruning. Lower excess and optimum gap are better.}
+\label{tab:primary}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+Method & Excess (\%) & Optimum gap (\%) & Optimal hits (\%) &
+Wins/ties/losses & Median (ms)\\
+\midrule
+\input{tables/primary_rows}
+\end{tabular*}
+\end{table*}

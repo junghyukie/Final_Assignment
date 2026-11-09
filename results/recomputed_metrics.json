@@ -1,0 +1,2610 @@
+{
+  "synthetic": [
+    {
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "2326492789/2324322000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "2170789/23243220",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        10,
+        276,
+        14
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "91340409683618989/43051324748632200",
+      "optimal_hits": 198,
+      "optimal_hit_rate": "33/50",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          10,
+          86,
+          4
+        ],
+        "optimal_hits": 8,
+        "mean_gap_closed": "-3/140"
+      }
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "353047646270318821/355232740118256000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "-2185093847937179/3552327401182560",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        32,
+        254,
+        14
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "284024721694039/32446952168400",
+      "optimal_hits": 66,
+      "optimal_hit_rate": "11/50",
+      "headroom": {
+        "observations": 235,
+        "base_graphs": 47,
+        "wins_ties_losses": [
+          32,
+          197,
+          6
+        ],
+        "optimal_hits": 9,
+        "mean_gap_closed": "1733/24675"
+      }
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "4231310534187481/4218103781892000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "13206752295481/42181037818920",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        4,
+        277,
+        19
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "1632123482472169/508653691345800",
+      "optimal_hits": 190,
+      "optimal_hit_rate": "19/30",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          4,
+          90,
+          6
+        ],
+        "optimal_hits": 3,
+        "mean_gap_closed": "-1/400"
+      }
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "163031123513140791811801/162758410352334653220000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "272713160806138591801/1627584103523346532200",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        24,
+        251,
+        25
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "212957291984619868951/69102009492674918760",
+      "optimal_hits": 123,
+      "optimal_hit_rate": "41/100",
+      "headroom": {
+        "observations": 180,
+        "base_graphs": 36,
+        "wins_ties_losses": [
+          24,
+          141,
+          15
+        ],
+        "optimal_hits": 13,
+        "mean_gap_closed": "-59/720"
+      }
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "123092286771859/121347523440000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "1744763331859/1213475234400",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        19,
+        249,
+        32
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "238785513181867/43321065868080",
+      "optimal_hits": 148,
+      "optimal_hit_rate": "37/75",
+      "headroom": {
+        "observations": 145,
+        "base_graphs": 29,
+        "wins_ties_losses": [
+          19,
+          115,
+          11
+        ],
+        "optimal_hits": 14,
+        "mean_gap_closed": "-7/75"
+      }
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "35126622677/34935264000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "191358677/349352640",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        12,
+        254,
+        34
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "56012908854817657/21525662374316100",
+      "optimal_hits": 184,
+      "optimal_hit_rate": "46/75",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          12,
+          79,
+          9
+        ],
+        "optimal_hits": 9,
+        "mean_gap_closed": "-201/1400"
+      }
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "2871352785570887/2888071057872000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "-16718272301113/28880710578720",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        33,
+        255,
+        12
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "7413527657072279/843620756378400",
+      "optimal_hits": 62,
+      "optimal_hit_rate": "31/150",
+      "headroom": {
+        "observations": 235,
+        "base_graphs": 47,
+        "wins_ties_losses": [
+          33,
+          197,
+          5
+        ],
+        "optimal_hits": 4,
+        "mean_gap_closed": "259/4700"
+      }
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "282945218129723/281206918792800",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "1738299336923/2812069187928",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        6,
+        257,
+        37
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "1790449054363777/508653691345800",
+      "optimal_hits": 178,
+      "optimal_hit_rate": "89/150",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          6,
+          82,
+          12
+        ],
+        "optimal_hits": 3,
+        "mean_gap_closed": "-9/400"
+      }
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "24539967077905010552247901/24468014356300976200740000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "71952721604034351507901/244680143563009762007400",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        38,
+        216,
+        46
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "27249701514765966792349/8499547167599015007480",
+      "optimal_hits": 118,
+      "optimal_hit_rate": "59/150",
+      "headroom": {
+        "observations": 180,
+        "base_graphs": 36,
+        "wins_ties_losses": [
+          38,
+          119,
+          23
+        ],
+        "optimal_hits": 21,
+        "mean_gap_closed": "-1217/15120"
+      }
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "860661940659613/849432664080000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "11229276579613/8494326640800",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        25,
+        244,
+        31
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "33306940024861/6188723695440",
+      "optimal_hits": 152,
+      "optimal_hit_rate": "38/75",
+      "headroom": {
+        "observations": 145,
+        "base_graphs": 29,
+        "wins_ties_losses": [
+          25,
+          109,
+          11
+        ],
+        "optimal_hits": 17,
+        "mean_gap_closed": "-673/5075"
+      }
+    },
+    {
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "1",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "0",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        0,
+        60,
+        0
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "5871103395121/2800541535120",
+      "optimal_hits": 40,
+      "optimal_hit_rate": "2/3",
+      "headroom": {
+        "observations": 20,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          0,
+          20,
+          0
+        ],
+        "optimal_hits": 0,
+        "mean_gap_closed": "0"
+      }
+    },
+    {
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "1",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "0",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        0,
+        60,
+        0
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "230606612731661/24103450182240",
+      "optimal_hits": 13,
+      "optimal_hit_rate": "13/60",
+      "headroom": {
+        "observations": 47,
+        "base_graphs": 47,
+        "wins_ties_losses": [
+          0,
+          47,
+          0
+        ],
+        "optimal_hits": 0,
+        "mean_gap_closed": "0"
+      }
+    },
+    {
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "1",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "0",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        0,
+        60,
+        0
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "838620306503/290317701960",
+      "optimal_hits": 40,
+      "optimal_hit_rate": "2/3",
+      "headroom": {
+        "observations": 20,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          0,
+          20,
+          0
+        ],
+        "optimal_hits": 0,
+        "mean_gap_closed": "0"
+      }
+    },
+    {
+      "method": "GR_P",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "1",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "0",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        0,
+        60,
+        0
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "20932286587035017/7147621096696080",
+      "optimal_hits": 24,
+      "optimal_hit_rate": "2/5",
+      "headroom": {
+        "observations": 36,
+        "base_graphs": 36,
+        "wins_ties_losses": [
+          0,
+          36,
+          0
+        ],
+        "optimal_hits": 0,
+        "mean_gap_closed": "0"
+      }
+    },
+    {
+      "method": "GR_P",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "1",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "0",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        0,
+        60,
+        0
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "2651750504537/651444599520",
+      "optimal_hits": 31,
+      "optimal_hit_rate": "31/60",
+      "headroom": {
+        "observations": 29,
+        "base_graphs": 29,
+        "wins_ties_losses": [
+          0,
+          29,
+          0
+        ],
+        "optimal_hits": 0,
+        "mean_gap_closed": "0"
+      }
+    },
+    {
+      "method": "IND",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "578170544647/576431856000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "1738688647/5764318560",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        8,
+        268,
+        24
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "3233964957810359/1366708722178800",
+      "optimal_hits": 186,
+      "optimal_hit_rate": "31/50",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          8,
+          88,
+          4
+        ],
+        "optimal_hits": 6,
+        "mean_gap_closed": "17/700"
+      }
+    },
+    {
+      "method": "IND",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "4315722321425951/4332106586808000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "-16384265382049/43321065868080",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        22,
+        268,
+        10
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "587612910421507/64893904336800",
+      "optimal_hits": 63,
+      "optimal_hit_rate": "21/100",
+      "headroom": {
+        "observations": 235,
+        "base_graphs": 47,
+        "wins_ties_losses": [
+          22,
+          207,
+          6
+        ],
+        "optimal_hits": 2,
+        "mean_gap_closed": "1007/29610"
+      }
+    },
+    {
+      "method": "IND",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "99707569506109/99249500750400",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "458068755709/992495007504",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        4,
+        270,
+        26
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "4468502813221939/1330325038904400",
+      "optimal_hits": 184,
+      "optimal_hit_rate": "46/75",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          4,
+          88,
+          8
+        ],
+        "optimal_hits": 2,
+        "mean_gap_closed": "-3/200"
+      }
+    },
+    {
+      "method": "IND",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "36780129327157072720286221/36702021534451464301110000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "78107792705608419176221/367020215344514643011100",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        24,
+        244,
+        32
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "53224018450526970616211/16999094335198030014960",
+      "optimal_hits": 116,
+      "optimal_hit_rate": "29/75",
+      "headroom": {
+        "observations": 180,
+        "base_graphs": 36,
+        "wins_ties_losses": [
+          24,
+          140,
+          16
+        ],
+        "optimal_hits": 12,
+        "mean_gap_closed": "-479/7560"
+      }
+    },
+    {
+      "method": "IND",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "35598842911/35575848000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "22994911/355758480",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        16,
+        272,
+        12
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "18745555657249/4560112196640",
+      "optimal_hits": 159,
+      "optimal_hit_rate": "53/100",
+      "headroom": {
+        "observations": 145,
+        "base_graphs": 29,
+        "wins_ties_losses": [
+          16,
+          125,
+          4
+        ],
+        "optimal_hits": 12,
+        "mean_gap_closed": "1229/15225"
+      }
+    },
+    {
+      "method": "RD",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "33188044670477/32682345696000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "505698974477/326823456960",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        11,
+        36,
+        13
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "13444712452091/3869347241760",
+      "optimal_hits": 41,
+      "optimal_hit_rate": "41/60",
+      "headroom": {
+        "observations": 20,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          11,
+          5,
+          4
+        ],
+        "optimal_hits": 10,
+        "mean_gap_closed": "9/140"
+      }
+    },
+    {
+      "method": "RD",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "13796001236227/13697040297600",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "98960938627/136970402976",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        18,
+        25,
+        17
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "76277754913427/7669279603440",
+      "optimal_hits": 12,
+      "optimal_hit_rate": "1/5",
+      "headroom": {
+        "observations": 47,
+        "base_graphs": 47,
+        "wins_ties_losses": [
+          18,
+          17,
+          12
+        ],
+        "optimal_hits": 4,
+        "mean_gap_closed": "-3281/23688"
+      }
+    },
+    {
+      "method": "RD",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "15701654062631/15338559206880",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "1815474278755/766927960344",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        6,
+        37,
+        17
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "1293295457349149/247060364367960",
+      "optimal_hits": 28,
+      "optimal_hit_rate": "7/15",
+      "headroom": {
+        "observations": 20,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          6,
+          12,
+          2
+        ],
+        "optimal_hits": 3,
+        "mean_gap_closed": "37/240"
+      }
+    },
+    {
+      "method": "RD",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "17856185301397558127/17653122444724767000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "203062856672791127/176531224447247670",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        16,
+        22,
+        22
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "324243475483507634423/79807954625342863920",
+      "optimal_hits": 21,
+      "optimal_hit_rate": "7/20",
+      "headroom": {
+        "observations": 36,
+        "base_graphs": 36,
+        "wins_ties_losses": [
+          16,
+          9,
+          11
+        ],
+        "optimal_hits": 8,
+        "mean_gap_closed": "-493/3024"
+      }
+    },
+    {
+      "method": "RD",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "444566651141/393255863000",
+      "median_operational_ratio": "767/713",
+      "mean_excess_percent": "51310788141/3932558630",
+      "median_excess_percent": "5400/713",
+      "wins_ties_losses": [
+        8,
+        21,
+        31
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "88782815535049/5096595984480",
+      "optimal_hits": 18,
+      "optimal_hit_rate": "3/10",
+      "headroom": {
+        "observations": 29,
+        "base_graphs": 29,
+        "wins_ties_losses": [
+          8,
+          7,
+          14
+        ],
+        "optimal_hits": 4,
+        "mean_gap_closed": "-220/87"
+      }
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "13317259/13305600",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "11659/133056",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        3,
+        53,
+        4
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "365601478723/174044954160",
+      "optimal_hits": 39,
+      "optimal_hit_rate": "13/20",
+      "headroom": {
+        "observations": 20,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          3,
+          16,
+          1
+        ],
+        "optimal_hits": 2,
+        "mean_gap_closed": "-9/280"
+      }
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "2791295176819/2819978884800",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "-28683707981/28199788848",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        10,
+        43,
+        7
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "276590050337143/33744830255136",
+      "optimal_hits": 12,
+      "optimal_hit_rate": "1/5",
+      "headroom": {
+        "observations": 47,
+        "base_graphs": 47,
+        "wins_ties_losses": [
+          10,
+          33,
+          4
+        ],
+        "optimal_hits": 2,
+        "mean_gap_closed": "5207/59220"
+      }
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "2798267074969/2784831580800",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "13435494169/27848315808",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        4,
+        49,
+        7
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "137625041530081/40818668895576",
+      "optimal_hits": 38,
+      "optimal_hit_rate": "19/30",
+      "headroom": {
+        "observations": 20,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          4,
+          13,
+          3
+        ],
+        "optimal_hits": 2,
+        "mean_gap_closed": "1/20"
+      }
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "82495213719559/82886097294000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "-390883574441/828860972940",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        11,
+        46,
+        3
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "84158602095829/35209956141360",
+      "optimal_hits": 28,
+      "optimal_hit_rate": "7/15",
+      "headroom": {
+        "observations": 36,
+        "base_graphs": 36,
+        "wins_ties_losses": [
+          11,
+          23,
+          2
+        ],
+        "optimal_hits": 5,
+        "mean_gap_closed": "41/432"
+      }
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 60,
+      "base_graphs": 60,
+      "runs": null,
+      "mean_operational_ratio": "1520297/1527680",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "-36915/76384",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        8,
+        49,
+        3
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 60,
+      "mean_gap_percent": "99057010784/28500701229",
+      "optimal_hits": 35,
+      "optimal_hit_rate": "7/12",
+      "headroom": {
+        "observations": 29,
+        "base_graphs": 29,
+        "wins_ties_losses": [
+          8,
+          18,
+          3
+        ],
+        "optimal_hits": 4,
+        "mean_gap_closed": "23/3045"
+      }
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "189217151779/188972784000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "244367779/1889727840",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        28,
+        247,
+        25
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "113800356908809/53210289167280",
+      "optimal_hits": 213,
+      "optimal_hit_rate": "71/100",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          28,
+          57,
+          15
+        ],
+        "optimal_hits": 23,
+        "mean_gap_closed": "-3/700"
+      }
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "20706823830247462/20536892788086675",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "679724168643148/821475711523467",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        52,
+        149,
+        99
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "154888498734319/15064656363900",
+      "optimal_hits": 51,
+      "optimal_hit_rate": "17/100",
+      "headroom": {
+        "observations": 235,
+        "base_graphs": 47,
+        "wins_ties_losses": [
+          52,
+          112,
+          71
+        ],
+        "optimal_hits": 14,
+        "mean_gap_closed": "-23599/197400"
+      }
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "96316080557441/95728585590000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "587494967441/957285855900",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        28,
+        224,
+        48
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "302537744517521/87113012886900",
+      "optimal_hits": 185,
+      "optimal_hit_rate": "37/60",
+      "headroom": {
+        "observations": 100,
+        "base_graphs": 20,
+        "wins_ties_losses": [
+          28,
+          54,
+          18
+        ],
+        "optimal_hits": 15,
+        "mean_gap_closed": "23/400"
+      }
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "21953477240323668436097699/21865695880270660511593500",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "87781360053007924504199/218656958802706605115935",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        79,
+        135,
+        86
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "185413805797605893187623/56693692135946770304400",
+      "optimal_hits": 98,
+      "optimal_hit_rate": "49/150",
+      "headroom": {
+        "observations": 180,
+        "base_graphs": 36,
+        "wins_ties_losses": [
+          79,
+          69,
+          32
+        ],
+        "optimal_hits": 32,
+        "mean_gap_closed": "-13/1080"
+      }
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "base_graphs": 60,
+      "runs": 5,
+      "mean_operational_ratio": "435269545729/436792356000",
+      "median_operational_ratio": "1",
+      "mean_excess_percent": "-1522810271/4367923560",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        38,
+        232,
+        30
+      ],
+      "failures": 0,
+      "failure_rate": "0",
+      "certified_pairs": 300,
+      "mean_gap_percent": "16002335163851/4560112196640",
+      "optimal_hits": 162,
+      "optimal_hit_rate": "27/50",
+      "headroom": {
+        "observations": 145,
+        "base_graphs": 29,
+        "wins_ties_losses": [
+          38,
+          93,
+          14
+        ],
+        "optimal_hits": 23,
+        "mean_gap_closed": "107/870"
+      }
+    }
+  ],
+  "runtime": [
+    {
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "median_runtime_ns": 15434850.0,
+      "median_runtime_ms": 15.43485,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "median_runtime_ns": 24560550.0,
+      "median_runtime_ms": 24.56055,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_id",
+      "variant": "random",
+      "median_runtime_ns": 17258750.0,
+      "median_runtime_ms": 17.25875,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_size",
+      "variant": "random",
+      "median_runtime_ns": 63429150.0,
+      "median_runtime_ms": 63.42915,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_F",
+      "split": "test_topology",
+      "variant": "random",
+      "median_runtime_ns": 16916900.0,
+      "median_runtime_ms": 16.9169,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "median_runtime_ns": 19484850.0,
+      "median_runtime_ms": 19.48485,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "median_runtime_ns": 30398900.0,
+      "median_runtime_ms": 30.3989,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_id",
+      "variant": "random",
+      "median_runtime_ns": 21815400.0,
+      "median_runtime_ms": 21.8154,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_size",
+      "variant": "random",
+      "median_runtime_ns": 80884350.0,
+      "median_runtime_ms": 80.88435,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "EVO_P",
+      "split": "test_topology",
+      "variant": "random",
+      "median_runtime_ns": 21774100.0,
+      "median_runtime_ms": 21.7741,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "median_runtime_ns": 3893050.0,
+      "median_runtime_ms": 3.89305,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "median_runtime_ns": 5833150.0,
+      "median_runtime_ms": 5.83315,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "GR_P",
+      "split": "test_id",
+      "variant": "random",
+      "median_runtime_ns": 4231550.0,
+      "median_runtime_ms": 4.23155,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "GR_P",
+      "split": "test_size",
+      "variant": "random",
+      "median_runtime_ns": 16145350.0,
+      "median_runtime_ms": 16.14535,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "GR_P",
+      "split": "test_topology",
+      "variant": "random",
+      "median_runtime_ns": 4194200.0,
+      "median_runtime_ms": 4.1942,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "IND",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "median_runtime_ns": 20047200.0,
+      "median_runtime_ms": 20.0472,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "IND",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "median_runtime_ns": 32543050.0,
+      "median_runtime_ms": 32.54305,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "IND",
+      "split": "test_id",
+      "variant": "random",
+      "median_runtime_ns": 23396950.0,
+      "median_runtime_ms": 23.39695,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "IND",
+      "split": "test_size",
+      "variant": "random",
+      "median_runtime_ns": 56270250.0,
+      "median_runtime_ms": 56.27025,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "IND",
+      "split": "test_topology",
+      "variant": "random",
+      "median_runtime_ns": 9470350.0,
+      "median_runtime_ms": 9.47035,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RD",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "median_runtime_ns": 554250.0,
+      "median_runtime_ms": 0.55425,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RD",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "median_runtime_ns": 547850.0,
+      "median_runtime_ms": 0.54785,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RD",
+      "split": "test_id",
+      "variant": "random",
+      "median_runtime_ns": 544900.0,
+      "median_runtime_ms": 0.5449,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RD",
+      "split": "test_size",
+      "variant": "random",
+      "median_runtime_ns": 1084000.0,
+      "median_runtime_ms": 1.084,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RD",
+      "split": "test_topology",
+      "variant": "random",
+      "median_runtime_ns": 528800.0,
+      "median_runtime_ms": 0.5288,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "median_runtime_ns": 9224800.0,
+      "median_runtime_ms": 9.2248,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "median_runtime_ns": 15063400.0,
+      "median_runtime_ms": 15.0634,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_id",
+      "variant": "random",
+      "median_runtime_ns": 10831250.0,
+      "median_runtime_ms": 10.83125,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_size",
+      "variant": "random",
+      "median_runtime_ns": 40553100.0,
+      "median_runtime_ms": 40.5531,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RGR_P",
+      "split": "test_topology",
+      "variant": "random",
+      "median_runtime_ns": 10342300.0,
+      "median_runtime_ms": 10.3423,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "median_runtime_ns": 36454450.0,
+      "median_runtime_ms": 36.45445,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "median_runtime_ns": 53141800.0,
+      "median_runtime_ms": 53.1418,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_id",
+      "variant": "random",
+      "median_runtime_ns": 39557250.0,
+      "median_runtime_ms": 39.55725,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_size",
+      "variant": "random",
+      "median_runtime_ns": 139388150.0,
+      "median_runtime_ms": 139.38815,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    },
+    {
+      "method": "RS_PARAM",
+      "split": "test_topology",
+      "variant": "random",
+      "median_runtime_ns": 38622700.0,
+      "median_runtime_ms": 38.6227,
+      "program_instance_pairs": 300,
+      "timing_measurements": 900,
+      "timing_definition": "median of per-program-instance repeat medians"
+    }
+  ],
+  "external": [
+    {
+      "family": "T1",
+      "method": "GR+P",
+      "pairs": 24,
+      "mean_operational_ratio": "1",
+      "mean_excess_percent": "0",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        0,
+        24,
+        0
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 991.6983,
+      "mean_runtime_ms": 3367.5678708333335,
+      "certified_pairs": 0,
+      "certified_mean_gap_percent": null,
+      "certified_median_gap_percent": null,
+      "certified_hit_percent": null
+    },
+    {
+      "family": "T1",
+      "method": "RGR+P",
+      "pairs": 24,
+      "mean_operational_ratio": "371004127610382187690084183/375744194814508952796936000",
+      "mean_excess_percent": "-4740067204126765106851817/3757441948145089527969360",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        11,
+        11,
+        2
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 3755.73105,
+      "mean_runtime_ms": 6524.7516125,
+      "certified_pairs": 0,
+      "certified_mean_gap_percent": null,
+      "certified_median_gap_percent": null,
+      "certified_hit_percent": null
+    },
+    {
+      "family": "T1",
+      "method": "Reverse-delete",
+      "pairs": 24,
+      "mean_operational_ratio": "14011838170498470337574862106169169987240409069/13150942458882003842448003308740667048827392000",
+      "mean_excess_percent": "860895711616466495126858797428502938413017069/131509424588820038424480033087406670488273920",
+      "median_excess_percent": "4738670/1387277",
+      "wins_ties_losses": [
+        5,
+        0,
+        19
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 12.58585,
+      "mean_runtime_ms": 31.4645125,
+      "certified_pairs": 0,
+      "certified_mean_gap_percent": null,
+      "certified_median_gap_percent": null,
+      "certified_hit_percent": null
+    },
+    {
+      "family": "T1",
+      "method": "IND",
+      "pairs": 120,
+      "mean_operational_ratio": "982706084856439641210264682449876587/980926394498693979220760547260160000",
+      "mean_excess_percent": "1779690357745661989504135189716587/9809263944986939792207605472601600",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        20,
+        86,
+        14
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 4011.4919,
+      "mean_runtime_ms": 8273.448599166666,
+      "certified_pairs": 0,
+      "certified_mean_gap_percent": null,
+      "certified_median_gap_percent": null,
+      "certified_hit_percent": null
+    },
+    {
+      "family": "T1",
+      "method": "EVO_P",
+      "pairs": 120,
+      "mean_operational_ratio": "843857198034906782237098525669266271877359/842163369621235330487416695332081054208000",
+      "mean_excess_percent": "1693828413671451749681830337185217669359/8421633696212353304874166953320810542080",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        27,
+        66,
+        27
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 4104.372,
+      "mean_runtime_ms": 9062.951665833334,
+      "certified_pairs": 0,
+      "certified_mean_gap_percent": null,
+      "certified_median_gap_percent": null,
+      "certified_hit_percent": null
+    },
+    {
+      "family": "T1",
+      "method": "EVO_F",
+      "pairs": 120,
+      "mean_operational_ratio": "4890112656466193842960960364749952341589685477/4870719429215556978684445669903950758824960000",
+      "mean_excess_percent": "19393227250636864276514694846001582764725477/48707194292155569786844456699039507588249600",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        24,
+        59,
+        37
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 3841.84435,
+      "mean_runtime_ms": 8767.349705833334,
+      "certified_pairs": 0,
+      "certified_mean_gap_percent": null,
+      "certified_median_gap_percent": null,
+      "certified_hit_percent": null
+    },
+    {
+      "family": "T1",
+      "method": "RS_PARAM",
+      "pairs": 120,
+      "mean_operational_ratio": "100207618416958208713948751872053662192095176871/98632068441615028818360024815555002866205440000",
+      "mean_excess_percent": "1575549975343179895588727056498659325889736871/986320684416150288183600248155550028662054400",
+      "median_excess_percent": "4600/3309",
+      "wins_ties_losses": [
+        20,
+        17,
+        83
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 8376.87075,
+      "mean_runtime_ms": 19473.2591425,
+      "certified_pairs": 0,
+      "certified_mean_gap_percent": null,
+      "certified_median_gap_percent": null,
+      "certified_hit_percent": null
+    },
+    {
+      "family": "T2",
+      "method": "GR+P",
+      "pairs": 24,
+      "mean_operational_ratio": "1",
+      "mean_excess_percent": "0",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        0,
+        24,
+        0
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 1039.31195,
+      "mean_runtime_ms": 1341.0057,
+      "certified_pairs": 5,
+      "certified_mean_gap_percent": "18575/9306",
+      "certified_median_gap_percent": "0",
+      "certified_hit_percent": "60"
+    },
+    {
+      "family": "T2",
+      "method": "RGR+P",
+      "pairs": 24,
+      "mean_operational_ratio": "478662217494223103497627/481450169888612901863964",
+      "mean_excess_percent": "-69698809859744959158425/120362542472153225465991",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        7,
+        15,
+        2
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 1767.5414,
+      "mean_runtime_ms": 2735.575625,
+      "certified_pairs": 5,
+      "certified_mean_gap_percent": "13295/9306",
+      "certified_median_gap_percent": "0",
+      "certified_hit_percent": "60"
+    },
+    {
+      "family": "T2",
+      "method": "Reverse-delete",
+      "pairs": 24,
+      "mean_operational_ratio": "13880818183843792009787695421625589620733621358634649/13632349694278154224052165620709164184323414066353600",
+      "mean_excess_percent": "248468489565637785735529800916425436410207292281049/136323496942781542240521656207091641843234140663536",
+      "median_excess_percent": "125525/196241",
+      "wins_ties_losses": [
+        8,
+        2,
+        14
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 8.4193,
+      "mean_runtime_ms": 15.075745833333334,
+      "certified_pairs": 5,
+      "certified_mean_gap_percent": "40416040/5994991",
+      "certified_median_gap_percent": "200/47",
+      "certified_hit_percent": "40"
+    },
+    {
+      "family": "T2",
+      "method": "IND",
+      "pairs": 120,
+      "mean_operational_ratio": "756688018667860956670456334742595082995573/757323030089450652280846914776224481820000",
+      "mean_excess_percent": "-635011421589695610390580033629398824427/7573230300894506522808469147762244818200",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        24,
+        88,
+        8
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 2881.4135,
+      "mean_runtime_ms": 3801.7957925,
+      "certified_pairs": 25,
+      "certified_mean_gap_percent": "16463/9306",
+      "certified_median_gap_percent": "0",
+      "certified_hit_percent": "60"
+    },
+    {
+      "family": "T2",
+      "method": "EVO_P",
+      "pairs": 120,
+      "mean_operational_ratio": "338825145543432790839761943373209076305537949/338920087465745582387399966907950365721160000",
+      "mean_excess_percent": "-94941922312791547638023534741289415622051/3389200874657455823873999669079503657211600",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        36,
+        68,
+        16
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 2954.1741,
+      "mean_runtime_ms": 4035.8334091666666,
+      "certified_pairs": 25,
+      "certified_mean_gap_percent": "15407/9306",
+      "certified_median_gap_percent": "0",
+      "certified_hit_percent": "60"
+    },
+    {
+      "family": "T2",
+      "method": "EVO_F",
+      "pairs": 120,
+      "mean_operational_ratio": "73437337717050598478820132076455474661271/73317762933614805358077767757578755396800",
+      "mean_excess_percent": "119574783435793120742364318876719264471/733177629336148053580777677575787553968",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        26,
+        72,
+        22
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 2628.18265,
+      "mean_runtime_ms": 3865.439025,
+      "certified_pairs": 25,
+      "certified_mean_gap_percent": "15407/9306",
+      "certified_median_gap_percent": "0",
+      "certified_hit_percent": "60"
+    },
+    {
+      "family": "T2",
+      "method": "RS_PARAM",
+      "pairs": 120,
+      "mean_operational_ratio": "121925925168749812072798207925674182821707637/120953690867826830251600694045958212191080000",
+      "mean_excess_percent": "972234300922981821197513879715970630627637/1209536908678268302516006940459582121910800",
+      "median_excess_percent": "0",
+      "wins_ties_losses": [
+        34,
+        42,
+        44
+      ],
+      "feasibility_percent": "100",
+      "failures": 0,
+      "median_runtime_ms": 5256.7535,
+      "mean_runtime_ms": 8834.280440833334,
+      "certified_pairs": 25,
+      "certified_mean_gap_percent": "48361717/13851981",
+      "certified_median_gap_percent": "175/66",
+      "certified_hit_percent": "36"
+    }
+  ],
+  "bootstrap": {
+    "seed": 4212,
+    "draws": 5000,
+    "runs_per_method": 5,
+    "primary_graphs": 60,
+    "conditional_on": "fixed training corpus",
+    "contrasts": [
+      {
+        "methods": [
+          "EVO_F",
+          "IND"
+        ],
+        "hypothesis_scope": "PRIMARY",
+        "mean_percentage_points": -0.1484356513234745,
+        "per_run_means": [
+          0.0,
+          0.23493195642806322,
+          -0.9188994287317102,
+          0.0,
+          -0.058210784313725485
+        ],
+        "archived_run_index_paired_interval_95": [
+          -0.698664747321053,
+          0.2198361966543523
+        ],
+        "independent_run_paired_graph_interval_95": [
+          -0.8904489307348157,
+          0.5122778154640966
+        ]
+      },
+      {
+        "methods": [
+          "EVO_F",
+          "EVO_P"
+        ],
+        "hypothesis_scope": "SECONDARY",
+        "mean_percentage_points": -0.3050597714926841,
+        "per_run_means": [
+          -0.9975813851597733,
+          -0.8606886444179848,
+          0.23493195642806322,
+          0.0,
+          0.09803921568627452
+        ],
+        "archived_run_index_paired_interval_95": [
+          -1.0042529057214369,
+          0.17398775798548663
+        ],
+        "independent_run_paired_graph_interval_95": [
+          -1.049115235951595,
+          0.3141396037978429
+        ]
+      },
+      {
+        "methods": [
+          "EVO_P",
+          "IND"
+        ],
+        "hypothesis_scope": "SECONDARY",
+        "mean_percentage_points": 0.15662412016920957,
+        "per_run_means": [
+          0.9975813851597733,
+          1.0956206008460478,
+          -1.1538313851597732,
+          0.0,
+          -0.15625
+        ],
+        "archived_run_index_paired_interval_95": [
+          -0.6592492894997112,
+          1.0256278066847577
+        ],
+        "independent_run_paired_graph_interval_95": [
+          -0.5639738045094841,
+          0.9637859393082802
+        ]
+      }
+    ]
+  },
+  "ablations": [
+    {
+      "method": "EVO_F",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "561434771004714499/65819139408902880",
+      "mean_change_pp": "555287625135152843/65819139408902880"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "664181766756440623/131436113843754720",
+      "mean_change_pp": "3028578207846001/534293145706320"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "12957264210829/1714309558416",
+      "mean_change_pp": "3871061816632279/534293145706320"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "no_pruning",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "12021565169020410703528247/1445463369115931619253800",
+      "mean_change_pp": "161739778444892998546665451/19847323952861061079754100"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "no_pruning",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "2305198828085113/216605329340400",
+      "mean_change_pp": "3987517146696563/433210658680800"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "no_pruning",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "34352349112661/4962475037520",
+      "mean_change_pp": "298060561834543/42181037818920"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "2170789/23243220",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-2185093847937179/3552327401182560",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "13206752295481/42181037818920",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "original",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "272713160806138591801/1627584103523346532200",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "original",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "1744763331859/1213475234400",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "original",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "-1226735641/8530900560",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "-89/1540",
+      "mean_change_pp": "-1757033/11621610"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-87543280632961/131567681525280",
+      "mean_change_pp": "-455213336/9055406745"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "187549/1330520",
+      "mean_change_pp": "-3383479987/19655656020"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "overlap_zero",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "42753114673/494162355960",
+      "mean_change_pp": "-9626372311616233/118784418590231100"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "overlap_zero",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "54222498287/37921101075",
+      "mean_change_pp": "-341057/42916896"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "overlap_zero",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "-2/13",
+      "mean_change_pp": "-6593123/656223120"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "7914826216159/31761395265600",
+      "mean_change_pp": "549831829271/3529043918400"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-40595510701/1161270807840",
+      "mean_change_pp": "34348536345047/59205456686376"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "268515176933/1341209469600",
+      "mean_change_pp": "-4136689381/36642520800"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "rarity_zero",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "6387561442100133578483/23678723570613847936200",
+      "mean_change_pp": "22970229388100317217/224752122072574796700"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "rarity_zero",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "10107359/205549344",
+      "mean_change_pp": "-5897828356169/4247163320400"
+    },
+    {
+      "method": "EVO_F",
+      "intervention": "rarity_zero",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "8929415371/42654502800",
+      "mean_change_pp": "535063/1515150"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "149639870412983749/18805468402543680",
+      "mean_change_pp": "97537393611539305/13163827881780576"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "25636178590859/5653895721760",
+      "mean_change_pp": "1365953457203383/267146572853160"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "1108669714899997/157145042854800",
+      "mean_change_pp": "17196000783223099/2671465728531600"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "no_pruning",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "352790713232354613484453501/46911856615853417097600600",
+      "mean_change_pp": "143421136757422780807647127/19847323952861061079754100"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "no_pruning",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "31560572258867/3094361847720",
+      "mean_change_pp": "167208130899179/18835246029600"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "no_pruning",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "2520618791497/381728849040",
+      "mean_change_pp": "35468297340479/5272629727365"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "191358677/349352640",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-16718272301113/28880710578720",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "1738299336923/2812069187928",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "original",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "71952721604034351507901/244680143563009762007400",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "original",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "11229276579613/8494326640800",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "original",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "-351771481/2843633520",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "-8947/73920",
+      "mean_change_pp": "-160629571/240179940"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-6944688940243/9626903526240",
+      "mean_change_pp": "-9893736826/69424785045"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "187549/1330520",
+      "mean_change_pp": "-3126543307/6551885340"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "overlap_zero",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "758659339/18302309480",
+      "mean_change_pp": "-4511045625275984803/17857257594731408700"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "overlap_zero",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "6781193021/7210803600",
+      "mean_change_pp": "-369348285/968014432"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "overlap_zero",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "-2/13",
+      "mean_change_pp": "-6593123/218741040"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "7914826216159/10587131755200",
+      "mean_change_pp": "352616918279/1764521959200"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-40595510701/387090269280",
+      "mean_change_pp": "31181527617293/65783840762640"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "268515176933/447069823200",
+      "mean_change_pp": "-214302541/12214173600"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "rarity_zero",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "6387561442100133578483/7892907856871282645400",
+      "mean_change_pp": "1725290020323686/3348711515474325"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "rarity_zero",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "10107359/68516448",
+      "mean_change_pp": "-27407188867/23336062200"
+    },
+    {
+      "method": "EVO_P",
+      "intervention": "rarity_zero",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "8929415371/14218167600",
+      "mean_change_pp": "379663/505050"
+    },
+    {
+      "method": "IND",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "17886774079645825/2193971313630096",
+      "mean_change_pp": "516750226887063419/65819139408902880"
+    },
+    {
+      "method": "IND",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "4898694141879283/1068586291412640",
+      "mean_change_pp": "3181703612781895/641151774847584"
+    },
+    {
+      "method": "IND",
+      "intervention": "no_pruning",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "3626831337638842/500899824099675",
+      "mean_change_pp": "214744649011349/31677459231600"
+    },
+    {
+      "method": "IND",
+      "intervention": "no_pruning",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "7922593245180878858472057073/1032060845548775176147213200",
+      "mean_change_pp": "197511644412633538044833939/26463098603814748106338800"
+    },
+    {
+      "method": "IND",
+      "intervention": "no_pruning",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "28800290096443/3493634344200",
+      "mean_change_pp": "590539139814187/72201776446800"
+    },
+    {
+      "method": "IND",
+      "intervention": "no_pruning",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "10819141490167/1654158345840",
+      "mean_change_pp": "78212182228289/12051725091120"
+    },
+    {
+      "method": "IND",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "1738688647/5764318560",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "IND",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-16384265382049/43321065868080",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "IND",
+      "intervention": "original",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "458068755709/992495007504",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "IND",
+      "intervention": "original",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "78107792705608419176221/367020215344514643011100",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "IND",
+      "intervention": "original",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "22994911/355758480",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "IND",
+      "intervention": "original",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "216955223/4265450280",
+      "mean_change_pp": "0"
+    },
+    {
+      "method": "IND",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "-2221/15840",
+      "mean_change_pp": "-318366317/720539820"
+    },
+    {
+      "method": "IND",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-36435644963/89691647760",
+      "mean_change_pp": "-4237579/151197354"
+    },
+    {
+      "method": "IND",
+      "intervention": "overlap_zero",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "187549/1995780",
+      "mean_change_pp": "-1699912573/4624860240"
+    },
+    {
+      "method": "IND",
+      "intervention": "overlap_zero",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "-8714323/584116260",
+      "mean_change_pp": "-6100080262963619263/26785886392097113050"
+    },
+    {
+      "method": "IND",
+      "intervention": "overlap_zero",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "11619074099/33530236740",
+      "mean_change_pp": "19358533/68674320"
+    },
+    {
+      "method": "IND",
+      "intervention": "overlap_zero",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "2/65",
+      "mean_change_pp": "-6593123/328111560"
+    },
+    {
+      "method": "IND",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "hub_cheap",
+      "observations": 300,
+      "mean_excess_percent": "7914826216159/15880697632800",
+      "mean_change_pp": "16799672009/85380094800"
+    },
+    {
+      "method": "IND",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "hub_expensive",
+      "observations": 300,
+      "mean_excess_percent": "-40595510701/580635403920",
+      "mean_change_pp": "209798166065/680522490648"
+    },
+    {
+      "method": "IND",
+      "intervention": "rarity_zero",
+      "split": "test_id",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "268515176933/670604734800",
+      "mean_change_pp": "-16468937/269430300"
+    },
+    {
+      "method": "IND",
+      "intervention": "rarity_zero",
+      "split": "test_size",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "6387561442100133578483/11839361785306923968100",
+      "mean_change_pp": "1184691245548/3626202332025"
+    },
+    {
+      "method": "IND",
+      "intervention": "rarity_zero",
+      "split": "test_topology",
+      "variant": "random",
+      "observations": 300,
+      "mean_excess_percent": "10107359/102774672",
+      "mean_change_pp": "423634/12567555"
+    },
+    {
+      "method": "IND",
+      "intervention": "rarity_zero",
+      "split": "train",
+      "variant": "random",
+      "observations": 150,
+      "mean_excess_percent": "8929415371/21327251400",
+      "mean_change_pp": "278653/757575"
+    }
+  ],
+  "control": [
+    {
+      "method": "GR+P",
+      "measured_calls": 180,
+      "certified_calls": 180,
+      "mean_gap_percent": "838620306503/290317701960",
+      "optimal_hit_percent": "200/3",
+      "median_ms": 4.172800006926991,
+      "overrun_count": 0
+    },
+    {
+      "method": "RGR+P",
+      "measured_calls": 180,
+      "certified_calls": 180,
+      "mean_gap_percent": "137625041530081/40818668895576",
+      "optimal_hit_percent": "190/3",
+      "median_ms": 10.495549999177456,
+      "overrun_count": 0
+    },
+    {
+      "method": "EVO-F",
+      "measured_calls": 900,
+      "certified_calls": 900,
+      "mean_gap_percent": "1632123482472169/508653691345800",
+      "optimal_hit_percent": "190/3",
+      "median_ms": 14.939550004783086,
+      "overrun_count": 0
+    },
+    {
+      "method": "CP-SAT50",
+      "measured_calls": 180,
+      "certified_calls": 180,
+      "mean_gap_percent": "0",
+      "optimal_hit_percent": "100",
+      "median_ms": 7.386950004729442,
+      "overrun_count": 0
+    }
+  ],
+  "timing_provenance": "saved measurements; no new timings",
+  "network_calls": 0
+}

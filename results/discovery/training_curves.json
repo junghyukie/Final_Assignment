@@ -1,0 +1,6404 @@
+{
+  "rows": [
+    {
+      "cumulative_billed_usd": "0.000397875",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000808875",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 2,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.001199250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 3,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.001612125",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 4,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.002013750",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 5,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.002447250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 6,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.002843250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 7,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.003233625",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 8,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.004338750",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 9,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.006188250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 10,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.006845250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 11,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.008276250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 12,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.008683500",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 13,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.010794000",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 14,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.011893500",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 15,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.013173000",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 16,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.014223750",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 17,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.014640375",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 18,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.015942000",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 19,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.017180250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 20,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.017828625",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 21,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.019040625",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 22,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.019442250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 23,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.020708250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 24,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.022184250",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 25,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.023332500",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 26,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.024600375",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 27,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.025015125",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 28,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.025683375",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 29,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.026885625",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 30,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.028379625",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 31,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.029731125",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 32,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.030136500",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 33,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.031382625",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 34,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.032055375",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 35,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.033242625",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 36,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.034665375",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 37,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.035052000",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 38,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.036204000",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 39,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.037438500",
+      "method": "EVO_F",
+      "run_id": 0,
+      "selection_key": "EVO_F:0",
+      "slot": 40,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.00041475",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.00086325",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001268625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001651500",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002083125",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002501625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002897625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003299250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003975750",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005047500",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006293250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 11,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.007520625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 12,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.007946625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 13,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.009119625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 14,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.010572750",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 15,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.012108000",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 16,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.013504875",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 17,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.013900875",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 18,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.015245625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 19,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.016229625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 20,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.017463750",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 21,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.018551625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 22,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.018898875",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 23,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.020117250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 24,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.021186375",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 25,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.022514250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 26,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.023166375",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 27,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.023551125",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 28,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.024623250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 29,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.025823625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 30,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.027074625",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 31,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.028201875",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 32,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.028614750",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 33,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.029604375",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 34,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.030618375",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 35,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.031749375",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 36,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.032825250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 37,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.033221250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 38,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.034340250",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 39,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.035782500",
+      "method": "EVO_F",
+      "run_id": 1,
+      "selection_key": "EVO_F:1",
+      "slot": 40,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.000397875",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000805125",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 2,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.001212375",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 3,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.001612125",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 4,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.002006250",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 5,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.002391000",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 6,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.002796375",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 7,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.003214875",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 8,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.004617000",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 9,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.005810250",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 10,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.006466500",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 11,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008133000",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 12,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008542125",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 13,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010030875",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 14,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011517375",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 15,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012158625",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 16,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013478625",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 17,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.013872750",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 18,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.015175125",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 19,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.016521375",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 20,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.017583375",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 21,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.018797250",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 22,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.019202625",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 23,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.020545875",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 24,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.021186750",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 25,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.022351500",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 26,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.023592750",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 27,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.023975625",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 28,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.025219500",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 29,
+      "training_incumbent": "389/390"
+    },
+    {
+      "cumulative_billed_usd": "0.026316000",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 30,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.027296250",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 31,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.028243875",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 32,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.028639875",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 33,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.029867625",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 34,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.030906750",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 35,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.031805250",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 36,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.032741250",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 37,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.033165375",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 38,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.034084875",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 39,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.035237250",
+      "method": "EVO_F",
+      "run_id": 2,
+      "selection_key": "EVO_F:2",
+      "slot": 40,
+      "training_incumbent": "6412/6435"
+    },
+    {
+      "cumulative_billed_usd": "0.0003735",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.0007770",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.00118425",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001578375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001985625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002404125",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002837625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003248625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005477250",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006593625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007235625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 11,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008582625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 12,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008974875",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 13,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010205625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 14,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011690250",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 15,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.013189125",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 16,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.014367375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 17,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.014772750",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 18,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.016124625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 19,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.017379375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 20,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.018018375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 21,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.019005000",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 22,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.019005000",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 23,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.020246625",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 24,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.021562125",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 25,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.022674375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 26,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.023845500",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 27,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.024187125",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 28,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.025533000",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 29,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.026811375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 30,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.028237875",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 31,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.029556000",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 32,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.029946375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 33,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.031011375",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 34,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.032238000",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 35,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.033321000",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 36,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.033940875",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 37,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.034286250",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 38,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.035465250",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 39,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.036818250",
+      "method": "EVO_F",
+      "run_id": 3,
+      "selection_key": "EVO_F:3",
+      "slot": 40,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.00038475",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.00078075",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.00120675",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001634625",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002011875",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002409750",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002828250",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003256125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 8,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.004504875",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 9,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.005132625",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 10,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.006799500",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 11,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.007822125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 12,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008227500",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 13,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.009349500",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 14,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010960125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 15,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011621250",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 16,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013009500",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 17,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013405500",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 18,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014527500",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 19,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015688125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 20,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.017396625",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 21,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.019052625",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 22,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.019459875",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 23,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.020488125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 24,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.021522000",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 25,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.023108625",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 26,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.024348750",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 27,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.024739125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 28,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.026016750",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 29,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.027367125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 30,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.028023750",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 31,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.029514375",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 32,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.029916000",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 33,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.031600125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 34,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.032925000",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 35,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.034426125",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 36,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.035739000",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 37,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.036131250",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 38,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.037437375",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 39,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.038096625",
+      "method": "EVO_F",
+      "run_id": 4,
+      "selection_key": "EVO_F:4",
+      "slot": 40,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.0004335",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.0008220",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.00122925",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.00164775",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002056875",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002482875",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002892000",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003316125",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003771750",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 9,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.004269750",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 10,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.004717500",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 11,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.006354750",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 12,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.006782625",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 13,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.007849125",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 14,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008300625",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 15,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008781000",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 16,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.009248250",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 17,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.009651750",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 18,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010134375",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 19,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010581375",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 20,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011030250",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 21,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011479125",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 22,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011882625",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 23,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012314250",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 24,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012782625",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 25,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013274625",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 26,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013765875",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 27,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014190000",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 28,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014680125",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 29,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015157125",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 30,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015624000",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 31,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.016954125",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 32,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.017372625",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 33,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.017870250",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 34,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.018360375",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 35,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.018858000",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 36,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.019331250",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 37,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.019727250",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 38,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.020226000",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 39,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.020721000",
+      "method": "EVO_P",
+      "run_id": 0,
+      "selection_key": "EVO_P:0",
+      "slot": 40,
+      "training_incumbent": "169841707559/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.0003885",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.0007995",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001204875",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001621500",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002000625",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002439750",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 6,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.002848875",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 7,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.003252375",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 8,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.003708000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 9,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.004146000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 10,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.005725500",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 11,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.006176625",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 12,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.006550125",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 13,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.007896000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 14,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008313375",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 15,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.009453000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 16,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010774500",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 17,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011181750",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 18,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011612250",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 19,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012069375",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 20,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012526875",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 21,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013525875",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 22,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013927500",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 23,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014409375",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 24,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015789750",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 25,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.016214250",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 26,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.017643000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 27,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.018061500",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 28,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.018529875",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 29,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.019605750",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 30,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.021041625",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 31,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.022155750",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 32,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.022568625",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 33,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.023037750",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 34,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.023514375",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 35,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.023947500",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 36,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.024405000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 37,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.024816000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 38,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.025264500",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 39,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.026613000",
+      "method": "EVO_P",
+      "run_id": 1,
+      "selection_key": "EVO_P:1",
+      "slot": 40,
+      "training_incumbent": "821913257/824241600"
+    },
+    {
+      "cumulative_billed_usd": "0.000441",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.0008445",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001249875",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001653375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002081250",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002477250",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002878875",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003295500",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003726375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004155375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004617375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 11,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005826375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 12,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006235500",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 13,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006694125",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 14,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008127750",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 15,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009349125",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 16,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009789375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 17,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010172250",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 18,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010616250",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 19,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011074500",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 20,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011488875",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 21,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011889750",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 22,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012306375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 23,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012737625",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 24,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.013186875",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 25,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.013621500",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 26,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.014059875",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 27,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.014459625",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 28,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.015708000",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 29,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.016155750",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 30,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.016634625",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 31,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.017092500",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 32,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.017492250",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 33,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.017951250",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 34,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.019409625",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 35,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.019878750",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 36,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.020351625",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 37,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.020751375",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 38,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.021245625",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 39,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.021717750",
+      "method": "EVO_P",
+      "run_id": 2,
+      "selection_key": "EVO_P:2",
+      "slot": 40,
+      "training_incumbent": "4872043/4879680"
+    },
+    {
+      "cumulative_billed_usd": "0.0004935",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.0008895",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.0012930",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 3,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.00166275",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 4,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.002083125",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 5,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.002497875",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 6,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.002910750",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 7,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.003312375",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 8,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.003786375",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 9,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.004256250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 10,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.004721250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 11,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.005193750",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 12,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.005582250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 13,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.006523875",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 14,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.006964125",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 15,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.008070750",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 16,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.008511375",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 17,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.008926125",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 18,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.009407250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 19,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.009868875",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 20,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.010350375",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 21,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.010764375",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 22,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.011154750",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 23,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.012531375",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 24,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.012964875",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 25,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.013403250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 26,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.013866000",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 27,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.014293875",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 28,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.014793000",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 29,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.015238500",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 30,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.015715125",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 31,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.016136625",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 32,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.016523250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 33,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.017006250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 34,
+      "training_incumbent": "757394/757575"
+    },
+    {
+      "cumulative_billed_usd": "0.017440500",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 35,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.017869125",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 36,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.019148250",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 37,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.019566750",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 38,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.020002875",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 39,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.020422125",
+      "method": "EVO_P",
+      "run_id": 3,
+      "selection_key": "EVO_P:3",
+      "slot": 40,
+      "training_incumbent": "170545845383/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.000394125",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000829500",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001264875",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 3,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.001675875",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 4,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.002105625",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 5,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.002533500",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 6,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.002946375",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 7,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.003361125",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 8,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.003829500",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 9,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.004288875",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 10,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.004735125",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 11,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.005939250",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 12,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.006325875",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 13,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.007359375",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 14,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.007813500",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 15,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008267250",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 16,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.008706000",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 17,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.009120750",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 18,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.009550125",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 19,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010041375",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 20,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010499250",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 21,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010975500",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 22,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011388375",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 23,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011846250",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 24,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013278750",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 25,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013786125",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 26,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014257500",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 27,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014649750",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 28,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015123000",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 29,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015587250",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 30,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.016065750",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 31,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.017438250",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 32,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.017854875",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 33,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.018317250",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 34,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.018792000",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 35,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.020169000",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 36,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.020637000",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 37,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.021070500",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 38,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.021531750",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 39,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.022026000",
+      "method": "EVO_P",
+      "run_id": 4,
+      "selection_key": "EVO_P:4",
+      "slot": 40,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.00041475",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000823875",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001248000",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001683375",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002079375",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002467875",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002890125",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003303000",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003717750",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004098750",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004524750",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 11,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004902000",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 12,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005318625",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 13,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005733375",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 14,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006135000",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 15,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006523500",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 16,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006949500",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 17,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007336125",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 18,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007758375",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 19,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008171250",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 20,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008539125",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 21,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008959500",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 22,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009366750",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 23,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009781500",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 24,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010168125",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 25,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010607250",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 26,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011018250",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 27,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011431125",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 28,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011849625",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 29,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012262500",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 30,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012660375",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 31,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013039500",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 32,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013461750",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 33,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013870875",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 34,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014285625",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 35,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014676000",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 36,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015100125",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 37,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015516750",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 38,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015895875",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 39,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.016291875",
+      "method": "IND",
+      "run_id": 0,
+      "selection_key": "IND:0",
+      "slot": 40,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.000386625",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000795750",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001191750",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001602750",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002008125",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002430375",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002826375",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003250500",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003650250",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 9,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.004080000",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 10,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.004485375",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 11,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.004868250",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 12,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.005294250",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 13,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.005690250",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 14,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.006091875",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 15,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.006502875",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 16,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.006904500",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 17,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.007313625",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 18,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.007728375",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 19,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.008135625",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 20,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.008522250",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 21,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.008925750",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 22,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.009304875",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 23,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.009682125",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 24,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.010089375",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 25,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.010515375",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 26,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.010903875",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 27,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.011299875",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 28,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.011712750",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 29,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.012121875",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 30,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.012531000",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 31,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.012938250",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 32,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.013330500",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 33,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.013726500",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 34,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.014139375",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 35,
+      "training_incumbent": "1513423/1515150"
+    },
+    {
+      "cumulative_billed_usd": "0.014563500",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 36,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014948250",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 37,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015378000",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 38,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015764625",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 39,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.016175625",
+      "method": "IND",
+      "run_id": 1,
+      "selection_key": "IND:1",
+      "slot": 40,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.00042225",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000831375",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001174875",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001554000",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001961250",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002364750",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002762625",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003160500",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003556500",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003952500",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004369125",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 11,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004759500",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 12,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005168625",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 13,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005575875",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 14,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005981250",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 15,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006403500",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 16,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006805125",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 17,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007212375",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 18,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007627125",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 19,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008032500",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 20,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008439750",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 21,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008817000",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 22,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009196125",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 23,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009609000",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 24,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010016250",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 25,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010417875",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 26,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010825125",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 27,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011251125",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 28,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011652750",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 29,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012039375",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 30,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012465375",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 31,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012889500",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 32,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.013302375",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 33,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.013694625",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 34,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.014100000",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 35,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.014511000",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 36,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.014940750",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 37,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.015378000",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 38,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015798375",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 39,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.016170000",
+      "method": "IND",
+      "run_id": 2,
+      "selection_key": "IND:2",
+      "slot": 40,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.000394125",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000805125",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001206750",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001619625",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002034375",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002409750",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002798250",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003205500",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003605250",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003605250",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003990000",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 11,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004425375",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 12,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004810125",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 13,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005221125",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 14,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005609625",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 15,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006030000",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 16,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006388500",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 17,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006782625",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 18,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007197375",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 19,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007612125",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 20,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008004375",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 21,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008424750",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 22,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008835750",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 23,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009254250",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 24,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009680250",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 25,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010091250",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 26,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010507875",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 27,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.010883250",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 28,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011303625",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 29,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.011710875",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 30,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012125625",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 31,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012551625",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 32,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.012957000",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 33,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013375500",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 34,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013782750",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 35,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014139375",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 36,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014514750",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 37,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014931375",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 38,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015351750",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 39,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015744000",
+      "method": "IND",
+      "run_id": 3,
+      "selection_key": "IND:3",
+      "slot": 40,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.000412875",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.000801375",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001178625",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001606500",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.001981875",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002374125",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.002762625",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003168000",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003582750",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.003963750",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004376625",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 11,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.004795125",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 12,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005219250",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 13,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.005635875",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 14,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006058125",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 15,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006480375",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 16,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.006882000",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 17,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007274250",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 18,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.007660875",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 19,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008041875",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 20,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008441625",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 21,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.008862000",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 22,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009256125",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 23,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.009684000",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 24,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010083750",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 25,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010472250",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 26,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.010892625",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 27,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011303625",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 28,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.011716500",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 29,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012090000",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 30,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012508500",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 31,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": "0.012923250",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 32,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013334250",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 33,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.013720875",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 34,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014109375",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 35,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014526000",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 36,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.014968875",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 37,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015389250",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 38,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.015800250",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 39,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": "0.016203750",
+      "method": "IND",
+      "run_id": 4,
+      "selection_key": "IND:4",
+      "slot": 40,
+      "training_incumbent": "170266239719/170618011200"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 3,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 4,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 5,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 6,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 7,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 8,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 9,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 10,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 11,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 12,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 13,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 14,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 15,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 16,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 17,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 18,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 19,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 20,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 21,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 22,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 23,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 24,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 25,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 26,
+      "training_incumbent": "6146497699/6149682000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 27,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 28,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 29,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 30,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 31,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 32,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 33,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 34,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 35,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 36,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 37,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 38,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 39,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 0,
+      "selection_key": "RS_PARAM:0",
+      "slot": 40,
+      "training_incumbent": "13351493009/13384602000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 3,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 4,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 5,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 6,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 7,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 8,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 9,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 10,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 11,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 12,
+      "training_incumbent": "3860761/3862800"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 13,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 14,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 15,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 16,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 17,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 18,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 19,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 20,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 21,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 22,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 23,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 24,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 25,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 26,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 27,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 28,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 29,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 30,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 31,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 32,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 33,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 34,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 35,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 36,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 37,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 38,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 39,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 1,
+      "selection_key": "RS_PARAM:1",
+      "slot": 40,
+      "training_incumbent": "2937356678539/2957997042000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 2,
+      "training_incumbent": "67863966937997/68033931966000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 3,
+      "training_incumbent": "67863966937997/68033931966000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 4,
+      "training_incumbent": "67863966937997/68033931966000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 5,
+      "training_incumbent": "67863966937997/68033931966000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 6,
+      "training_incumbent": "67863966937997/68033931966000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 7,
+      "training_incumbent": "67863966937997/68033931966000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 8,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 9,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 10,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 11,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 12,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 13,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 14,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 15,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 16,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 17,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 18,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 19,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 20,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 21,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 22,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 23,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 24,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 25,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 26,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 27,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 28,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 29,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 30,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 31,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 32,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 33,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 34,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 35,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 36,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 37,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 38,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 39,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 2,
+      "selection_key": "RS_PARAM:2",
+      "slot": 40,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 4,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 5,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 6,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 7,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 8,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 9,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 10,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 11,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 12,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 13,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 14,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 15,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 16,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 17,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 18,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 19,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 20,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 21,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 22,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 23,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 24,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 25,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 26,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 27,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 28,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 29,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 30,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 31,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 32,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 33,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 34,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 35,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 36,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 37,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 38,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 39,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 3,
+      "selection_key": "RS_PARAM:3",
+      "slot": 40,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 1,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 2,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 3,
+      "training_incumbent": "1/1"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 4,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 5,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 6,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 7,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 8,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 9,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 10,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 11,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 12,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 13,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 14,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 15,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 16,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 17,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 18,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 19,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 20,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 21,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 22,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 23,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 24,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 25,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 26,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 27,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 28,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 29,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 30,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 31,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 32,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 33,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 34,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 35,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 36,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 37,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 38,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 39,
+      "training_incumbent": "226533945103/227538234000"
+    },
+    {
+      "cumulative_billed_usd": null,
+      "method": "RS_PARAM",
+      "run_id": 4,
+      "selection_key": "RS_PARAM:4",
+      "slot": 40,
+      "training_incumbent": "226533945103/227538234000"
+    }
+  ]
+}

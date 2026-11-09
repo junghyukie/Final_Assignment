@@ -1,0 +1,3 @@
+Propose one scoring expression for this task independently. You have not
+been given any previous proposed program or its evaluation. You may use
+any allowed features and operators. Return only the required JSON object.

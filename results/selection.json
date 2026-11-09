@@ -1,0 +1,566 @@
+{
+  "shortlists": {
+    "EVO_F:0": [
+      {
+        "program_hash": "cdc206f47085243a0bdf54c725da4114e5d798b07c314b7512106df5ac35eaab",
+        "training_mean_ratio": "170545845383/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "31121/30940",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "6b2e983d8f64093c9a68d1a29f8100548b3198bb9dbe800410b91ac1e75ab404",
+        "training_mean_ratio": "757394/757575",
+        "validation_failures": [],
+        "validation_mean_ratio": "4763/4760",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_F:1": [
+      {
+        "program_hash": "7044bd653e4cd9373178c777c94946c8267468382f50b78ff867d45df6af2159",
+        "training_mean_ratio": "6412/6435",
+        "validation_failures": [],
+        "validation_mean_ratio": "8471/8400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "196a9653cedba57c847cc826ec44dfd03488e2feea45e23b2ec7086c2bc60e03",
+        "training_mean_ratio": "389/390",
+        "validation_failures": [],
+        "validation_mean_ratio": "4243/4200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "b9259acc52dd39902cd07208a69f539baff185adf4dcdec334ccd8b5363fb408",
+        "training_mean_ratio": "389/390",
+        "validation_failures": [],
+        "validation_mean_ratio": "281/280",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_F:2": [
+      {
+        "program_hash": "7044bd653e4cd9373178c777c94946c8267468382f50b78ff867d45df6af2159",
+        "training_mean_ratio": "6412/6435",
+        "validation_failures": [],
+        "validation_mean_ratio": "8471/8400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "0f60438124cddd196ff47ed691eca81302bae11d81ba5e264cb6f4e3847674c8",
+        "training_mean_ratio": "389/390",
+        "validation_failures": [],
+        "validation_mean_ratio": "8471/8400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "196a9653cedba57c847cc826ec44dfd03488e2feea45e23b2ec7086c2bc60e03",
+        "training_mean_ratio": "389/390",
+        "validation_failures": [],
+        "validation_mean_ratio": "4243/4200",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_F:3": [
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "015fc8d61c4f59085432df1b4c7979c287d92fcf33e4b073e39edf79f0d596d3",
+        "training_mean_ratio": "1301/1300",
+        "validation_failures": [],
+        "validation_mean_ratio": "281/280",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "57aa059743433bb191281b80f04da7b5c691750db50380574f94c25a1bbd8d50",
+        "training_mean_ratio": "1301/1300",
+        "validation_failures": [],
+        "validation_mean_ratio": "281/280",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_F:4": [
+      {
+        "program_hash": "4d5146c7fd79a23d93a988faf35d58ea82d77a92e0e9710d5989975dcfcf720f",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "143587/142800",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "1863061/1856400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "48ede25fe3480d8c91aec9275649d4a3505e153441bde631100304e667d7929a",
+        "training_mean_ratio": "4610098907/4611297600",
+        "validation_failures": [],
+        "validation_mean_ratio": "469909/464100",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_P:0": [
+      {
+        "program_hash": "a87ff4b286fc253484a6e83fc7c93d8d7d9d54caaa35ef67cda65eb5c7307b00",
+        "training_mean_ratio": "169841707559/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "123379/123760",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "e3979a8eee147456587ec3b64c2d5f2d299cda2533b41493e17df7043c11aa1c",
+        "training_mean_ratio": "169841707559/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "123379/123760",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "123379/123760",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_P:1": [
+      {
+        "program_hash": "87e585b8eed88dd103be04053d8062abc28a0df44aeefb15ec3f23ca611c82e5",
+        "training_mean_ratio": "821913257/824241600",
+        "validation_failures": [],
+        "validation_mean_ratio": "469909/464100",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "4d5146c7fd79a23d93a988faf35d58ea82d77a92e0e9710d5989975dcfcf720f",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "143587/142800",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "50443185a6ceb5a08bdaecf550352410536ecd45a9415cb9d29a7a0948ebd6d3",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "1863061/1856400",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_P:2": [
+      {
+        "program_hash": "dc66e29df2887a59bf2469329933c40d2b84cc6b539b0ca28540ea2f1dac0ed4",
+        "training_mean_ratio": "4872043/4879680",
+        "validation_failures": [],
+        "validation_mean_ratio": "4273/4200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "0c8f16764b24ed14bbb0fab11874b0f061614ffb2f88ed4a807aa6388d6ee5e6",
+        "training_mean_ratio": "161428043/161029440",
+        "validation_failures": [],
+        "validation_mean_ratio": "143587/142800",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_P:3": [
+      {
+        "program_hash": "cc95cff6724814cbfbf872352e576c6bc3d0f57a4ddc897e75cee7142907ccff",
+        "training_mean_ratio": "170545845383/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "31121/30940",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "6cf3544e369d0371eae656c37c9cecbcbfe3351e79c98ce1a5cf02ef9e63f336",
+        "training_mean_ratio": "757394/757575",
+        "validation_failures": [],
+        "validation_mean_ratio": "4763/4760",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      }
+    ],
+    "EVO_P:4": [
+      {
+        "program_hash": "18987a6fef917c37576c551e2c2678e4b2f2e3215449f136706a4cd12105a2ed",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "58218991/57548400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "123379/123760",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "4d5146c7fd79a23d93a988faf35d58ea82d77a92e0e9710d5989975dcfcf720f",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "143587/142800",
+        "validation_status": "VALID"
+      }
+    ],
+    "IND:0": [
+      {
+        "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "1863061/1856400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "1adae7ea92935a746beb28c56419a4ff272b028367b76586640ea50a96d8fa46",
+        "training_mean_ratio": "20507/20475",
+        "validation_failures": [],
+        "validation_mean_ratio": "4763/4760",
+        "validation_status": "VALID"
+      }
+    ],
+    "IND:1": [
+      {
+        "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "1863061/1856400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "aa589c80b1b3fc268569a8632ffc6188c1df7577a36c3cff277f06e6ea00f123",
+        "training_mean_ratio": "1513423/1515150",
+        "validation_failures": [],
+        "validation_mean_ratio": "4763/4760",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      }
+    ],
+    "IND:2": [
+      {
+        "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "1863061/1856400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+        "training_mean_ratio": "170834966423/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "123379/123760",
+        "validation_status": "VALID"
+      }
+    ],
+    "IND:3": [
+      {
+        "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "1863061/1856400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "1b004087ba47dc3eb028931115e30667a895eb601d012c9e524576ede68cec57",
+        "training_mean_ratio": "1301/1300",
+        "validation_failures": [],
+        "validation_mean_ratio": "281/280",
+        "validation_status": "VALID"
+      }
+    ],
+    "IND:4": [
+      {
+        "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+        "training_mean_ratio": "170266239719/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "1863061/1856400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+        "training_mean_ratio": "1/1",
+        "validation_failures": [],
+        "validation_mean_ratio": "1/1",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+        "training_mean_ratio": "170834966423/170618011200",
+        "validation_failures": [],
+        "validation_mean_ratio": "123379/123760",
+        "validation_status": "VALID"
+      }
+    ],
+    "RS_PARAM:0": [
+      {
+        "program_hash": "afdd4c71732abf57ef8ff9556811b14067280a1e9fe3b9e269ad84df79e4f089",
+        "training_mean_ratio": "13351493009/13384602000",
+        "validation_failures": [],
+        "validation_mean_ratio": "97546003/97675200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "d12ef65ec3881ec790835ccc11075d7eaad24983984cde594e7ee2b415e2e9ba",
+        "training_mean_ratio": "6146497699/6149682000",
+        "validation_failures": [],
+        "validation_mean_ratio": "649883/642600",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "6835a0cfdee0dab3c2fb71ae8408289d53a26bcf2da9d4c87ba36957c9daec7a",
+        "training_mean_ratio": "22358129/22362480",
+        "validation_failures": [],
+        "validation_mean_ratio": "649883/642600",
+        "validation_status": "VALID"
+      }
+    ],
+    "RS_PARAM:1": [
+      {
+        "program_hash": "6a41d2edd6624a978ff65d44b88905be2727795457a913ae3a67a9e92fe5416b",
+        "training_mean_ratio": "2937356678539/2957997042000",
+        "validation_failures": [],
+        "validation_mean_ratio": "2620799/2570400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "48d3462b12a1f436d49b5021895b2f0083e339985b8cdffddb5323a1a26f3ebb",
+        "training_mean_ratio": "226533945103/227538234000",
+        "validation_failures": [],
+        "validation_mean_ratio": "375827/367200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "a0704307e520d324abdacd87c3e5dcbdc545a8a8e027ba58ffa60b140599f606",
+        "training_mean_ratio": "226533945103/227538234000",
+        "validation_failures": [],
+        "validation_mean_ratio": "46921/45900",
+        "validation_status": "VALID"
+      }
+    ],
+    "RS_PARAM:2": [
+      {
+        "program_hash": "476b1c63200d1458daecf80bcb1c42face4e21c48c4542637bd214eac9836912",
+        "training_mean_ratio": "226533945103/227538234000",
+        "validation_failures": [],
+        "validation_mean_ratio": "376367/367200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "f4d105673c6845961ead86042d3c4acd8623a60fe47c6ea960ed9ea93e5fc69a",
+        "training_mean_ratio": "67863966937997/68033931966000",
+        "validation_failures": [],
+        "validation_mean_ratio": "2620799/2570400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "ae8e2e93173cb97536d86d5cfa50611045bdf164fbb63a02ba42dc5b665f1827",
+        "training_mean_ratio": "930779/932400",
+        "validation_failures": [],
+        "validation_mean_ratio": "114193/114240",
+        "validation_status": "VALID"
+      }
+    ],
+    "RS_PARAM:3": [
+      {
+        "program_hash": "c62fea16d42579ef2b90f476d3b6e4f36b84f59a17a152c66cd97921452d0647",
+        "training_mean_ratio": "226533945103/227538234000",
+        "validation_failures": [],
+        "validation_mean_ratio": "375827/367200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "c7cc72cf13ca5f6bb764b9cce3206694181ae3b7631883c266db5cfe174fcb40",
+        "training_mean_ratio": "32413588129/32505462000",
+        "validation_failures": [],
+        "validation_mean_ratio": "2617019/2570400",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "87ebb8ac116c716cee4e4cd2247bd7cce315fef52b0a7fbf477d36a04849794f",
+        "training_mean_ratio": "27038203/27039600",
+        "validation_failures": [],
+        "validation_mean_ratio": "10834307/10852800",
+        "validation_status": "VALID"
+      }
+    ],
+    "RS_PARAM:4": [
+      {
+        "program_hash": "1c325c4216d7ed5d58d880988d5be553959a0c0311911907ef8c12d76b412064",
+        "training_mean_ratio": "226533945103/227538234000",
+        "validation_failures": [],
+        "validation_mean_ratio": "375827/367200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "ca3cb034c40ce529210d444b7850b6ad1426f91bb33d329bc663088083c239a1",
+        "training_mean_ratio": "226533945103/227538234000",
+        "validation_failures": [],
+        "validation_mean_ratio": "375827/367200",
+        "validation_status": "VALID"
+      },
+      {
+        "program_hash": "ffd5b48fdfefcbabaaa9b7f6ace1c748c5a6436f380c929b2dda07e79348702d",
+        "training_mean_ratio": "1906994087/1912086000",
+        "validation_failures": [],
+        "validation_mean_ratio": "754111/734400",
+        "validation_status": "VALID"
+      }
+    ]
+  },
+  "winners": {
+    "EVO_F:0": {
+      "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1/1"
+    },
+    "EVO_F:1": {
+      "program_hash": "b9259acc52dd39902cd07208a69f539baff185adf4dcdec334ccd8b5363fb408",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "281/280"
+    },
+    "EVO_F:2": {
+      "program_hash": "0f60438124cddd196ff47ed691eca81302bae11d81ba5e264cb6f4e3847674c8",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "8471/8400"
+    },
+    "EVO_F:3": {
+      "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1/1"
+    },
+    "EVO_F:4": {
+      "program_hash": "447ddcd44a863c191da028fe4ad03e5ff2a5d545c1314491cd6747f9a3bff633",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1863061/1856400"
+    },
+    "EVO_P:0": {
+      "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "123379/123760"
+    },
+    "EVO_P:1": {
+      "program_hash": "50443185a6ceb5a08bdaecf550352410536ecd45a9415cb9d29a7a0948ebd6d3",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1863061/1856400"
+    },
+    "EVO_P:2": {
+      "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1/1"
+    },
+    "EVO_P:3": {
+      "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1/1"
+    },
+    "EVO_P:4": {
+      "program_hash": "21c41908bb674fe15aaf1eb7e1f9672e04f45b7a9a4b30bc788ebad2771e74c0",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "123379/123760"
+    },
+    "IND:0": {
+      "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1/1"
+    },
+    "IND:1": {
+      "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1/1"
+    },
+    "IND:2": {
+      "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "123379/123760"
+    },
+    "IND:3": {
+      "program_hash": "d374a3b7ba127c76dfe09ea2790d3b3f23240ee349447a14444844bab21804a7",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "1/1"
+    },
+    "IND:4": {
+      "program_hash": "1e62bb15fb2af5b7e18c38d63ee1bfabd95cf3ad5ee364b37c1028e1b1bd5448",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "123379/123760"
+    },
+    "RS_PARAM:0": {
+      "program_hash": "afdd4c71732abf57ef8ff9556811b14067280a1e9fe3b9e269ad84df79e4f089",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "97546003/97675200"
+    },
+    "RS_PARAM:1": {
+      "program_hash": "6a41d2edd6624a978ff65d44b88905be2727795457a913ae3a67a9e92fe5416b",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "2620799/2570400"
+    },
+    "RS_PARAM:2": {
+      "program_hash": "ae8e2e93173cb97536d86d5cfa50611045bdf164fbb63a02ba42dc5b665f1827",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "114193/114240"
+    },
+    "RS_PARAM:3": {
+      "program_hash": "87ebb8ac116c716cee4e4cd2247bd7cce315fef52b0a7fbf477d36a04849794f",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "10834307/10852800"
+    },
+    "RS_PARAM:4": {
+      "program_hash": "1c325c4216d7ed5d58d880988d5be553959a0c0311911907ef8c12d76b412064",
+      "reason": "VALIDATION_SELECTED",
+      "validation_mean_ratio": "375827/367200"
+    }
+  }
+}

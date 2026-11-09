@@ -1,0 +1,23 @@
+{
+  "cp_sat_seed": 0,
+  "cp_sat_time_limit_s": 20.0,
+  "cp_sat_time_limit_scope": "search only; unchanged backend also constructs a greedy hint; end-to-end wall time recorded separately",
+  "cp_sat_workers": 1,
+  "failure_metric": "existing operational_cost fallback; failures retained in denominators and W/T/L",
+  "inference": "descriptive; no new primary hypothesis, tuning, selection, or LLM calls",
+  "measured_repeats": 1,
+  "runtime": "First measured uncached call per distinct program/instance; shared by identical frozen winner memberships. Earlier repeated calls retained, but only the canonical first measured call contributes to runtime summaries.",
+  "selection_locked_at_utc": "2026-11-06T14:12:14.356292+00:00",
+  "selection_rule": "T1/T2 x n={100,300,500} x nominal m={n,10n} x seeds={0,1,2,3}",
+  "selection_uses": "archive paths and format validation only; no solution outcomes",
+  "study": "POST_HOC_EXTERNAL_GENERALIZATION",
+  "timing_amendment": {
+    "basis": "runtime/resource feasibility only; no heuristic solution-quality outcome used for amendment",
+    "caveat": "single-call runtime summaries are descriptive; no external latency-matched claim",
+    "reason": "Initial reference-interpreter timings make all-member warmup plus three repeats prohibitively slow at 300/500 vertices. Reduce redundant timing work without changing selected instances, programs, algorithm code, oracle settings, or original experiment configuration.",
+    "recorded_at_utc": "2026-11-06T14:42:51.083225+00:00",
+    "records": "All initial warmup and repeated observations remain in results/external/calls.json."
+  },
+  "timing_order_seed": 42120611,
+  "warmup_calls": 0
+}
