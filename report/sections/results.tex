@@ -118,3 +118,14 @@ latency 7.39 ms versus 14.94 ms for EVO-F and no deadline overrun
 better solution quality and lower median latency for the evaluated reference
 implementation. This comparison concerns neither every possible optimized
 learned heuristic nor the external benchmark's longer certification attempts.
+
+Discovery used 800 attempts, yielding 513 novel-valid proposals within runs
+and 287 invalid or duplicate proposals. The 600 LLM attempts cost
+US\$0.0806 (IND), US\$0.1115 (EVO-P), and US\$0.1834 (EVO-F),
+including unsuccessful and duplicate proposals. Recorded training solver
+time was 58.2, 145.9, and 105.2 seconds, respectively; RS-PARAM used
+323.6 seconds and no API calls. These totals include seed evaluations
+but exclude reference setup, parsing, search overhead, and API waiting;
+full evaluator wall time was not recorded. Discovery resources are
+separate from the deployment runtimes above, which measure execution
+of frozen heuristics.

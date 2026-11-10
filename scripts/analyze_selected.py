@@ -1,12 +1,4 @@
-"""Summarize frozen-winner behavior from saved observations; no solver/search runs.
 
-Run from the repository root:
-    python scripts/analyze_selected.py
-
-Only results/diagnostics/selected_heuristics.json is written. Construction order
-is the saved selected_before_pruning sequence on the original vertex labels;
-set comparisons ignore sequence order. All rational arithmetic is exact.
-"""
 from __future__ import annotations
 
 import argparse
